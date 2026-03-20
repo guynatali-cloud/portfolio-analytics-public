@@ -1,0 +1,30 @@
+{
+  "rows": 1545,
+  "columns": 12,
+  "date_range": {
+    "min_dateAdded": "2021-11-03",
+    "max_dateAdded": "2026-03-18"
+  },
+  "top_vendors": {
+    "Microsoft": 362,
+    "Apple": 90,
+    "Cisco": 85,
+    "Adobe": 76,
+    "Google": 70,
+    "Oracle": 42,
+    "Apache": 38,
+    "Ivanti": 32,
+    "VMware": 26,
+    "D-Link": 25,
+    "Fortinet": 24,
+    "Linux": 24,
+    "Citrix": 21,
+    "Synacor": 17,
+    "Android": 16
+  },
+  "known_ransomware_counts": {
+    "Unknown": 1233,
+    "Known": 312
+  },
+  "median_days_to_due": 21.0
+}

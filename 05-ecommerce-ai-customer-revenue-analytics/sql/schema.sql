@@ -1,0 +1,23 @@
+CREATE TABLE ecommerce_customers (
+    customer_id INT PRIMARY KEY,
+    gender VARCHAR(10),
+    age INT,
+    city VARCHAR(50),
+    membership_type VARCHAR(20),
+    total_spend DECIMAL(10,2),
+    items_purchased INT,
+    average_rating DECIMAL(3,1),
+    discount_applied VARCHAR(10),
+    days_since_last_purchase INT,
+    satisfaction_level VARCHAR(20),
+    spend_per_item DECIMAL(10,2),
+    is_high_spender INT,
+    is_active INT,
+    discount_flag INT,
+    recency_score VARCHAR(20),
+    frequency_score VARCHAR(20),
+    monetary_score VARCHAR(20),
+    ai_personalization_score DECIMAL(6,4),
+    ai_recommendation VARCHAR(50),
+    ltv_proxy DECIMAL(10,2)
+);

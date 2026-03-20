@@ -1,0 +1,23 @@
+CREATE TABLE fintech_transactions (
+    TransactionID INT PRIMARY KEY,
+    Amount DECIMAL(10,2),
+    CustomerID INT,
+    Timestamp DATETIME,
+    MerchantID INT,
+    FraudIndicator INT,
+    TransactionAmount DECIMAL(10,2),
+    AnomalyScore DECIMAL(6,4),
+    Category VARCHAR(50),
+    Name VARCHAR(100),
+    Age INT,
+    AccountBalance DECIMAL(12,2),
+    SuspiciousFlag INT,
+    MerchantName VARCHAR(100),
+    Location VARCHAR(100),
+    Month VARCHAR(10),
+    DayOfWeek VARCHAR(20),
+    Hour INT,
+    ai_risk_score DECIMAL(6,4),
+    ai_risk_level VARCHAR(20),
+    ai_intervention VARCHAR(30)
+);

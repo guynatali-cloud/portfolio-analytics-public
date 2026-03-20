@@ -1,0 +1,1001 @@
+TransactionID,Amount,CustomerID,Timestamp,MerchantID,FraudIndicator,TransactionAmount,AnomalyScore,Category,Name,Age,Address,AccountBalance,LastLogin,SuspiciousFlag,MerchantName,Location,Month,DayOfWeek,Hour,ai_risk_score,ai_risk_level,ai_intervention
+1,55.53,1952,2022-01-01 00:00:00,2701,0,79.41,0.6867,Other,Customer 1952,50,Address 1952,2869.69,2024-08-09,0,Merchant 2701,Location 2701,2022-01,Saturday,0,0.361,Medium Risk,Monitor
+2,12.88,1027,2022-01-01 01:00:00,2070,0,12.05,0.0817,Online,Customer 1027,46,Address 1027,9527.95,2022-01-27,0,Merchant 2070,Location 2070,2022-01,Saturday,1,0.0404,Low Risk,No action
+3,50.18,1955,2022-01-01 02:00:00,2238,0,33.31,0.0239,Travel,Customer 1955,34,Address 1955,9288.36,2024-08-12,0,Merchant 2238,Location 2238,2022-01,Saturday,2,0.0202,Low Risk,No action
+4,41.63,1796,2022-01-01 03:00:00,2879,0,46.12,0.877,Travel,Customer 1796,33,Address 1796,5588.05,2024-03-06,0,Merchant 2879,Location 2879,2022-01,Saturday,3,0.4096,Medium Risk,Monitor
+5,78.12,1946,2022-01-01 04:00:00,2966,0,54.05,0.0341,Other,Customer 1946,18,Address 1946,7324.79,2024-08-03,0,Merchant 2966,Location 2966,2022-01,Saturday,4,0.0493,Low Risk,No action
+6,86.95,1204,2022-01-01 05:00:00,2757,0,34.55,0.1212,Food,Customer 1204,45,Address 1204,3152.25,2022-07-23,0,Merchant 2757,Location 2757,2022-01,Saturday,5,0.1316,Low Risk,No action
+7,51.15,1311,2022-01-01 06:00:00,2096,0,55.38,0.1099,Food,Customer 1311,25,Address 1311,9253.48,2022-11-07,0,Merchant 2096,Location 2096,2022-01,Saturday,6,0.0559,Low Risk,No action
+8,56.16,1693,2022-01-01 07:00:00,2493,0,17.86,0.7805,Travel,Customer 1693,27,Address 1693,8765.04,2023-11-24,0,Merchant 2493,Location 2493,2022-01,Saturday,7,0.329,Medium Risk,Monitor
+9,37.18,1347,2022-01-01 08:00:00,2612,1,75.66,0.0105,Retail,Customer 1347,20,Address 1347,8935.01,2022-12-13,0,Merchant 2612,Location 2612,2022-01,Saturday,8,0.3183,Medium Risk,Monitor
+10,17.25,1574,2022-01-01 09:00:00,2638,0,67.93,0.0294,Other,Customer 1574,55,Address 1574,5541.2,2023-07-28,0,Merchant 2638,Location 2638,2022-01,Saturday,9,0.0674,Low Risk,No action
+11,86.18,1424,2022-01-01 10:00:00,2007,0,23.9,0.0835,Other,Customer 1424,37,Address 1424,4344.55,2023-02-28,0,Merchant 2007,Location 2007,2022-01,Saturday,10,0.1036,Low Risk,No action
+12,95.55,1302,2022-01-01 11:00:00,2746,0,17.8,0.4517,Food,Customer 1302,54,Address 1302,2670.11,2022-10-29,0,Merchant 2746,Location 2746,2022-01,Saturday,11,0.2726,Low Risk,No action
+13,47.14,1321,2022-01-01 12:00:00,2092,0,64.78,0.4448,Other,Customer 1321,47,Address 1321,2685.94,2022-11-17,0,Merchant 2092,Location 2092,2022-01,Saturday,12,0.268,Low Risk,No action
+14,98.8,1700,2022-01-01 13:00:00,2892,0,43.69,0.9973,Travel,Customer 1700,22,Address 1700,6735.16,2023-12-01,0,Merchant 2892,Location 2892,2022-01,Saturday,13,0.4399,Medium Risk,Monitor
+15,99.83,1321,2022-01-01 14:00:00,2849,0,35.45,0.8279,Other,Customer 1321,47,Address 1321,2685.94,2022-11-17,0,Merchant 2849,Location 2849,2022-01,Saturday,14,0.4188,Medium Risk,Monitor
+16,20.74,1463,2022-01-01 15:00:00,2640,0,47.63,0.4559,Other,Customer 1463,46,Address 1463,1847.33,2023-04-08,0,Merchant 2640,Location 2640,2022-01,Saturday,15,0.2815,Low Risk,No action
+17,44.55,1962,2022-01-01 16:00:00,2858,0,83.8,0.0786,Other,Customer 1962,39,Address 1962,7989.12,2024-08-19,0,Merchant 2858,Location 2858,2022-01,Saturday,16,0.06,Low Risk,No action
+18,27.05,1854,2022-01-01 17:00:00,2479,0,67.02,0.5328,Travel,Customer 1854,57,Address 1854,9960.17,2024-05-03,0,Merchant 2479,Location 2479,2022-01,Saturday,17,0.2201,Low Risk,No action
+19,13.62,1651,2022-01-01 18:00:00,2470,1,79.68,0.252,Food,Customer 1651,58,Address 1651,8326.15,2023-10-13,0,Merchant 2470,Location 2470,2022-01,Saturday,18,0.4206,Medium Risk,Monitor
+20,20.8,1715,2022-01-01 19:00:00,2933,0,23.13,0.2792,Travel,Customer 1715,57,Address 1715,9103.49,2023-12-16,0,Merchant 2933,Location 2933,2022-01,Saturday,19,0.1238,Low Risk,No action
+21,36.04,1724,2022-01-01 20:00:00,2835,0,60.71,0.6759,Travel,Customer 1724,32,Address 1724,8830.49,2023-12-25,0,Merchant 2835,Location 2835,2022-01,Saturday,20,0.2852,Low Risk,No action
+22,99.1,1117,2022-01-01 21:00:00,2220,0,53.85,0.1242,Online,Customer 1117,52,Address 1117,7288.04,2022-04-27,0,Merchant 2220,Location 2220,2022-01,Saturday,21,0.0864,Low Risk,No action
+23,85.42,1613,2022-01-01 22:00:00,2465,0,15.58,0.1953,Travel,Customer 1613,21,Address 1613,8486.46,2023-09-05,0,Merchant 2465,Location 2465,2022-01,Saturday,22,0.096,Low Risk,No action
+24,84.05,1643,2022-01-01 23:00:00,2480,0,13.39,0.6173,Retail,Customer 1643,52,Address 1643,7833.8,2023-10-05,0,Merchant 2480,Location 2480,2022-01,Saturday,23,0.2738,Low Risk,No action
+25,50.26,1788,2022-01-02 00:00:00,2305,0,98.46,0.2444,Travel,Customer 1788,27,Address 1788,4384.8,2024-02-27,0,Merchant 2305,Location 2305,2022-01,Sunday,0,0.1622,Low Risk,No action
+26,52.59,1251,2022-01-02 01:00:00,2753,0,95.19,0.4871,Other,Customer 1251,34,Address 1251,1820.94,2022-09-08,0,Merchant 2753,Location 2753,2022-01,Sunday,1,0.2909,Low Risk,No action
+27,20.49,1960,2022-01-02 02:00:00,2301,0,77.51,0.4227,Other,Customer 1960,34,Address 1960,9934.5,2024-08-17,0,Merchant 2301,Location 2301,2022-01,Sunday,2,0.1772,Low Risk,No action
+28,12.4,1187,2022-01-02 03:00:00,2914,0,51.77,0.8381,Online,Customer 1187,46,Address 1187,4845.97,2022-07-06,0,Merchant 2914,Location 2914,2022-01,Sunday,3,0.399,Medium Risk,Monitor
+29,25.33,1121,2022-01-02 04:00:00,2322,0,73.08,0.4633,Other,Customer 1121,23,Address 1121,4584.99,2022-05-01,0,Merchant 2322,Location 2322,2022-01,Sunday,4,0.2548,Low Risk,No action
+30,70.08,1117,2022-01-02 05:00:00,2932,0,83.88,0.6466,Retail,Customer 1117,52,Address 1117,7288.04,2022-04-27,0,Merchant 2932,Location 2932,2022-01,Sunday,5,0.2932,Low Risk,No action
+31,92.62,1475,2022-01-02 06:00:00,2951,0,59.96,0.0286,Food,Customer 1475,25,Address 1475,2805.31,2023-04-20,0,Merchant 2951,Location 2951,2022-01,Sunday,6,0.0969,Low Risk,No action
+32,77.73,1993,2022-01-02 07:00:00,2313,0,64.83,0.114,Online,Customer 1993,60,Address 1993,8330.44,2024-09-19,0,Merchant 2313,Location 2313,2022-01,Sunday,7,0.0688,Low Risk,No action
+33,59.35,1030,2022-01-02 08:00:00,2693,0,16.32,0.7905,Other,Customer 1030,54,Address 1030,3767.56,2022-01-30,0,Merchant 2693,Location 2693,2022-01,Sunday,8,0.3928,Medium Risk,Monitor
+34,61.35,1116,2022-01-02 09:00:00,2686,0,74.89,0.4961,Retail,Customer 1116,22,Address 1116,3038.91,2022-04-26,0,Merchant 2686,Location 2686,2022-01,Sunday,9,0.2844,Low Risk,No action
+35,60.47,1676,2022-01-02 10:00:00,2173,0,63.48,0.0234,Online,Customer 1676,38,Address 1676,7624.57,2023-11-07,0,Merchant 2173,Location 2173,2022-01,Sunday,10,0.0401,Low Risk,No action
+36,42.21,1547,2022-01-02 11:00:00,2674,0,55.07,0.1056,Retail,Customer 1547,31,Address 1547,6742.17,2023-07-01,0,Merchant 2674,Location 2674,2022-01,Sunday,11,0.0839,Low Risk,No action
+37,71.27,1527,2022-01-02 12:00:00,2832,0,15.86,0.1174,Food,Customer 1527,59,Address 1527,3545.73,2023-06-11,0,Merchant 2832,Location 2832,2022-01,Sunday,12,0.1247,Low Risk,No action
+38,46.21,1087,2022-01-02 13:00:00,2967,0,35.26,0.6826,Retail,Customer 1087,28,Address 1087,2934.81,2022-03-28,0,Merchant 2967,Location 2967,2022-01,Sunday,13,0.3577,Medium Risk,Monitor
+39,14.63,1207,2022-01-02 14:00:00,2201,0,53.31,0.9385,Other,Customer 1207,38,Address 1207,5655.63,2022-07-26,0,Merchant 2201,Location 2201,2022-01,Sunday,14,0.4296,Medium Risk,Monitor
+40,80.54,1038,2022-01-02 15:00:00,2995,0,89.31,0.5326,Other,Customer 1038,62,Address 1038,5402.92,2022-02-07,0,Merchant 2995,Location 2995,2022-01,Sunday,15,0.2732,Low Risk,No action
+41,47.87,1800,2022-01-02 16:00:00,2596,0,13.16,0.3195,Other,Customer 1800,58,Address 1800,6631.37,2024-03-10,0,Merchant 2596,Location 2596,2022-01,Sunday,16,0.1724,Low Risk,No action
+42,85.11,1510,2022-01-02 17:00:00,2518,0,39.31,0.2149,Retail,Customer 1510,53,Address 1510,7685.51,2023-05-25,0,Merchant 2518,Location 2518,2022-01,Sunday,17,0.1142,Low Risk,No action
+43,55.82,1104,2022-01-02 18:00:00,2910,0,62.4,0.5673,Online,Customer 1104,52,Address 1104,1693.07,2022-04-14,0,Merchant 2910,Location 2910,2022-01,Sunday,18,0.3223,Medium Risk,Monitor
+44,86.97,2000,2022-01-02 19:00:00,2423,0,88.12,0.7663,Food,Customer 2000,42,Address 2000,4853.02,2024-09-26,0,Merchant 2423,Location 2423,2022-01,Sunday,19,0.3704,Medium Risk,Monitor
+45,69.76,1644,2022-01-02 20:00:00,2364,0,29.2,0.7076,Online,Customer 1644,51,Address 1644,3307.32,2023-10-06,1,Merchant 2364,Location 2364,2022-01,Sunday,20,0.564,Medium Risk,Monitor
+46,79.36,1238,2022-01-02 21:00:00,2274,0,15.03,0.9923,Online,Customer 1238,38,Address 1238,8228.9,2022-08-26,0,Merchant 2274,Location 2274,2022-01,Sunday,21,0.4198,Medium Risk,Monitor
+47,72.74,1759,2022-01-02 22:00:00,2639,0,64.06,0.5317,Food,Customer 1759,33,Address 1759,6608.39,2024-01-29,0,Merchant 2639,Location 2639,2022-01,Sunday,22,0.2604,Low Risk,No action
+48,17.64,1994,2022-01-02 23:00:00,2233,0,37.31,0.0322,Travel,Customer 1994,63,Address 1994,8791.3,2024-09-20,0,Merchant 2233,Location 2233,2022-01,Sunday,23,0.0306,Low Risk,No action
+49,30.79,1752,2022-01-03 00:00:00,2239,1,11.94,0.0061,Other,Customer 1752,46,Address 1752,6552.42,2024-01-22,0,Merchant 2239,Location 2239,2022-01,Monday,0,0.3457,Medium Risk,Monitor
+50,61.35,1415,2022-01-03 01:00:00,2946,0,17.92,0.0447,Online,Customer 1415,57,Address 1415,9258.31,2023-02-19,0,Merchant 2946,Location 2946,2022-01,Monday,1,0.0319,Low Risk,No action
+51,42.08,1044,2022-01-03 02:00:00,2638,0,28.42,0.9182,Retail,Customer 1044,22,Address 1044,5084.27,2022-02-13,0,Merchant 2638,Location 2638,2022-01,Monday,2,0.4278,Medium Risk,Monitor
+52,90.81,1374,2022-01-03 03:00:00,2770,0,95.91,0.0555,Retail,Customer 1374,47,Address 1374,2897.0,2023-01-09,0,Merchant 2770,Location 2770,2022-01,Monday,3,0.1111,Low Risk,No action
+53,42.08,1345,2022-01-03 04:00:00,2262,0,44.01,0.5687,Food,Customer 1345,52,Address 1345,7264.81,2022-12-11,0,Merchant 2262,Location 2262,2022-01,Monday,4,0.2632,Low Risk,No action
+54,87.78,1680,2022-01-03 05:00:00,2920,0,39.08,0.1116,Online,Customer 1680,43,Address 1680,1308.38,2023-11-11,0,Merchant 2920,Location 2920,2022-01,Monday,5,0.1454,Low Risk,No action
+55,62.13,1043,2022-01-03 06:00:00,2312,0,79.91,0.6294,Other,Customer 1043,25,Address 1043,8236.48,2022-02-12,0,Merchant 2312,Location 2312,2022-01,Monday,6,0.2744,Low Risk,No action
+56,83.15,1611,2022-01-03 07:00:00,2292,0,99.4,0.5048,Retail,Customer 1611,21,Address 1611,3612.87,2023-09-03,0,Merchant 2292,Location 2292,2022-01,Monday,7,0.2788,Low Risk,No action
+57,49.72,1704,2022-01-03 08:00:00,2082,0,98.02,0.7125,Travel,Customer 1704,23,Address 1704,1670.49,2023-12-05,0,Merchant 2082,Location 2082,2022-01,Monday,8,0.3832,Medium Risk,Monitor
+58,13.08,1405,2022-01-03 09:00:00,2921,0,85.98,0.6233,Food,Customer 1405,59,Address 1405,9246.52,2023-02-09,0,Merchant 2921,Location 2921,2022-01,Monday,9,0.2596,Low Risk,No action
+59,28.63,1161,2022-01-03 10:00:00,2033,0,61.37,0.6889,Food,Customer 1161,55,Address 1161,7545.03,2022-06-10,0,Merchant 2033,Location 2033,2022-01,Monday,10,0.308,Medium Risk,Monitor
+60,82.92,1336,2022-01-03 11:00:00,2479,0,56.39,0.7012,Retail,Customer 1336,42,Address 1336,9996.99,2022-12-02,0,Merchant 2479,Location 2479,2022-01,Monday,11,0.2829,Low Risk,No action
+61,76.11,1714,2022-01-03 12:00:00,2684,0,52.22,0.3818,Travel,Customer 1714,36,Address 1714,8792.1,2023-12-15,0,Merchant 2684,Location 2684,2022-01,Monday,12,0.1716,Low Risk,No action
+62,66.56,1865,2022-01-03 13:00:00,2234,0,88.01,0.4479,Travel,Customer 1865,45,Address 1865,4468.34,2024-05-14,0,Merchant 2234,Location 2234,2022-01,Monday,13,0.2503,Low Risk,No action
+63,50.52,1702,2022-01-03 14:00:00,2286,0,22.41,0.769,Other,Customer 1702,32,Address 1702,4756.91,2023-12-03,0,Merchant 2286,Location 2286,2022-01,Monday,14,0.3722,Medium Risk,Monitor
+64,55.16,1483,2022-01-03 15:00:00,2131,0,10.97,0.3391,Online,Customer 1483,56,Address 1483,7541.2,2023-04-28,0,Merchant 2131,Location 2131,2022-01,Monday,15,0.1714,Low Risk,No action
+65,78.33,1139,2022-01-03 16:00:00,2195,0,74.8,0.0952,Other,Customer 1139,21,Address 1139,3039.51,2022-05-19,0,Merchant 2195,Location 2195,2022-01,Monday,16,0.1226,Low Risk,No action
+66,51.41,1108,2022-01-03 17:00:00,2561,0,16.35,0.1073,Other,Customer 1108,33,Address 1108,7794.95,2022-04-18,0,Merchant 2561,Location 2561,2022-01,Monday,17,0.0717,Low Risk,No action
+67,81.35,1056,2022-01-03 18:00:00,2171,0,59.49,0.1696,Retail,Customer 1056,46,Address 1056,3507.49,2022-02-25,0,Merchant 2171,Location 2171,2022-01,Monday,18,0.1422,Low Risk,No action
+68,95.23,1548,2022-01-03 19:00:00,2781,0,64.69,0.5467,Other,Customer 1548,29,Address 1548,4483.16,2023-07-02,0,Merchant 2781,Location 2781,2022-01,Monday,19,0.2871,Low Risk,No action
+69,87.16,1887,2022-01-03 20:00:00,2038,0,40.12,0.7133,Retail,Customer 1887,40,Address 1887,3976.34,2024-06-05,0,Merchant 2038,Location 2038,2022-01,Monday,20,0.3599,Medium Risk,Monitor
+70,78.7,1897,2022-01-03 21:00:00,2475,0,33.19,0.2189,Other,Customer 1897,27,Address 1897,2518.74,2024-06-15,0,Merchant 2475,Location 2475,2022-01,Monday,21,0.1743,Low Risk,No action
+71,23.81,1154,2022-01-03 22:00:00,2487,0,64.24,0.5521,Online,Customer 1154,48,Address 1154,5544.57,2022-06-03,0,Merchant 2487,Location 2487,2022-01,Monday,22,0.2776,Low Risk,No action
+72,57.32,1286,2022-01-03 23:00:00,2495,1,53.92,0.1618,Online,Customer 1286,19,Address 1286,7665.93,2022-10-13,0,Merchant 2495,Location 2495,2022-01,Monday,23,0.3936,Medium Risk,Monitor
+73,67.93,1149,2022-01-04 00:00:00,2200,0,55.6,0.686,Travel,Customer 1149,34,Address 1149,7990.34,2022-05-29,0,Merchant 2200,Location 2200,2022-01,Tuesday,0,0.3003,Medium Risk,Monitor
+74,16.26,1158,2022-01-04 01:00:00,2296,0,95.55,0.9574,Travel,Customer 1158,50,Address 1158,5037.21,2022-06-07,0,Merchant 2296,Location 2296,2022-01,Tuesday,1,0.4421,Medium Risk,Monitor
+75,13.42,1606,2022-01-04 02:00:00,2872,0,25.74,0.7843,Other,Customer 1606,60,Address 1606,4152.72,2023-08-29,0,Merchant 2872,Location 2872,2022-01,Tuesday,2,0.387,Medium Risk,Monitor
+76,42.77,1422,2022-01-04 03:00:00,2036,0,92.09,0.4886,Food,Customer 1422,32,Address 1422,6988.0,2023-02-26,0,Merchant 2036,Location 2036,2022-01,Tuesday,3,0.237,Low Risk,No action
+77,41.21,1007,2022-01-04 04:00:00,2753,0,66.15,0.2179,Travel,Customer 1007,33,Address 1007,2957.76,2022-01-07,0,Merchant 2753,Location 2753,2022-01,Tuesday,4,0.1691,Low Risk,No action
+78,58.14,1985,2022-01-04 05:00:00,2116,0,70.85,0.3941,Other,Customer 1985,47,Address 1985,3816.96,2024-09-11,0,Merchant 2116,Location 2116,2022-01,Tuesday,5,0.2343,Low Risk,No action
+79,14.63,1776,2022-01-04 06:00:00,2203,0,65.47,0.6085,Online,Customer 1776,31,Address 1776,3715.77,2024-02-15,0,Merchant 2203,Location 2203,2022-01,Tuesday,6,0.3156,Medium Risk,Monitor
+80,19.14,1159,2022-01-04 07:00:00,2083,0,25.27,0.0256,Retail,Customer 1159,54,Address 1159,5766.57,2022-06-08,0,Merchant 2083,Location 2083,2022-01,Tuesday,7,0.0621,Low Risk,No action
+81,29.83,1493,2022-01-04 08:00:00,2552,0,54.43,0.2008,Travel,Customer 1493,44,Address 1493,5703.04,2023-05-08,0,Merchant 2552,Location 2552,2022-01,Tuesday,8,0.1331,Low Risk,No action
+82,38.43,1322,2022-01-04 09:00:00,2282,0,89.92,0.085,Online,Customer 1322,29,Address 1322,9411.51,2022-11-18,0,Merchant 2282,Location 2282,2022-01,Tuesday,9,0.0439,Low Risk,No action
+83,18.11,1731,2022-01-04 10:00:00,2610,0,70.55,0.0149,Food,Customer 1731,62,Address 1731,5275.95,2024-01-01,0,Merchant 2610,Location 2610,2022-01,Tuesday,10,0.0634,Low Risk,No action
+84,22.97,1876,2022-01-04 11:00:00,2901,0,11.76,0.8501,Online,Customer 1876,31,Address 1876,8278.71,2024-05-25,0,Merchant 2901,Location 2901,2022-01,Tuesday,11,0.3652,Medium Risk,Monitor
+85,22.45,1920,2022-01-04 12:00:00,2323,0,47.9,0.8858,Retail,Customer 1920,33,Address 1920,3434.61,2024-07-08,0,Merchant 2323,Location 2323,2022-01,Tuesday,12,0.435,Medium Risk,Monitor
+86,70.51,1618,2022-01-04 13:00:00,2534,0,30.12,0.6619,Retail,Customer 1618,27,Address 1618,6741.43,2023-09-10,0,Merchant 2534,Location 2534,2022-01,Tuesday,13,0.3074,Medium Risk,Monitor
+87,78.55,1054,2022-01-04 14:00:00,2586,0,59.06,0.7086,Retail,Customer 1054,27,Address 1054,2873.84,2022-02-23,0,Merchant 2586,Location 2586,2022-01,Tuesday,14,0.3704,Medium Risk,Monitor
+88,35.6,1886,2022-01-04 15:00:00,2882,0,61.03,0.0366,Travel,Customer 1886,37,Address 1886,9467.31,2024-06-04,0,Merchant 2882,Location 2882,2022-01,Tuesday,15,0.0241,Low Risk,No action
+89,26.01,1071,2022-01-04 16:00:00,2055,0,77.76,0.4403,Retail,Customer 1071,64,Address 1071,4962.28,2022-03-12,0,Merchant 2055,Location 2055,2022-01,Tuesday,16,0.2407,Low Risk,No action
+90,85.36,1975,2022-01-04 17:00:00,2622,0,49.16,0.0002,Retail,Customer 1975,51,Address 1975,8710.76,2024-09-01,0,Merchant 2622,Location 2622,2022-01,Tuesday,17,0.0155,Low Risk,No action
+91,48.1,1726,2022-01-04 18:00:00,2140,0,70.29,0.5326,Online,Customer 1726,23,Address 1726,9885.27,2023-12-27,0,Merchant 2140,Location 2140,2022-01,Tuesday,18,0.2203,Low Risk,No action
+92,29.03,1435,2022-01-04 19:00:00,2010,0,33.84,0.1104,Food,Customer 1435,35,Address 1435,8804.52,2023-03-11,0,Merchant 2010,Location 2010,2022-01,Tuesday,19,0.0604,Low Risk,No action
+93,98.15,1684,2022-01-04 20:00:00,2111,0,49.22,0.1902,Travel,Customer 1684,43,Address 1684,7560.73,2023-11-15,0,Merchant 2111,Location 2111,2022-01,Tuesday,20,0.1047,Low Risk,No action
+94,79.77,1277,2022-01-04 21:00:00,2680,0,85.87,0.4604,Travel,Customer 1277,22,Address 1277,5042.2,2022-10-04,0,Merchant 2680,Location 2680,2022-01,Tuesday,21,0.2483,Low Risk,No action
+95,50.4,1828,2022-01-04 22:00:00,2600,1,72.29,0.6351,Other,Customer 1828,62,Address 1828,2077.51,2024-04-07,0,Merchant 2600,Location 2600,2022-01,Tuesday,22,0.6458,High Risk,Immediate review
+96,98.5,1466,2022-01-04 23:00:00,2054,0,26.2,0.495,Retail,Customer 1466,41,Address 1466,2569.13,2023-04-11,0,Merchant 2054,Location 2054,2022-01,Tuesday,23,0.2885,Low Risk,No action
+97,18.17,1922,2022-01-05 00:00:00,2432,0,90.08,0.3041,Other,Customer 1922,46,Address 1922,5101.11,2024-07-10,0,Merchant 2432,Location 2432,2022-01,Wednesday,0,0.1819,Low Risk,No action
+98,55.89,1183,2022-01-05 01:00:00,2346,0,21.11,0.2916,Other,Customer 1183,40,Address 1183,7149.96,2022-07-02,0,Merchant 2346,Location 2346,2022-01,Wednesday,1,0.1558,Low Risk,No action
+99,76.84,1866,2022-01-05 02:00:00,2299,0,15.15,0.2419,Online,Customer 1866,35,Address 1866,9510.17,2024-05-15,0,Merchant 2299,Location 2299,2022-01,Wednesday,2,0.1,Low Risk,No action
+100,13.1,1514,2022-01-05 03:00:00,2027,0,94.01,0.3375,Other,Customer 1514,20,Address 1514,2045.06,2023-05-29,0,Merchant 2027,Location 2027,2022-01,Wednesday,3,0.2304,Low Risk,No action
+101,58.92,1023,2022-01-05 04:00:00,2433,0,88.98,0.9604,Food,Customer 1023,34,Address 1023,9545.47,2022-01-23,0,Merchant 2433,Location 2433,2022-01,Wednesday,4,0.3909,Medium Risk,Monitor
+102,61.66,1012,2022-01-05 05:00:00,2736,0,97.49,0.2646,Online,Customer 1012,45,Address 1012,2706.15,2022-01-12,0,Merchant 2736,Location 2736,2022-01,Wednesday,5,0.1914,Low Risk,No action
+103,12.46,1585,2022-01-05 06:00:00,2744,0,83.77,0.3333,Retail,Customer 1585,37,Address 1585,7900.24,2023-08-08,0,Merchant 2744,Location 2744,2022-01,Wednesday,6,0.1628,Low Risk,No action
+104,16.65,1914,2022-01-05 07:00:00,2433,0,93.57,0.3399,Travel,Customer 1914,18,Address 1914,6131.25,2024-07-02,0,Merchant 2433,Location 2433,2022-01,Wednesday,7,0.19,Low Risk,No action
+105,64.18,1979,2022-01-05 08:00:00,2453,0,39.71,0.2223,Other,Customer 1979,20,Address 1979,8722.69,2024-09-05,0,Merchant 2453,Location 2453,2022-01,Wednesday,8,0.1052,Low Risk,No action
+106,13.92,1995,2022-01-05 09:00:00,2154,0,54.89,0.4216,Travel,Customer 1995,38,Address 1995,2240.52,2024-09-21,0,Merchant 2154,Location 2154,2022-01,Wednesday,9,0.265,Low Risk,No action
+107,58.08,1359,2022-01-05 10:00:00,2908,0,85.93,0.3665,Online,Customer 1359,53,Address 1359,8430.99,2022-12-25,0,Merchant 2908,Location 2908,2022-01,Wednesday,10,0.1708,Low Risk,No action
+108,96.81,1609,2022-01-05 11:00:00,2967,0,64.59,0.8913,Online,Customer 1609,29,Address 1609,7085.44,2023-09-01,0,Merchant 2967,Location 2967,2022-01,Wednesday,11,0.3969,Medium Risk,Monitor
+109,48.74,1796,2022-01-05 12:00:00,2508,0,66.51,0.7824,Food,Customer 1796,33,Address 1796,5588.05,2024-03-06,0,Merchant 2508,Location 2508,2022-01,Wednesday,12,0.3696,Medium Risk,Monitor
+110,44.24,1685,2022-01-05 13:00:00,2580,0,57.44,0.0063,Other,Customer 1685,18,Address 1685,3046.12,2023-11-16,0,Merchant 2580,Location 2580,2022-01,Wednesday,13,0.0841,Low Risk,No action
+111,22.59,1961,2022-01-05 14:00:00,2570,0,10.63,0.6865,Retail,Customer 1961,47,Address 1961,3454.65,2024-08-18,0,Merchant 2570,Location 2570,2022-01,Wednesday,14,0.3528,Medium Risk,Monitor
+112,40.48,1740,2022-01-05 15:00:00,2493,0,21.31,0.2906,Other,Customer 1740,19,Address 1740,1783.74,2024-01-10,0,Merchant 2493,Location 2493,2022-01,Wednesday,15,0.2129,Low Risk,No action
+113,74.44,1836,2022-01-05 16:00:00,2628,0,31.09,0.3788,Online,Customer 1836,47,Address 1836,4018.77,2024-04-15,0,Merchant 2628,Location 2628,2022-01,Wednesday,16,0.2272,Low Risk,No action
+114,77.58,1120,2022-01-05 17:00:00,2240,0,97.86,0.8385,Travel,Customer 1120,47,Address 1120,7450.42,2022-04-30,0,Merchant 2240,Location 2240,2022-01,Wednesday,17,0.3706,Medium Risk,Monitor
+115,40.64,1841,2022-01-05 18:00:00,2941,0,20.93,0.8549,Retail,Customer 1841,22,Address 1841,9319.48,2024-04-20,0,Merchant 2941,Location 2941,2022-01,Wednesday,18,0.3535,Medium Risk,Monitor
+116,62.92,1930,2022-01-05 19:00:00,2507,0,84.67,0.4309,Food,Customer 1930,61,Address 1930,1111.77,2024-07-18,0,Merchant 2507,Location 2507,2022-01,Wednesday,19,0.2796,Low Risk,No action
+117,43.7,1423,2022-01-05 20:00:00,2128,0,75.34,0.8627,Travel,Customer 1423,40,Address 1423,7025.45,2023-02-27,0,Merchant 2128,Location 2128,2022-01,Wednesday,20,0.3871,Medium Risk,Monitor
+118,56.6,1575,2022-01-05 21:00:00,2428,0,31.03,0.923,Retail,Customer 1575,21,Address 1575,7192.65,2023-07-29,0,Merchant 2428,Location 2428,2022-01,Wednesday,21,0.4068,Medium Risk,Monitor
+119,17.73,1780,2022-01-05 22:00:00,2572,1,19.53,0.8521,Retail,Customer 1780,48,Address 1780,8473.63,2024-02-19,0,Merchant 2572,Location 2572,2022-01,Wednesday,22,0.6632,High Risk,Immediate review
+120,68.83,1894,2022-01-05 23:00:00,2304,0,82.49,0.0428,Retail,Customer 1894,26,Address 1894,9728.59,2024-06-12,0,Merchant 2304,Location 2304,2022-01,Wednesday,23,0.0229,Low Risk,No action
+121,32.34,1240,2022-01-06 00:00:00,2794,0,95.09,0.746,Retail,Customer 1240,43,Address 1240,1883.49,2022-08-28,0,Merchant 2794,Location 2794,2022-01,Thursday,0,0.393,Medium Risk,Monitor
+122,87.57,1167,2022-01-06 01:00:00,2846,0,48.78,0.5894,Retail,Customer 1167,33,Address 1167,4121.32,2022-06-16,0,Merchant 2846,Location 2846,2022-01,Thursday,1,0.3057,Medium Risk,Monitor
+123,70.84,1330,2022-01-06 02:00:00,2169,1,76.92,0.2695,Other,Customer 1330,63,Address 1330,8773.96,2022-11-26,1,Merchant 2169,Location 2169,2022-01,Thursday,2,0.6236,High Risk,Immediate review
+124,26.53,1171,2022-01-06 03:00:00,2948,0,52.74,0.4137,Travel,Customer 1171,22,Address 1171,4631.53,2022-06-20,0,Merchant 2948,Location 2948,2022-01,Thursday,3,0.2348,Low Risk,No action
+125,88.2,1749,2022-01-06 04:00:00,2148,0,83.11,0.7921,Retail,Customer 1749,44,Address 1749,3334.19,2024-01-19,0,Merchant 2148,Location 2148,2022-01,Thursday,4,0.3987,Medium Risk,Monitor
+126,55.2,1069,2022-01-06 05:00:00,2226,0,60.03,0.4077,Other,Customer 1069,38,Address 1069,8363.07,2022-03-10,0,Merchant 2226,Location 2226,2022-01,Thursday,5,0.1878,Low Risk,No action
+127,55.49,1569,2022-01-06 06:00:00,2390,0,89.73,0.547,Other,Customer 1569,31,Address 1569,6363.94,2023-07-23,0,Merchant 2390,Location 2390,2022-01,Thursday,6,0.2686,Low Risk,No action
+128,39.2,1537,2022-01-06 07:00:00,2637,0,83.89,0.6487,Food,Customer 1537,37,Address 1537,1947.17,2023-06-21,0,Merchant 2637,Location 2637,2022-01,Thursday,7,0.3528,Medium Risk,Monitor
+129,49.87,1425,2022-01-06 08:00:00,2461,0,93.24,0.8657,Food,Customer 1425,56,Address 1425,6441.93,2023-03-01,0,Merchant 2461,Location 2461,2022-01,Thursday,8,0.3958,Medium Risk,Monitor
+130,12.47,1761,2022-01-06 09:00:00,2928,0,53.75,0.6067,Other,Customer 1761,21,Address 1761,2854.19,2024-01-31,0,Merchant 2928,Location 2928,2022-01,Thursday,9,0.3252,Medium Risk,Monitor
+131,75.99,1458,2022-01-06 10:00:00,2901,0,43.06,0.5439,Other,Customer 1458,35,Address 1458,8017.72,2023-04-03,0,Merchant 2901,Location 2901,2022-01,Thursday,10,0.2457,Low Risk,No action
+132,65.03,1588,2022-01-06 11:00:00,2588,0,27.32,0.1944,Food,Customer 1588,27,Address 1588,7925.08,2023-08-11,0,Merchant 2588,Location 2588,2022-01,Thursday,11,0.1018,Low Risk,No action
+133,92.37,1418,2022-01-06 12:00:00,2717,0,74.32,0.0508,Retail,Customer 1418,19,Address 1418,5724.61,2023-02-22,0,Merchant 2717,Location 2717,2022-01,Thursday,12,0.0764,Low Risk,No action
+134,33.8,1299,2022-01-06 13:00:00,2511,0,81.1,0.6753,Food,Customer 1299,31,Address 1299,4661.56,2022-10-26,0,Merchant 2511,Location 2511,2022-01,Thursday,13,0.3341,Medium Risk,Monitor
+135,14.56,1822,2022-01-06 14:00:00,2077,0,51.29,0.3518,Travel,Customer 1822,44,Address 1822,8603.32,2024-04-01,0,Merchant 2077,Location 2077,2022-01,Thursday,14,0.1622,Low Risk,No action
+136,70.86,1152,2022-01-06 15:00:00,2921,0,76.33,0.6863,Travel,Customer 1152,55,Address 1152,7273.98,2022-06-01,0,Merchant 2921,Location 2921,2022-01,Thursday,15,0.3101,Medium Risk,Monitor
+137,80.77,1667,2022-01-06 16:00:00,2639,0,82.19,0.1663,Other,Customer 1667,35,Address 1667,4096.12,2023-10-29,0,Merchant 2639,Location 2639,2022-01,Thursday,16,0.1362,Low Risk,No action
+138,39.83,1669,2022-01-06 17:00:00,2548,0,68.07,0.1074,Online,Customer 1669,44,Address 1669,4490.14,2023-10-31,0,Merchant 2548,Location 2548,2022-01,Thursday,17,0.1103,Low Risk,No action
+139,12.18,1169,2022-01-06 18:00:00,2338,0,97.73,0.0653,Online,Customer 1169,30,Address 1169,4020.71,2022-06-18,0,Merchant 2338,Location 2338,2022-01,Thursday,18,0.1022,Low Risk,No action
+140,36.94,1574,2022-01-06 19:00:00,2180,0,44.41,0.7818,Travel,Customer 1574,55,Address 1574,5541.2,2023-07-28,0,Merchant 2180,Location 2180,2022-01,Thursday,19,0.3698,Medium Risk,Monitor
+141,61.41,1019,2022-01-06 20:00:00,2209,0,46.57,0.6711,Retail,Customer 1019,37,Address 1019,3797.73,2022-01-19,0,Merchant 2209,Location 2209,2022-01,Thursday,20,0.3422,Medium Risk,Monitor
+142,74.96,1017,2022-01-06 21:00:00,2919,0,50.5,0.5218,Other,Customer 1017,21,Address 1017,5179.0,2022-01-17,0,Merchant 2919,Location 2919,2022-01,Thursday,21,0.2707,Low Risk,No action
+143,86.48,1150,2022-01-06 22:00:00,2573,0,73.01,0.0084,Online,Customer 1150,52,Address 1150,7476.99,2022-05-30,0,Merchant 2573,Location 2573,2022-01,Thursday,22,0.0358,Low Risk,No action
+144,44.59,1087,2022-01-06 23:00:00,2954,0,70.59,0.2643,Online,Customer 1087,28,Address 1087,2934.81,2022-03-28,0,Merchant 2954,Location 2954,2022-01,Thursday,23,0.1884,Low Risk,No action
+145,45.94,1129,2022-01-07 00:00:00,2936,0,18.76,0.7695,Online,Customer 1129,39,Address 1129,4396.08,2022-05-09,0,Merchant 2936,Location 2936,2022-01,Friday,0,0.3776,Medium Risk,Monitor
+146,86.17,1234,2022-01-07 01:00:00,2011,0,33.87,0.0964,Food,Customer 1234,18,Address 1234,6737.5,2022-08-22,0,Merchant 2011,Location 2011,2022-01,Friday,1,0.0826,Low Risk,No action
+147,19.69,1112,2022-01-07 02:00:00,2504,0,93.63,0.5908,Travel,Customer 1112,57,Address 1112,9784.74,2022-04-22,0,Merchant 2504,Location 2504,2022-01,Friday,2,0.2398,Low Risk,No action
+148,79.52,1066,2022-01-07 03:00:00,2369,0,78.52,0.5997,Online,Customer 1066,64,Address 1066,8979.73,2022-03-07,0,Merchant 2369,Location 2369,2022-01,Friday,3,0.2513,Low Risk,No action
+149,10.86,1598,2022-01-07 04:00:00,2751,1,13.74,0.077,Travel,Customer 1598,29,Address 1598,6550.06,2023-08-21,0,Merchant 2751,Location 2751,2022-01,Friday,4,0.3778,Medium Risk,Monitor
+150,15.24,1117,2022-01-07 05:00:00,2684,0,35.76,0.9827,Other,Customer 1117,52,Address 1117,7288.04,2022-04-27,0,Merchant 2684,Location 2684,2022-01,Friday,5,0.4276,Medium Risk,Monitor
+151,46.27,1311,2022-01-07 06:00:00,2920,0,91.21,0.6984,Retail,Customer 1311,25,Address 1311,9253.48,2022-11-07,0,Merchant 2920,Location 2920,2022-01,Friday,6,0.2907,Low Risk,No action
+152,10.64,1998,2022-01-07 07:00:00,2953,0,67.73,0.7865,Travel,Customer 1998,25,Address 1998,9148.65,2024-09-24,0,Merchant 2953,Location 2953,2022-01,Friday,7,0.3288,Medium Risk,Monitor
+153,40.53,1123,2022-01-07 08:00:00,2514,0,23.85,0.8609,Online,Customer 1123,34,Address 1123,7347.09,2022-05-03,0,Merchant 2514,Location 2514,2022-01,Friday,8,0.3818,Medium Risk,Monitor
+154,55.75,1098,2022-01-07 09:00:00,2480,0,23.2,0.0363,Online,Customer 1098,61,Address 1098,6405.36,2022-04-08,0,Merchant 2480,Location 2480,2022-01,Friday,9,0.0633,Low Risk,No action
+155,80.69,1836,2022-01-07 10:00:00,2598,0,55.12,0.1525,Retail,Customer 1836,47,Address 1836,4018.77,2024-04-15,0,Merchant 2598,Location 2598,2022-01,Friday,10,0.1332,Low Risk,No action
+156,58.78,1126,2022-01-07 11:00:00,2245,0,92.42,0.1952,Retail,Customer 1126,27,Address 1126,7080.1,2022-05-06,0,Merchant 2245,Location 2245,2022-01,Friday,11,0.1141,Low Risk,No action
+157,93.21,1105,2022-01-07 12:00:00,2068,0,60.55,0.7536,Online,Customer 1105,37,Address 1105,7588.28,2022-04-15,0,Merchant 2068,Location 2068,2022-01,Friday,12,0.3332,Medium Risk,Monitor
+158,48.93,1634,2022-01-07 13:00:00,2454,0,58.14,0.0013,Food,Customer 1634,44,Address 1634,5302.39,2023-09-26,0,Merchant 2454,Location 2454,2022-01,Friday,13,0.0564,Low Risk,No action
+159,75.85,1768,2022-01-07 14:00:00,2225,0,49.29,0.0686,Other,Customer 1768,35,Address 1768,1824.8,2024-02-07,0,Merchant 2225,Location 2225,2022-01,Friday,14,0.1248,Low Risk,No action
+160,99.24,1271,2022-01-07 15:00:00,2783,1,20.43,0.7999,Food,Customer 1271,23,Address 1271,9084.79,2022-09-28,0,Merchant 2783,Location 2783,2022-01,Friday,15,0.6349,High Risk,Immediate review
+161,97.62,1935,2022-01-07 16:00:00,2752,0,34.29,0.8128,Travel,Customer 1935,35,Address 1935,4805.28,2024-07-23,0,Merchant 2752,Location 2752,2022-01,Friday,16,0.3892,Medium Risk,Monitor
+162,68.36,1666,2022-01-07 17:00:00,2583,1,93.91,0.1303,Retail,Customer 1666,36,Address 1666,9674.06,2023-10-28,0,Merchant 2583,Location 2583,2022-01,Friday,17,0.3591,Medium Risk,Monitor
+163,52.74,1495,2022-01-07 18:00:00,2370,0,62.3,0.8962,Online,Customer 1495,20,Address 1495,1236.38,2023-05-10,0,Merchant 2370,Location 2370,2022-01,Friday,18,0.4638,Medium Risk,Monitor
+164,88.76,1982,2022-01-07 19:00:00,2025,0,21.2,0.3293,Other,Customer 1982,46,Address 1982,4575.52,2024-09-08,0,Merchant 2025,Location 2025,2022-01,Friday,19,0.1989,Low Risk,No action
+165,70.66,1127,2022-01-07 20:00:00,2998,0,39.62,0.064,Food,Customer 1127,39,Address 1127,4843.29,2022-05-07,0,Merchant 2998,Location 2998,2022-01,Friday,20,0.0914,Low Risk,No action
+166,16.56,1437,2022-01-07 21:00:00,2081,0,94.99,0.173,Travel,Customer 1437,19,Address 1437,3712.17,2023-03-13,0,Merchant 2081,Location 2081,2022-01,Friday,21,0.1422,Low Risk,No action
+167,36.87,1145,2022-01-07 22:00:00,2229,0,70.95,0.9579,Travel,Customer 1145,56,Address 1145,9855.67,2022-05-25,0,Merchant 2229,Location 2229,2022-01,Friday,22,0.387,Medium Risk,Monitor
+168,37.98,1477,2022-01-07 23:00:00,2711,0,65.07,0.8399,Online,Customer 1477,31,Address 1477,4219.36,2023-04-22,0,Merchant 2711,Location 2711,2022-01,Friday,23,0.4092,Medium Risk,Monitor
+169,37.41,1727,2022-01-08 00:00:00,2853,0,87.84,0.6381,Other,Customer 1727,25,Address 1727,7941.85,2023-12-28,0,Merchant 2853,Location 2853,2022-01,Saturday,0,0.2811,Low Risk,No action
+170,27.46,1365,2022-01-08 01:00:00,2514,0,96.15,0.4298,Other,Customer 1365,49,Address 1365,2249.68,2022-12-31,1,Merchant 2514,Location 2514,2022-01,Saturday,1,0.4679,Medium Risk,Monitor
+171,16.47,1239,2022-01-08 02:00:00,2201,0,91.19,0.4491,Retail,Customer 1239,40,Address 1239,8704.18,2022-08-27,0,Merchant 2201,Location 2201,2022-01,Saturday,2,0.2017,Low Risk,No action
+172,95.81,1422,2022-01-08 03:00:00,2818,0,98.62,0.4189,Travel,Customer 1422,32,Address 1422,6988.0,2023-02-26,0,Merchant 2818,Location 2818,2022-01,Saturday,3,0.213,Low Risk,No action
+173,63.48,1089,2022-01-08 04:00:00,2200,0,69.27,0.9567,Online,Customer 1089,50,Address 1089,6121.74,2022-03-30,0,Merchant 2200,Location 2200,2022-01,Saturday,4,0.4319,Medium Risk,Monitor
+174,97.07,1407,2022-01-08 05:00:00,2898,1,38.4,0.7963,Retail,Customer 1407,32,Address 1407,8827.78,2023-02-11,0,Merchant 2898,Location 2898,2022-01,Saturday,5,0.635,High Risk,Immediate review
+175,13.59,1233,2022-01-08 06:00:00,2298,0,72.08,0.3578,Online,Customer 1233,28,Address 1233,8198.18,2022-08-21,0,Merchant 2298,Location 2298,2022-01,Saturday,6,0.1702,Low Risk,No action
+176,18.04,1474,2022-01-08 07:00:00,2144,0,23.17,0.3582,Online,Customer 1474,37,Address 1474,8007.84,2023-04-19,0,Merchant 2144,Location 2144,2022-01,Saturday,7,0.1728,Low Risk,No action
+177,57.4,1059,2022-01-08 08:00:00,2372,0,97.0,0.3663,Other,Customer 1059,42,Address 1059,4450.43,2022-02-28,0,Merchant 2372,Location 2372,2022-01,Saturday,8,0.2166,Low Risk,No action
+178,91.9,1596,2022-01-08 09:00:00,2196,0,75.18,0.4797,Online,Customer 1596,62,Address 1596,7604.04,2023-08-19,0,Merchant 2196,Location 2196,2022-01,Saturday,9,0.2254,Low Risk,No action
+179,67.3,1800,2022-01-08 10:00:00,2981,0,71.28,0.806,Food,Customer 1800,58,Address 1800,6631.37,2024-03-10,0,Merchant 2981,Location 2981,2022-01,Saturday,10,0.3677,Medium Risk,Monitor
+180,79.46,1117,2022-01-08 11:00:00,2229,0,73.51,0.4467,Food,Customer 1117,52,Address 1117,7288.04,2022-04-27,0,Merchant 2229,Location 2229,2022-01,Saturday,11,0.2176,Low Risk,No action
+181,74.59,1548,2022-01-08 12:00:00,2078,0,95.82,0.1481,Other,Customer 1548,29,Address 1548,4483.16,2023-07-02,0,Merchant 2078,Location 2078,2022-01,Saturday,12,0.1262,Low Risk,No action
+182,90.05,1084,2022-01-08 13:00:00,2220,0,18.85,0.7304,Travel,Customer 1084,60,Address 1084,2169.43,2022-03-25,0,Merchant 2220,Location 2220,2022-01,Saturday,13,0.385,Medium Risk,Monitor
+183,71.66,1591,2022-01-08 14:00:00,2671,0,13.29,0.9666,Online,Customer 1591,36,Address 1591,7962.41,2023-08-14,0,Merchant 2671,Location 2671,2022-01,Saturday,14,0.4141,Medium Risk,Monitor
+184,76.74,1107,2022-01-08 15:00:00,2507,0,70.84,0.9345,Retail,Customer 1107,60,Address 1107,6166.29,2022-04-17,0,Merchant 2507,Location 2507,2022-01,Saturday,15,0.4232,Medium Risk,Monitor
+185,30.73,1449,2022-01-08 16:00:00,2166,0,29.8,0.8714,Online,Customer 1449,64,Address 1449,3495.32,2023-03-25,0,Merchant 2166,Location 2166,2022-01,Saturday,16,0.4288,Medium Risk,Monitor
+186,13.95,1997,2022-01-08 17:00:00,2528,0,10.98,0.0887,Online,Customer 1997,58,Address 1997,9255.45,2024-09-23,0,Merchant 2528,Location 2528,2022-01,Saturday,17,0.0484,Low Risk,No action
+187,86.28,1825,2022-01-08 18:00:00,2366,0,30.63,0.3805,Retail,Customer 1825,54,Address 1825,4886.01,2024-04-04,0,Merchant 2366,Location 2366,2022-01,Saturday,18,0.216,Low Risk,No action
+188,39.15,1609,2022-01-08 19:00:00,2348,0,86.27,0.5997,Other,Customer 1609,29,Address 1609,7085.44,2023-09-01,0,Merchant 2348,Location 2348,2022-01,Saturday,19,0.2755,Low Risk,No action
+189,63.76,1439,2022-01-08 20:00:00,2163,0,90.69,0.0526,Food,Customer 1439,47,Address 1439,8557.61,2023-03-15,0,Merchant 2163,Location 2163,2022-01,Saturday,20,0.0434,Low Risk,No action
+190,13.94,1122,2022-01-08 21:00:00,2778,0,97.46,0.1324,Travel,Customer 1122,54,Address 1122,4998.11,2022-05-02,0,Merchant 2778,Location 2778,2022-01,Saturday,21,0.1148,Low Risk,No action
+191,39.28,1542,2022-01-08 22:00:00,2360,0,94.26,0.2816,Retail,Customer 1542,63,Address 1542,6808.66,2023-06-26,0,Merchant 2360,Location 2360,2022-01,Saturday,22,0.1529,Low Risk,No action
+192,61.29,1024,2022-01-08 23:00:00,2940,0,65.21,0.0361,Retail,Customer 1024,40,Address 1024,1795.33,2022-01-24,0,Merchant 2940,Location 2940,2022-01,Saturday,23,0.111,Low Risk,No action
+193,61.59,1804,2022-01-09 00:00:00,2926,0,58.93,0.9645,Food,Customer 1804,24,Address 1804,8924.93,2024-03-14,0,Merchant 2926,Location 2926,2022-01,Sunday,0,0.4005,Medium Risk,Monitor
+194,25.81,1394,2022-01-09 01:00:00,2176,0,82.0,0.1764,Travel,Customer 1394,31,Address 1394,1417.69,2023-01-29,0,Merchant 2176,Location 2176,2022-01,Sunday,1,0.1677,Low Risk,No action
+195,60.16,1377,2022-01-09 02:00:00,2901,0,46.79,0.8293,Food,Customer 1377,46,Address 1377,7515.21,2023-01-12,0,Merchant 2901,Location 2901,2022-01,Sunday,2,0.3648,Medium Risk,Monitor
+196,73.95,1860,2022-01-09 03:00:00,2208,0,11.41,0.1556,Travel,Customer 1860,21,Address 1860,2424.45,2024-05-09,0,Merchant 2208,Location 2208,2022-01,Sunday,3,0.1495,Low Risk,No action
+197,41.6,1022,2022-01-09 04:00:00,2125,0,39.75,0.7831,Retail,Customer 1022,55,Address 1022,4265.27,2022-01-22,0,Merchant 2125,Location 2125,2022-01,Sunday,4,0.3849,Medium Risk,Monitor
+198,77.5,1599,2022-01-09 05:00:00,2162,0,69.43,0.4507,Online,Customer 1599,18,Address 1599,8662.85,2023-08-22,1,Merchant 2162,Location 2162,2022-01,Sunday,5,0.4033,Medium Risk,Monitor
+199,60.7,1281,2022-01-09 06:00:00,2679,1,74.8,0.3541,Retail,Customer 1281,33,Address 1281,3183.47,2022-10-08,0,Merchant 2679,Location 2679,2022-01,Sunday,6,0.5248,Medium Risk,Monitor
+200,10.87,1549,2022-01-09 07:00:00,2900,0,11.14,0.6544,Online,Customer 1549,60,Address 1549,4220.47,2023-07-03,0,Merchant 2900,Location 2900,2022-01,Sunday,7,0.3319,Medium Risk,Monitor
+201,78.7,1237,2022-01-09 08:00:00,2382,0,78.79,0.0925,Other,Customer 1237,32,Address 1237,5160.48,2022-08-25,0,Merchant 2382,Location 2382,2022-01,Sunday,8,0.0967,Low Risk,No action
+202,13.56,1800,2022-01-09 09:00:00,2802,0,73.36,0.8635,Online,Customer 1800,58,Address 1800,6631.37,2024-03-10,0,Merchant 2802,Location 2802,2022-01,Sunday,9,0.3924,Medium Risk,Monitor
+203,61.4,1167,2022-01-09 10:00:00,2789,0,19.79,0.646,Retail,Customer 1167,33,Address 1167,4121.32,2022-06-16,0,Merchant 2789,Location 2789,2022-01,Sunday,10,0.3285,Medium Risk,Monitor
+204,68.41,1559,2022-01-09 11:00:00,2856,0,52.57,0.1032,Online,Customer 1559,22,Address 1559,4091.68,2023-07-13,0,Merchant 2856,Location 2856,2022-01,Sunday,11,0.1131,Low Risk,No action
+205,59.46,1764,2022-01-09 12:00:00,2618,0,87.95,0.7811,Travel,Customer 1764,49,Address 1764,7695.15,2024-02-03,0,Merchant 2618,Location 2618,2022-01,Sunday,12,0.3433,Medium Risk,Monitor
+206,94.57,1124,2022-01-09 13:00:00,2493,0,45.35,0.3868,Travel,Customer 1124,45,Address 1124,6746.99,2022-05-04,0,Merchant 2493,Location 2493,2022-01,Sunday,13,0.1985,Low Risk,No action
+207,81.56,1095,2022-01-09 14:00:00,2713,0,49.03,0.2741,Other,Customer 1095,27,Address 1095,8403.77,2022-04-05,1,Merchant 2713,Location 2713,2022-01,Sunday,14,0.3307,Medium Risk,Monitor
+208,58.42,1690,2022-01-09 15:00:00,2478,0,76.79,0.3144,Travel,Customer 1690,24,Address 1690,5729.01,2023-11-21,0,Merchant 2478,Location 2478,2022-01,Sunday,15,0.1802,Low Risk,No action
+209,48.04,1359,2022-01-09 16:00:00,2405,0,57.26,0.2883,Food,Customer 1359,53,Address 1359,8430.99,2022-12-25,0,Merchant 2405,Location 2405,2022-01,Sunday,16,0.138,Low Risk,No action
+210,27.51,1026,2022-01-09 17:00:00,2332,0,21.24,0.3228,Other,Customer 1026,58,Address 1026,8091.74,2022-01-26,0,Merchant 2332,Location 2332,2022-01,Sunday,17,0.1548,Low Risk,No action
+211,67.03,1596,2022-01-09 18:00:00,2989,0,79.38,0.97,Online,Customer 1596,62,Address 1596,7604.04,2023-08-19,0,Merchant 2989,Location 2989,2022-01,Sunday,18,0.419,Medium Risk,Monitor
+212,78.56,1506,2022-01-09 19:00:00,2828,1,52.48,0.8582,Other,Customer 1506,22,Address 1506,5745.09,2023-05-21,0,Merchant 2828,Location 2828,2022-01,Sunday,19,0.6985,High Risk,Immediate review
+213,81.96,1219,2022-01-09 20:00:00,2065,0,75.33,0.4463,Food,Customer 1219,23,Address 1219,7649.65,2022-08-07,0,Merchant 2065,Location 2065,2022-01,Sunday,20,0.2127,Low Risk,No action
+214,66.22,1609,2022-01-09 21:00:00,2536,0,76.77,0.1169,Travel,Customer 1609,29,Address 1609,7085.44,2023-09-01,0,Merchant 2536,Location 2536,2022-01,Sunday,21,0.0857,Low Risk,No action
+215,43.29,1788,2022-01-09 22:00:00,2225,0,87.14,0.2473,Online,Customer 1788,27,Address 1788,4384.8,2024-02-27,0,Merchant 2225,Location 2225,2022-01,Sunday,22,0.1634,Low Risk,No action
+216,91.45,1320,2022-01-09 23:00:00,2533,0,33.35,0.0499,Retail,Customer 1320,48,Address 1320,4674.92,2022-11-16,0,Merchant 2533,Location 2533,2022-01,Sunday,23,0.0871,Low Risk,No action
+217,98.69,1194,2022-01-10 00:00:00,2023,0,79.68,0.4856,Travel,Customer 1194,40,Address 1194,7405.68,2022-07-13,0,Merchant 2023,Location 2023,2022-01,Monday,0,0.2295,Low Risk,No action
+218,84.04,1387,2022-01-10 01:00:00,2884,0,21.68,0.0866,Online,Customer 1387,31,Address 1387,2137.2,2023-01-22,1,Merchant 2884,Location 2884,2022-01,Monday,1,0.3289,Medium Risk,Monitor
+219,26.71,1381,2022-01-10 02:00:00,2388,0,78.79,0.8576,Online,Customer 1381,58,Address 1381,4206.2,2023-01-16,0,Merchant 2388,Location 2388,2022-01,Monday,2,0.4154,Medium Risk,Monitor
+220,95.67,1023,2022-01-10 03:00:00,2338,0,66.74,0.3074,Online,Customer 1023,34,Address 1023,9545.47,2022-01-23,0,Merchant 2338,Location 2338,2022-01,Monday,3,0.1306,Low Risk,No action
+221,53.85,1292,2022-01-10 04:00:00,2094,0,47.44,0.2106,Food,Customer 1292,33,Address 1292,5713.49,2022-10-19,0,Merchant 2094,Location 2094,2022-01,Monday,4,0.137,Low Risk,No action
+222,67.76,1556,2022-01-10 05:00:00,2206,0,17.37,0.059,Online,Customer 1556,53,Address 1556,2262.49,2023-07-10,0,Merchant 2206,Location 2206,2022-01,Monday,5,0.1182,Low Risk,No action
+223,68.87,1616,2022-01-10 06:00:00,2334,0,56.89,0.0177,Travel,Customer 1616,31,Address 1616,5058.36,2023-09-08,0,Merchant 2334,Location 2334,2022-01,Monday,6,0.0657,Low Risk,No action
+224,32.33,1646,2022-01-10 07:00:00,2893,0,22.12,0.6815,Retail,Customer 1646,46,Address 1646,1384.67,2023-10-08,0,Merchant 2893,Location 2893,2022-01,Monday,7,0.3723,Medium Risk,Monitor
+225,87.02,1678,2022-01-10 08:00:00,2979,0,41.47,0.9854,Food,Customer 1678,33,Address 1678,3302.01,2023-11-09,1,Merchant 2979,Location 2979,2022-01,Monday,8,0.6734,High Risk,Immediate review
+226,34.53,1950,2022-01-10 09:00:00,2539,0,13.87,0.7622,Food,Customer 1950,48,Address 1950,2394.86,2024-08-07,0,Merchant 2539,Location 2539,2022-01,Monday,9,0.3962,Medium Risk,Monitor
+227,72.13,1995,2022-01-10 10:00:00,2776,1,29.68,0.9392,Travel,Customer 1995,38,Address 1995,2240.52,2024-09-21,0,Merchant 2776,Location 2776,2022-01,Monday,10,0.7674,High Risk,Immediate review
+228,55.8,1492,2022-01-10 11:00:00,2962,0,10.97,0.1883,Online,Customer 1492,46,Address 1492,2989.82,2023-05-07,0,Merchant 2962,Location 2962,2022-01,Monday,11,0.1568,Low Risk,No action
+229,26.45,1395,2022-01-10 12:00:00,2687,0,94.06,0.2589,Other,Customer 1395,32,Address 1395,4381.29,2023-01-30,1,Merchant 2687,Location 2687,2022-01,Monday,12,0.3696,Medium Risk,Monitor
+230,99.72,1903,2022-01-10 13:00:00,2473,0,51.61,0.9586,Food,Customer 1903,18,Address 1903,4718.54,2024-06-21,0,Merchant 2473,Location 2473,2022-01,Monday,13,0.4478,Medium Risk,Monitor
+231,39.3,1442,2022-01-10 14:00:00,2577,0,70.87,0.4745,Online,Customer 1442,54,Address 1442,9760.43,2023-03-18,0,Merchant 2577,Location 2577,2022-01,Monday,14,0.1968,Low Risk,No action
+232,48.96,1169,2022-01-10 15:00:00,2559,0,14.75,0.3279,Other,Customer 1169,30,Address 1169,4020.71,2022-06-18,0,Merchant 2559,Location 2559,2022-01,Monday,15,0.2052,Low Risk,No action
+233,98.73,1767,2022-01-10 16:00:00,2787,0,62.37,0.0452,Online,Customer 1767,38,Address 1767,1238.12,2024-02-06,0,Merchant 2787,Location 2787,2022-01,Monday,16,0.1217,Low Risk,No action
+234,69.33,1221,2022-01-10 17:00:00,2851,0,35.95,0.8935,Other,Customer 1221,37,Address 1221,6722.29,2022-08-09,0,Merchant 2851,Location 2851,2022-01,Monday,17,0.4037,Medium Risk,Monitor
+235,65.35,1806,2022-01-10 18:00:00,2949,0,56.43,0.9123,Retail,Customer 1806,61,Address 1806,7475.02,2024-03-16,0,Merchant 2949,Location 2949,2022-01,Monday,18,0.3992,Medium Risk,Monitor
+236,69.83,1999,2022-01-10 19:00:00,2789,0,33.88,0.4038,Retail,Customer 1999,57,Address 1999,7376.85,2024-09-25,0,Merchant 2789,Location 2789,2022-01,Monday,19,0.1982,Low Risk,No action
+237,46.17,1506,2022-01-10 20:00:00,2442,0,23.31,0.8944,Online,Customer 1506,22,Address 1506,5745.09,2023-05-21,0,Merchant 2442,Location 2442,2022-01,Monday,20,0.4143,Medium Risk,Monitor
+238,55.2,1024,2022-01-10 21:00:00,2231,0,25.29,0.0897,Retail,Customer 1024,40,Address 1024,1795.33,2022-01-24,0,Merchant 2231,Location 2231,2022-01,Monday,21,0.1326,Low Risk,No action
+239,53.98,1359,2022-01-10 22:00:00,2442,0,52.57,0.3352,Retail,Customer 1359,53,Address 1359,8430.99,2022-12-25,0,Merchant 2442,Location 2442,2022-01,Monday,22,0.1576,Low Risk,No action
+240,45.01,1892,2022-01-10 23:00:00,2282,1,77.85,0.5723,Online,Customer 1892,59,Address 1892,5096.28,2024-06-10,0,Merchant 2282,Location 2282,2022-01,Monday,23,0.5869,Medium Risk,Monitor
+241,27.19,1830,2022-01-11 00:00:00,2373,0,59.12,0.2721,Other,Customer 1830,22,Address 1830,9443.2,2024-04-09,0,Merchant 2373,Location 2373,2022-01,Tuesday,0,0.116,Low Risk,No action
+242,25.42,1515,2022-01-11 01:00:00,2702,0,69.93,0.5158,Online,Customer 1515,37,Address 1515,7872.51,2023-05-30,0,Merchant 2702,Location 2702,2022-01,Tuesday,1,0.2379,Low Risk,No action
+243,48.25,1479,2022-01-11 02:00:00,2451,0,92.36,0.1345,Food,Customer 1479,47,Address 1479,6915.09,2023-04-24,0,Merchant 2451,Location 2451,2022-01,Tuesday,2,0.0952,Low Risk,No action
+244,38.66,1398,2022-01-11 03:00:00,2789,0,24.9,0.1746,Travel,Customer 1398,55,Address 1398,1617.13,2023-02-02,0,Merchant 2789,Location 2789,2022-01,Tuesday,3,0.1655,Low Risk,No action
+245,66.65,1848,2022-01-11 04:00:00,2872,0,65.36,0.2189,Travel,Customer 1848,63,Address 1848,2524.24,2024-04-27,0,Merchant 2872,Location 2872,2022-01,Tuesday,4,0.174,Low Risk,No action
+246,67.64,1877,2022-01-11 05:00:00,2552,0,99.04,0.2188,Online,Customer 1877,43,Address 1877,1848.99,2024-05-26,0,Merchant 2552,Location 2552,2022-01,Tuesday,5,0.1792,Low Risk,No action
+247,95.63,1965,2022-01-11 06:00:00,2118,0,64.9,0.7867,Retail,Customer 1965,44,Address 1965,2295.87,2024-08-22,0,Merchant 2118,Location 2118,2022-01,Tuesday,6,0.4076,Medium Risk,Monitor
+248,81.69,1656,2022-01-11 07:00:00,2408,0,90.59,0.0066,Other,Customer 1656,48,Address 1656,5626.57,2023-10-18,0,Merchant 2408,Location 2408,2022-01,Tuesday,7,0.0564,Low Risk,No action
+249,60.72,1180,2022-01-11 08:00:00,2677,0,52.49,0.0271,Online,Customer 1180,59,Address 1180,8645.38,2022-06-29,0,Merchant 2677,Location 2677,2022-01,Tuesday,8,0.029,Low Risk,No action
+250,60.56,1244,2022-01-11 09:00:00,2040,0,21.65,0.8702,Retail,Customer 1244,46,Address 1244,8723.86,2022-09-01,0,Merchant 2040,Location 2040,2022-01,Tuesday,9,0.3678,Medium Risk,Monitor
+251,38.53,1406,2022-01-11 10:00:00,2007,0,78.57,0.6494,Retail,Customer 1406,56,Address 1406,6284.74,2023-02-10,0,Merchant 2007,Location 2007,2022-01,Tuesday,10,0.3087,Medium Risk,Monitor
+252,39.64,1546,2022-01-11 11:00:00,2120,0,80.25,0.7075,Food,Customer 1546,52,Address 1546,6282.24,2023-06-30,0,Merchant 2120,Location 2120,2022-01,Tuesday,11,0.3323,Medium Risk,Monitor
+253,52.33,1316,2022-01-11 12:00:00,2033,0,15.05,0.5105,Travel,Customer 1316,41,Address 1316,1538.03,2022-11-12,0,Merchant 2033,Location 2033,2022-01,Tuesday,12,0.3057,Medium Risk,Monitor
+254,61.16,1768,2022-01-11 13:00:00,2764,0,96.62,0.2817,Retail,Customer 1768,35,Address 1768,1824.8,2024-02-07,0,Merchant 2764,Location 2764,2022-01,Tuesday,13,0.2068,Low Risk,No action
+255,74.42,1983,2022-01-11 14:00:00,2903,0,92.88,0.8142,Other,Customer 1983,42,Address 1983,4754.88,2024-09-09,0,Merchant 2903,Location 2903,2022-01,Tuesday,14,0.39,Medium Risk,Monitor
+256,16.71,1685,2022-01-11 15:00:00,2242,0,96.47,0.7634,Retail,Customer 1685,18,Address 1685,3046.12,2023-11-16,0,Merchant 2242,Location 2242,2022-01,Tuesday,15,0.3901,Medium Risk,Monitor
+257,23.74,1441,2022-01-11 16:00:00,2627,0,71.34,0.5556,Food,Customer 1441,37,Address 1441,7268.83,2023-03-17,0,Merchant 2627,Location 2627,2022-01,Tuesday,16,0.2586,Low Risk,No action
+258,72.2,1198,2022-01-11 17:00:00,2266,0,64.85,0.4559,Travel,Customer 1198,62,Address 1198,7777.44,2022-07-17,0,Merchant 2266,Location 2266,2022-01,Tuesday,17,0.2161,Low Risk,No action
+259,63.92,1990,2022-01-11 18:00:00,2298,0,79.51,0.2756,Other,Customer 1990,63,Address 1990,7417.76,2024-09-16,0,Merchant 2298,Location 2298,2022-01,Tuesday,18,0.1428,Low Risk,No action
+260,32.12,1893,2022-01-11 19:00:00,2228,0,35.66,0.3485,Online,Customer 1893,45,Address 1893,9608.4,2024-06-11,0,Merchant 2228,Location 2228,2022-01,Tuesday,19,0.148,Low Risk,No action
+261,61.32,1558,2022-01-11 20:00:00,2911,0,34.53,0.9916,Food,Customer 1558,35,Address 1558,9927.16,2023-07-12,0,Merchant 2911,Location 2911,2022-01,Tuesday,20,0.3986,Medium Risk,Monitor
+262,54.47,1995,2022-01-11 21:00:00,2005,0,18.33,0.3872,Retail,Customer 1995,38,Address 1995,2240.52,2024-09-21,0,Merchant 2005,Location 2005,2022-01,Tuesday,21,0.249,Low Risk,No action
+263,27.34,1253,2022-01-11 22:00:00,2509,0,11.86,0.2175,Food,Customer 1253,62,Address 1253,5185.76,2022-09-10,0,Merchant 2509,Location 2509,2022-01,Tuesday,22,0.1421,Low Risk,No action
+264,31.31,1455,2022-01-11 23:00:00,2104,0,26.57,0.2022,Food,Customer 1455,39,Address 1455,3227.7,2023-03-31,0,Merchant 2104,Location 2104,2022-01,Tuesday,23,0.1604,Low Risk,No action
+265,41.54,1017,2022-01-12 00:00:00,2055,0,29.78,0.4933,Food,Customer 1017,21,Address 1017,5179.0,2022-01-17,0,Merchant 2055,Location 2055,2022-01,Wednesday,0,0.2579,Low Risk,No action
+266,32.86,1393,2022-01-12 01:00:00,2120,0,59.42,0.612,Travel,Customer 1393,47,Address 1393,3238.18,2023-01-28,0,Merchant 2120,Location 2120,2022-01,Wednesday,1,0.323,Medium Risk,Monitor
+267,71.23,1866,2022-01-12 02:00:00,2088,0,10.32,0.3277,Food,Customer 1866,35,Address 1866,9510.17,2024-05-15,0,Merchant 2088,Location 2088,2022-01,Wednesday,2,0.1385,Low Risk,No action
+268,26.62,1433,2022-01-12 03:00:00,2681,0,84.32,0.8641,Retail,Customer 1433,55,Address 1433,6991.29,2023-03-09,0,Merchant 2681,Location 2681,2022-01,Wednesday,3,0.3883,Medium Risk,Monitor
+269,56.28,1229,2022-01-12 04:00:00,2023,0,36.16,0.7408,Travel,Customer 1229,18,Address 1229,7030.68,2022-08-17,0,Merchant 2023,Location 2023,2022-01,Wednesday,4,0.3361,Medium Risk,Monitor
+270,79.54,1786,2022-01-12 05:00:00,2228,0,27.52,0.6078,Travel,Customer 1786,50,Address 1786,1656.96,2024-02-25,0,Merchant 2228,Location 2228,2022-01,Wednesday,5,0.3376,Medium Risk,Monitor
+271,36.75,1432,2022-01-12 06:00:00,2611,1,10.83,0.6209,Other,Customer 1432,36,Address 1432,5930.22,2023-03-08,1,Merchant 2611,Location 2611,2022-01,Wednesday,6,0.7985,High Risk,Immediate review
+272,58.18,1944,2022-01-12 07:00:00,2241,1,30.82,0.0443,Travel,Customer 1944,51,Address 1944,2462.05,2024-08-01,0,Merchant 2241,Location 2241,2022-01,Wednesday,7,0.4092,Medium Risk,Monitor
+273,28.3,1512,2022-01-12 08:00:00,2779,0,20.02,0.4032,Other,Customer 1512,64,Address 1512,7327.56,2023-05-27,0,Merchant 2779,Location 2779,2022-01,Wednesday,8,0.1976,Low Risk,No action
+274,35.92,1354,2022-01-12 09:00:00,2262,0,59.43,0.9508,Travel,Customer 1354,45,Address 1354,3903.79,2022-12-20,0,Merchant 2262,Location 2262,2022-01,Wednesday,9,0.4532,Medium Risk,Monitor
+275,78.31,1873,2022-01-12 10:00:00,2705,0,49.12,0.7329,Online,Customer 1873,31,Address 1873,4025.34,2024-05-22,0,Merchant 2705,Location 2705,2022-01,Wednesday,10,0.3668,Medium Risk,Monitor
+276,35.05,1405,2022-01-12 11:00:00,2397,0,27.23,0.7834,Travel,Customer 1405,59,Address 1405,9246.52,2023-02-09,0,Merchant 2397,Location 2397,2022-01,Wednesday,11,0.3272,Medium Risk,Monitor
+277,70.8,1958,2022-01-12 12:00:00,2721,0,41.1,0.4185,Retail,Customer 1958,57,Address 1958,8961.01,2024-08-15,0,Merchant 2721,Location 2721,2022-01,Wednesday,12,0.1868,Low Risk,No action
+278,61.11,1893,2022-01-12 13:00:00,2510,0,62.47,0.652,Other,Customer 1893,45,Address 1893,9608.4,2024-06-11,0,Merchant 2510,Location 2510,2022-01,Wednesday,13,0.2668,Low Risk,No action
+279,56.75,1535,2022-01-12 14:00:00,2491,0,87.47,0.613,Food,Customer 1535,53,Address 1535,8720.21,2023-06-19,0,Merchant 2491,Location 2491,2022-01,Wednesday,14,0.2608,Low Risk,No action
+280,16.22,1351,2022-01-12 15:00:00,2553,0,31.21,0.7702,Retail,Customer 1351,32,Address 1351,6685.6,2022-12-17,0,Merchant 2553,Location 2553,2022-01,Wednesday,15,0.3532,Medium Risk,Monitor
+281,10.8,1848,2022-01-12 16:00:00,2714,0,61.9,0.7174,Food,Customer 1848,63,Address 1848,2524.24,2024-04-27,0,Merchant 2714,Location 2714,2022-01,Wednesday,16,0.376,Medium Risk,Monitor
+282,66.57,1562,2022-01-12 17:00:00,2713,0,96.57,0.5868,Travel,Customer 1562,43,Address 1562,9938.92,2023-07-16,0,Merchant 2713,Location 2713,2022-01,Wednesday,17,0.2366,Low Risk,No action
+283,26.13,1817,2022-01-12 18:00:00,2083,0,37.99,0.5622,Retail,Customer 1817,28,Address 1817,3402.33,2024-03-27,0,Merchant 2083,Location 2083,2022-01,Wednesday,18,0.3028,Medium Risk,Monitor
+284,17.32,1649,2022-01-12 19:00:00,2223,0,52.0,0.7038,Other,Customer 1649,54,Address 1649,7708.88,2023-10-11,0,Merchant 2223,Location 2223,2022-01,Wednesday,19,0.3112,Medium Risk,Monitor
+285,75.32,1505,2022-01-12 20:00:00,2886,0,61.44,0.265,Retail,Customer 1505,33,Address 1505,9012.48,2023-05-20,0,Merchant 2886,Location 2886,2022-01,Wednesday,20,0.119,Low Risk,No action
+286,30.77,1513,2022-01-12 21:00:00,2287,0,14.52,0.1194,Travel,Customer 1513,47,Address 1513,6238.21,2023-05-28,0,Merchant 2287,Location 2287,2022-01,Wednesday,21,0.098,Low Risk,No action
+287,57.46,1604,2022-01-12 22:00:00,2328,0,33.91,0.5874,Other,Customer 1604,36,Address 1604,4470.14,2023-08-27,0,Merchant 2328,Location 2328,2022-01,Wednesday,22,0.3011,Medium Risk,Monitor
+288,73.3,1972,2022-01-12 23:00:00,2808,0,78.98,0.8257,Online,Customer 1972,39,Address 1972,6552.82,2024-08-29,0,Merchant 2808,Location 2808,2022-01,Wednesday,23,0.3752,Medium Risk,Monitor
+289,96.23,1165,2022-01-13 00:00:00,2492,1,51.14,0.7573,Food,Customer 1165,48,Address 1165,4115.72,2022-06-14,0,Merchant 2492,Location 2492,2022-01,Thursday,0,0.6754,High Risk,Immediate review
+290,77.3,1597,2022-01-13 01:00:00,2039,0,69.6,0.92,Travel,Customer 1597,33,Address 1597,7732.13,2023-08-20,0,Merchant 2039,Location 2039,2022-01,Thursday,1,0.3983,Medium Risk,Monitor
+291,62.77,1462,2022-01-13 02:00:00,2746,0,66.21,0.8947,Retail,Customer 1462,30,Address 1462,9035.12,2023-04-07,0,Merchant 2746,Location 2746,2022-01,Thursday,2,0.3756,Medium Risk,Monitor
+292,56.55,1712,2022-01-13 03:00:00,2754,0,58.02,0.3964,Retail,Customer 1712,58,Address 1712,4878.87,2023-12-13,0,Merchant 2754,Location 2754,2022-01,Thursday,3,0.2228,Low Risk,No action
+293,91.38,1100,2022-01-13 04:00:00,2038,0,79.28,0.2962,Travel,Customer 1100,62,Address 1100,2924.24,2022-04-10,0,Merchant 2038,Location 2038,2022-01,Thursday,4,0.2058,Low Risk,No action
+294,35.15,1009,2022-01-13 05:00:00,2253,0,16.92,0.4012,Other,Customer 1009,32,Address 1009,5359.75,2022-01-09,0,Merchant 2253,Location 2253,2022-01,Thursday,5,0.2196,Low Risk,No action
+295,34.52,1770,2022-01-13 06:00:00,2013,0,22.65,0.7979,Food,Customer 1770,36,Address 1770,6847.49,2024-02-09,1,Merchant 2013,Location 2013,2022-01,Thursday,6,0.5605,Medium Risk,Monitor
+296,95.33,1678,2022-01-13 07:00:00,2680,0,12.05,0.688,Travel,Customer 1678,33,Address 1678,3302.01,2023-11-09,1,Merchant 2680,Location 2680,2022-01,Thursday,7,0.5558,Medium Risk,Monitor
+297,51.4,1953,2022-01-13 08:00:00,2069,0,82.53,0.7406,Retail,Customer 1953,18,Address 1953,5323.11,2024-08-10,0,Merchant 2069,Location 2069,2022-01,Thursday,8,0.3538,Medium Risk,Monitor
+298,20.66,1239,2022-01-13 09:00:00,2745,0,67.97,0.3586,Retail,Customer 1239,40,Address 1239,8704.18,2022-08-27,0,Merchant 2745,Location 2745,2022-01,Thursday,9,0.1651,Low Risk,No action
+299,53.66,1322,2022-01-13 10:00:00,2243,0,87.36,0.2611,Travel,Customer 1322,29,Address 1322,9411.51,2022-11-18,0,Merchant 2243,Location 2243,2022-01,Thursday,10,0.1107,Low Risk,No action
+300,46.24,1940,2022-01-13 11:00:00,2960,0,55.29,0.4915,Other,Customer 1940,29,Address 1940,6383.38,2024-07-28,0,Merchant 2960,Location 2960,2022-01,Thursday,11,0.245,Low Risk,No action
+301,42.3,1994,2022-01-13 12:00:00,2616,0,97.06,0.0525,Retail,Customer 1994,63,Address 1994,8791.3,2024-09-20,0,Merchant 2616,Location 2616,2022-01,Thursday,12,0.0398,Low Risk,No action
+302,98.07,1437,2022-01-13 13:00:00,2869,0,25.14,0.1268,Online,Customer 1437,19,Address 1437,3712.17,2023-03-13,0,Merchant 2869,Location 2869,2022-01,Thursday,13,0.1278,Low Risk,No action
+303,61.99,1135,2022-01-13 14:00:00,2703,0,51.24,0.6908,Travel,Customer 1135,49,Address 1135,7871.39,2022-05-15,0,Merchant 2703,Location 2703,2022-01,Thursday,14,0.3056,Medium Risk,Monitor
+304,15.08,1873,2022-01-13 15:00:00,2280,0,50.71,0.8317,Retail,Customer 1873,31,Address 1873,4025.34,2024-05-22,0,Merchant 2280,Location 2280,2022-01,Thursday,15,0.4072,Medium Risk,Monitor
+305,79.21,1233,2022-01-13 16:00:00,2020,0,44.03,0.3719,Food,Customer 1233,28,Address 1233,8198.18,2022-08-21,0,Merchant 2020,Location 2020,2022-01,Thursday,16,0.1758,Low Risk,No action
+306,14.33,1701,2022-01-13 17:00:00,2265,0,18.86,0.1316,Retail,Customer 1701,50,Address 1701,7244.5,2023-12-02,0,Merchant 2265,Location 2265,2022-01,Thursday,17,0.0914,Low Risk,No action
+307,74.05,1392,2022-01-13 18:00:00,2239,0,13.48,0.2694,Travel,Customer 1392,37,Address 1392,4900.65,2023-01-27,0,Merchant 2239,Location 2239,2022-01,Thursday,18,0.1677,Low Risk,No action
+308,13.78,1468,2022-01-13 19:00:00,2020,0,74.97,0.7677,Online,Customer 1468,45,Address 1468,2410.57,2023-04-13,0,Merchant 2020,Location 2020,2022-01,Thursday,19,0.3983,Medium Risk,Monitor
+309,20.77,1759,2022-01-13 20:00:00,2401,0,18.1,0.1151,Food,Customer 1759,33,Address 1759,6608.39,2024-01-29,0,Merchant 2401,Location 2401,2022-01,Thursday,20,0.0916,Low Risk,No action
+310,76.95,1305,2022-01-13 21:00:00,2469,0,83.11,0.0838,Other,Customer 1305,23,Address 1305,4624.66,2022-11-01,0,Merchant 2469,Location 2469,2022-01,Thursday,21,0.1001,Low Risk,No action
+311,27.45,1060,2022-01-13 22:00:00,2864,0,81.95,0.007,Travel,Customer 1060,38,Address 1060,9121.23,2022-03-01,0,Merchant 2864,Location 2864,2022-01,Thursday,22,0.0156,Low Risk,No action
+312,61.48,1557,2022-01-13 23:00:00,2195,0,18.37,0.286,Retail,Customer 1557,62,Address 1557,7585.9,2023-07-11,0,Merchant 2195,Location 2195,2022-01,Thursday,23,0.1473,Low Risk,No action
+313,68.64,1157,2022-01-14 00:00:00,2479,0,71.94,0.5814,Online,Customer 1157,60,Address 1157,8479.72,2022-06-06,1,Merchant 2479,Location 2479,2022-01,Friday,0,0.4514,Medium Risk,Monitor
+314,39.75,1968,2022-01-14 01:00:00,2354,0,84.89,0.3179,Other,Customer 1968,60,Address 1968,8884.81,2024-08-25,0,Merchant 2354,Location 2354,2022-01,Friday,1,0.1431,Low Risk,No action
+315,84.98,1555,2022-01-14 02:00:00,2506,0,26.09,0.7364,Travel,Customer 1555,45,Address 1555,1776.63,2023-07-09,0,Merchant 2506,Location 2506,2022-01,Friday,2,0.3912,Medium Risk,Monitor
+316,29.29,1112,2022-01-14 03:00:00,2285,0,65.3,0.7811,Other,Customer 1112,57,Address 1112,9784.74,2022-04-22,0,Merchant 2285,Location 2285,2022-01,Friday,3,0.3176,Medium Risk,Monitor
+317,22.19,1292,2022-01-14 04:00:00,2771,0,64.94,0.8705,Online,Customer 1292,33,Address 1292,5713.49,2022-10-19,0,Merchant 2771,Location 2771,2022-01,Friday,4,0.405,Medium Risk,Monitor
+318,64.23,1346,2022-01-14 05:00:00,2335,0,45.88,0.6174,Retail,Customer 1346,36,Address 1346,5760.89,2022-12-12,0,Merchant 2335,Location 2335,2022-01,Friday,5,0.2983,Low Risk,No action
+319,23.85,1129,2022-01-14 06:00:00,2787,0,42.37,0.8086,Food,Customer 1129,39,Address 1129,4396.08,2022-05-09,0,Merchant 2787,Location 2787,2022-01,Friday,6,0.3932,Medium Risk,Monitor
+320,86.0,1903,2022-01-14 07:00:00,2261,0,16.03,0.8848,Other,Customer 1903,18,Address 1903,4718.54,2024-06-21,0,Merchant 2261,Location 2261,2022-01,Friday,7,0.4206,Medium Risk,Monitor
+321,57.87,1078,2022-01-14 08:00:00,2142,0,54.92,0.939,Food,Customer 1078,32,Address 1078,1689.97,2022-03-19,0,Merchant 2142,Location 2142,2022-01,Friday,8,0.4724,Medium Risk,Monitor
+322,88.1,1702,2022-01-14 09:00:00,2894,0,75.79,0.3085,Retail,Customer 1702,32,Address 1702,4756.91,2023-12-03,0,Merchant 2894,Location 2894,2022-01,Friday,9,0.1878,Low Risk,No action
+323,10.05,1466,2022-01-14 10:00:00,2419,0,87.55,0.6342,Online,Customer 1466,41,Address 1466,2569.13,2023-04-11,0,Merchant 2419,Location 2419,2022-01,Friday,10,0.3405,Medium Risk,Monitor
+324,24.84,1437,2022-01-14 11:00:00,2375,0,36.02,0.8322,Retail,Customer 1437,19,Address 1437,3712.17,2023-03-13,0,Merchant 2375,Location 2375,2022-01,Friday,11,0.4106,Medium Risk,Monitor
+325,47.85,1783,2022-01-14 12:00:00,2920,0,49.46,0.727,Online,Customer 1783,31,Address 1783,9728.45,2024-02-22,0,Merchant 2920,Location 2920,2022-01,Friday,12,0.2954,Low Risk,No action
+326,14.62,1695,2022-01-14 13:00:00,2801,0,94.55,0.3551,Food,Customer 1695,35,Address 1695,8553.04,2023-11-26,0,Merchant 2801,Location 2801,2022-01,Friday,13,0.1636,Low Risk,No action
+327,60.69,1172,2022-01-14 14:00:00,2679,0,12.07,0.537,Other,Customer 1172,26,Address 1172,3476.68,2022-06-21,0,Merchant 2679,Location 2679,2022-01,Friday,14,0.295,Low Risk,No action
+328,61.23,1947,2022-01-14 15:00:00,2606,0,24.06,0.6319,Food,Customer 1947,22,Address 1947,5158.86,2024-08-04,0,Merchant 2606,Location 2606,2022-01,Friday,15,0.3104,Medium Risk,Monitor
+329,93.37,1086,2022-01-14 16:00:00,2182,0,59.3,0.9565,Food,Customer 1086,63,Address 1086,4190.33,2022-03-27,0,Merchant 2182,Location 2182,2022-01,Friday,16,0.4524,Medium Risk,Monitor
+330,95.77,1275,2022-01-14 17:00:00,2838,1,47.67,0.0665,Food,Customer 1275,23,Address 1275,7853.49,2022-10-02,0,Merchant 2838,Location 2838,2022-01,Friday,17,0.3581,Medium Risk,Monitor
+331,61.89,1657,2022-01-14 18:00:00,2567,0,34.97,0.792,Other,Customer 1657,58,Address 1657,4754.22,2023-10-19,0,Merchant 2567,Location 2567,2022-01,Friday,18,0.3821,Medium Risk,Monitor
+332,70.87,1624,2022-01-14 19:00:00,2217,1,28.36,0.2218,Travel,Customer 1624,18,Address 1624,4741.81,2023-09-16,0,Merchant 2217,Location 2217,2022-01,Friday,19,0.4512,Medium Risk,Monitor
+333,70.96,1729,2022-01-14 20:00:00,2211,1,70.81,0.0128,Other,Customer 1729,29,Address 1729,8202.53,2023-12-30,0,Merchant 2211,Location 2211,2022-01,Friday,20,0.3288,Medium Risk,Monitor
+334,47.6,1300,2022-01-14 21:00:00,2474,0,51.92,0.9481,Other,Customer 1300,40,Address 1300,2446.9,2022-10-27,0,Merchant 2474,Location 2474,2022-01,Friday,21,0.4662,Medium Risk,Monitor
+335,84.75,1311,2022-01-14 22:00:00,2919,0,94.07,0.4042,Online,Customer 1311,25,Address 1311,9253.48,2022-11-07,0,Merchant 2919,Location 2919,2022-01,Friday,22,0.1763,Low Risk,No action
+336,64.3,1280,2022-01-14 23:00:00,2899,0,64.06,0.7986,Retail,Customer 1280,60,Address 1280,8295.28,2022-10-07,0,Merchant 2899,Location 2899,2022-01,Friday,23,0.3435,Medium Risk,Monitor
+337,59.07,1058,2022-01-15 00:00:00,2169,0,53.57,0.1481,Other,Customer 1058,50,Address 1058,5923.74,2022-02-27,0,Merchant 2169,Location 2169,2022-01,Saturday,0,0.1109,Low Risk,No action
+338,59.4,1724,2022-01-15 01:00:00,2346,0,21.96,0.0749,Travel,Customer 1724,32,Address 1724,8830.49,2023-12-25,0,Merchant 2346,Location 2346,2022-01,Saturday,1,0.0472,Low Risk,No action
+339,26.18,1067,2022-01-15 02:00:00,2081,0,81.11,0.3974,Travel,Customer 1067,36,Address 1067,1555.74,2022-03-08,0,Merchant 2081,Location 2081,2022-01,Saturday,2,0.2598,Low Risk,No action
+340,69.17,1438,2022-01-15 03:00:00,2089,0,55.87,0.4931,Other,Customer 1438,53,Address 1438,1779.99,2023-03-14,0,Merchant 2089,Location 2089,2022-01,Saturday,3,0.2947,Low Risk,No action
+341,60.74,1531,2022-01-15 04:00:00,2215,0,48.3,0.7016,Food,Customer 1531,29,Address 1531,3163.59,2023-06-15,0,Merchant 2215,Location 2215,2022-01,Saturday,4,0.3622,Medium Risk,Monitor
+342,60.99,1832,2022-01-15 05:00:00,2847,0,10.14,0.0533,Retail,Customer 1832,47,Address 1832,8825.82,2024-04-11,0,Merchant 2847,Location 2847,2022-01,Saturday,5,0.0403,Low Risk,No action
+343,99.62,1382,2022-01-15 06:00:00,2235,0,39.33,0.8574,Other,Customer 1382,40,Address 1382,2896.26,2023-01-17,0,Merchant 2235,Location 2235,2022-01,Saturday,6,0.4292,Medium Risk,Monitor
+344,84.5,1434,2022-01-15 07:00:00,2238,0,45.51,0.3376,Other,Customer 1434,19,Address 1434,1696.88,2023-03-10,0,Merchant 2238,Location 2238,2022-01,Saturday,7,0.2344,Low Risk,No action
+345,37.87,1440,2022-01-15 08:00:00,2363,0,38.55,0.8583,Food,Customer 1440,23,Address 1440,3930.47,2023-03-16,0,Merchant 2363,Location 2363,2022-01,Saturday,8,0.42,Medium Risk,Monitor
+346,38.69,1157,2022-01-15 09:00:00,2571,0,75.64,0.6594,Food,Customer 1157,60,Address 1157,8479.72,2022-06-06,1,Merchant 2571,Location 2571,2022-01,Saturday,9,0.4842,Medium Risk,Monitor
+347,45.03,1328,2022-01-15 10:00:00,2382,0,55.29,0.9822,Other,Customer 1328,62,Address 1328,4443.04,2022-11-24,0,Merchant 2382,Location 2382,2022-01,Saturday,10,0.4594,Medium Risk,Monitor
+348,66.48,1957,2022-01-15 11:00:00,2371,0,76.79,0.1977,Online,Customer 1957,57,Address 1957,1547.05,2024-08-14,0,Merchant 2371,Location 2371,2022-01,Saturday,11,0.1752,Low Risk,No action
+349,74.41,1033,2022-01-15 12:00:00,2813,0,54.42,0.1013,Online,Customer 1033,50,Address 1033,2042.69,2022-02-02,0,Merchant 2813,Location 2813,2022-01,Saturday,12,0.1342,Low Risk,No action
+350,43.46,1615,2022-01-15 13:00:00,2836,0,81.39,0.1253,Online,Customer 1615,28,Address 1615,9447.92,2023-09-07,0,Merchant 2836,Location 2836,2022-01,Saturday,13,0.0595,Low Risk,No action
+351,28.34,1286,2022-01-15 14:00:00,2697,0,76.11,0.6251,Food,Customer 1286,19,Address 1286,7665.93,2022-10-13,0,Merchant 2697,Location 2697,2022-01,Saturday,14,0.2789,Low Risk,No action
+352,70.0,1152,2022-01-15 15:00:00,2762,0,70.43,0.1458,Food,Customer 1152,55,Address 1152,7273.98,2022-06-01,0,Merchant 2762,Location 2762,2022-01,Saturday,15,0.0935,Low Risk,No action
+353,89.09,1137,2022-01-15 16:00:00,2051,0,49.06,0.0346,Other,Customer 1137,52,Address 1137,4843.33,2022-05-17,0,Merchant 2051,Location 2051,2022-01,Saturday,16,0.0776,Low Risk,No action
+354,66.09,1176,2022-01-15 17:00:00,2208,0,24.82,0.6254,Travel,Customer 1176,20,Address 1176,5493.96,2022-06-25,0,Merchant 2208,Location 2208,2022-01,Saturday,17,0.3052,Medium Risk,Monitor
+355,76.35,1281,2022-01-15 18:00:00,2661,0,70.79,0.5964,Retail,Customer 1281,33,Address 1281,3183.47,2022-10-08,0,Merchant 2661,Location 2661,2022-01,Saturday,18,0.318,Medium Risk,Monitor
+356,60.31,1788,2022-01-15 19:00:00,2862,0,32.23,0.2471,Online,Customer 1788,27,Address 1788,4384.8,2024-02-27,0,Merchant 2862,Location 2862,2022-01,Saturday,19,0.163,Low Risk,No action
+357,33.61,1048,2022-01-15 20:00:00,2429,0,50.07,0.2008,Travel,Customer 1048,49,Address 1048,8077.88,2022-02-17,0,Merchant 2429,Location 2429,2022-01,Saturday,20,0.1048,Low Risk,No action
+358,41.67,1073,2022-01-15 21:00:00,2897,0,50.13,0.1206,Food,Customer 1073,56,Address 1073,2392.92,2022-03-14,0,Merchant 2897,Location 2897,2022-01,Saturday,21,0.1396,Low Risk,No action
+359,47.13,1572,2022-01-15 22:00:00,2859,0,46.66,0.2318,Travel,Customer 1572,47,Address 1572,2067.49,2023-07-26,0,Merchant 2859,Location 2859,2022-01,Saturday,22,0.1839,Low Risk,No action
+360,41.71,1264,2022-01-15 23:00:00,2534,0,16.47,0.2032,Online,Customer 1264,23,Address 1264,6025.0,2022-09-21,0,Merchant 2534,Location 2534,2022-01,Saturday,23,0.1314,Low Risk,No action
+361,42.33,1864,2022-01-16 00:00:00,2094,0,76.54,0.3558,Travel,Customer 1864,50,Address 1864,2546.73,2024-05-13,0,Merchant 2094,Location 2094,2022-01,Sunday,0,0.2327,Low Risk,No action
+362,71.74,1285,2022-01-16 01:00:00,2271,0,30.77,0.506,Food,Customer 1285,47,Address 1285,6040.58,2022-10-12,0,Merchant 2271,Location 2271,2022-01,Sunday,1,0.2544,Low Risk,No action
+363,72.73,1602,2022-01-16 02:00:00,2287,0,40.85,0.4523,Online,Customer 1602,40,Address 1602,3812.53,2023-08-25,0,Merchant 2287,Location 2287,2022-01,Sunday,2,0.2602,Low Risk,No action
+364,61.14,1424,2022-01-16 03:00:00,2929,1,78.35,0.8304,Travel,Customer 1424,37,Address 1424,4344.55,2023-02-28,0,Merchant 2929,Location 2929,2022-01,Sunday,3,0.7024,High Risk,Immediate review
+365,40.66,1214,2022-01-16 04:00:00,2103,0,81.52,0.239,Travel,Customer 1214,42,Address 1214,6807.18,2022-08-02,0,Merchant 2103,Location 2103,2022-01,Sunday,4,0.133,Low Risk,No action
+366,38.32,1682,2022-01-16 05:00:00,2597,0,80.29,0.6574,Other,Customer 1682,39,Address 1682,8191.36,2023-11-13,0,Merchant 2597,Location 2597,2022-01,Sunday,5,0.2871,Low Risk,No action
+367,67.84,1777,2022-01-16 06:00:00,2279,0,66.11,0.8736,Travel,Customer 1777,54,Address 1777,7409.5,2024-02-16,0,Merchant 2279,Location 2279,2022-01,Sunday,6,0.3866,Medium Risk,Monitor
+368,39.31,1272,2022-01-16 07:00:00,2221,0,24.23,0.8905,Online,Customer 1272,48,Address 1272,5815.46,2022-09-29,0,Merchant 2221,Location 2221,2022-01,Sunday,7,0.4099,Medium Risk,Monitor
+369,70.52,1427,2022-01-16 08:00:00,2533,0,20.7,0.9141,Online,Customer 1427,37,Address 1427,6728.01,2023-03-03,0,Merchant 2533,Location 2533,2022-01,Sunday,8,0.41,Medium Risk,Monitor
+370,81.39,1159,2022-01-16 09:00:00,2562,0,91.15,0.1124,Other,Customer 1159,54,Address 1159,5766.57,2022-06-08,0,Merchant 2562,Location 2562,2022-01,Sunday,9,0.0979,Low Risk,No action
+371,41.03,1339,2022-01-16 10:00:00,2262,0,50.12,0.8686,Other,Customer 1339,53,Address 1339,7374.11,2022-12-05,0,Merchant 2262,Location 2262,2022-01,Sunday,10,0.384,Medium Risk,Monitor
+372,63.45,1855,2022-01-16 11:00:00,2193,0,66.69,0.1378,Other,Customer 1855,56,Address 1855,3104.73,2024-05-04,0,Merchant 2193,Location 2193,2022-01,Sunday,11,0.1376,Low Risk,No action
+373,71.95,1825,2022-01-16 12:00:00,2923,0,77.02,0.5467,Other,Customer 1825,54,Address 1825,4886.01,2024-04-04,0,Merchant 2923,Location 2923,2022-01,Sunday,12,0.2815,Low Risk,No action
+374,74.94,1967,2022-01-16 13:00:00,2978,0,88.19,0.5092,Travel,Customer 1967,21,Address 1967,1188.95,2024-08-24,0,Merchant 2978,Location 2978,2022-01,Sunday,13,0.3072,Medium Risk,Monitor
+375,29.14,1914,2022-01-16 14:00:00,2497,0,49.65,0.4006,Retail,Customer 1914,18,Address 1914,6131.25,2024-07-02,0,Merchant 2497,Location 2497,2022-01,Sunday,14,0.2122,Low Risk,No action
+376,30.41,1311,2022-01-16 15:00:00,2645,0,13.29,0.4111,Food,Customer 1311,25,Address 1311,9253.48,2022-11-07,0,Merchant 2645,Location 2645,2022-01,Sunday,15,0.1799,Low Risk,No action
+377,94.35,1416,2022-01-16 16:00:00,2175,0,79.81,0.6581,Online,Customer 1416,21,Address 1416,9375.11,2023-02-20,0,Merchant 2175,Location 2175,2022-01,Sunday,16,0.2726,Low Risk,No action
+378,25.56,1586,2022-01-16 17:00:00,2477,0,43.6,0.3732,Food,Customer 1586,40,Address 1586,4726.94,2023-08-09,0,Merchant 2477,Location 2477,2022-01,Sunday,17,0.2162,Low Risk,No action
+379,95.69,1482,2022-01-16 18:00:00,2412,0,50.65,0.5256,Online,Customer 1482,26,Address 1482,2076.81,2023-04-27,0,Merchant 2412,Location 2412,2022-01,Sunday,18,0.3077,Medium Risk,Monitor
+380,35.73,1400,2022-01-16 19:00:00,2617,0,20.49,0.6096,Other,Customer 1400,60,Address 1400,8314.95,2023-02-04,0,Merchant 2617,Location 2617,2022-01,Sunday,19,0.2636,Low Risk,No action
+381,60.53,1764,2022-01-16 20:00:00,2767,0,29.46,0.8883,Online,Customer 1764,49,Address 1764,7695.15,2024-02-03,0,Merchant 2767,Location 2767,2022-01,Sunday,20,0.3871,Medium Risk,Monitor
+382,16.55,1397,2022-01-16 21:00:00,2941,0,78.81,0.4077,Food,Customer 1397,35,Address 1397,9060.93,2023-02-01,0,Merchant 2941,Location 2941,2022-01,Sunday,21,0.1794,Low Risk,No action
+383,27.25,1423,2022-01-16 22:00:00,2862,0,47.18,0.3317,Other,Customer 1423,40,Address 1423,7025.45,2023-02-27,0,Merchant 2862,Location 2862,2022-01,Sunday,22,0.1739,Low Risk,No action
+384,31.8,1516,2022-01-16 23:00:00,2635,0,96.64,0.3799,Other,Customer 1516,41,Address 1516,8658.74,2023-05-31,0,Merchant 2635,Location 2635,2022-01,Sunday,23,0.1727,Low Risk,No action
+385,55.76,1180,2022-01-17 00:00:00,2265,0,49.54,0.6711,Online,Customer 1180,59,Address 1180,8645.38,2022-06-29,0,Merchant 2265,Location 2265,2022-01,Monday,0,0.2864,Low Risk,No action
+386,72.91,1750,2022-01-17 01:00:00,2814,0,77.12,0.2029,Food,Customer 1750,36,Address 1750,8128.69,2024-01-20,0,Merchant 2814,Location 2814,2022-01,Monday,1,0.105,Low Risk,No action
+387,71.03,1836,2022-01-17 02:00:00,2188,0,98.87,0.3369,Retail,Customer 1836,47,Address 1836,4018.77,2024-04-15,0,Merchant 2188,Location 2188,2022-01,Monday,2,0.21,Low Risk,No action
+388,25.85,1433,2022-01-17 03:00:00,2817,0,75.99,0.4088,Travel,Customer 1433,55,Address 1433,6991.29,2023-03-09,0,Merchant 2817,Location 2817,2022-01,Monday,3,0.2067,Low Risk,No action
+389,94.52,1645,2022-01-17 04:00:00,2399,0,34.18,0.3018,Travel,Customer 1645,60,Address 1645,2989.52,2023-10-07,0,Merchant 2399,Location 2399,2022-01,Monday,4,0.2064,Low Risk,No action
+390,71.89,1108,2022-01-17 05:00:00,2548,0,93.2,0.7009,Other,Customer 1108,33,Address 1108,7794.95,2022-04-18,0,Merchant 2548,Location 2548,2022-01,Monday,5,0.3085,Medium Risk,Monitor
+391,60.78,1653,2022-01-17 06:00:00,2781,0,39.08,0.6472,Food,Customer 1653,49,Address 1653,7118.12,2023-10-15,0,Merchant 2781,Location 2781,2022-01,Monday,6,0.2964,Low Risk,No action
+392,83.57,1995,2022-01-17 07:00:00,2694,0,93.74,0.7582,Online,Customer 1995,38,Address 1995,2240.52,2024-09-21,0,Merchant 2694,Location 2694,2022-01,Monday,7,0.3962,Medium Risk,Monitor
+393,36.84,1062,2022-01-17 08:00:00,2479,0,85.51,0.5826,Retail,Customer 1062,39,Address 1062,8955.2,2022-03-03,0,Merchant 2479,Location 2479,2022-01,Monday,8,0.2457,Low Risk,No action
+394,30.51,1802,2022-01-17 09:00:00,2778,0,29.31,0.3111,Food,Customer 1802,23,Address 1802,6791.88,2024-03-12,0,Merchant 2778,Location 2778,2022-01,Monday,9,0.1669,Low Risk,No action
+395,15.7,1723,2022-01-17 10:00:00,2370,0,21.96,0.0052,Other,Customer 1723,22,Address 1723,3437.7,2023-12-24,0,Merchant 2370,Location 2370,2022-01,Monday,10,0.0784,Low Risk,No action
+396,97.55,1146,2022-01-17 11:00:00,2942,0,54.49,0.8742,Food,Customer 1146,23,Address 1146,4750.73,2022-05-26,0,Merchant 2942,Location 2942,2022-01,Monday,11,0.417,Medium Risk,Monitor
+397,28.91,1150,2022-01-17 12:00:00,2880,0,90.39,0.8473,Food,Customer 1150,52,Address 1150,7476.99,2022-05-30,0,Merchant 2880,Location 2880,2022-01,Monday,12,0.3734,Medium Risk,Monitor
+398,40.36,1244,2022-01-17 13:00:00,2907,0,35.66,0.4687,Online,Customer 1244,46,Address 1244,8723.86,2022-09-01,0,Merchant 2907,Location 2907,2022-01,Monday,13,0.2082,Low Risk,No action
+399,71.45,1807,2022-01-17 14:00:00,2359,0,53.71,0.7784,Retail,Customer 1807,59,Address 1807,9618.24,2024-03-17,0,Merchant 2359,Location 2359,2022-01,Monday,14,0.3174,Medium Risk,Monitor
+400,94.82,1345,2022-01-17 15:00:00,2329,0,12.08,0.6493,Travel,Customer 1345,52,Address 1345,7264.81,2022-12-11,0,Merchant 2329,Location 2329,2022-01,Monday,15,0.2964,Low Risk,No action
+401,73.49,1540,2022-01-17 16:00:00,2933,0,11.87,0.161,Online,Customer 1540,34,Address 1540,7984.46,2023-06-24,0,Merchant 2933,Location 2933,2022-01,Monday,16,0.0889,Low Risk,No action
+402,60.43,1709,2022-01-17 17:00:00,2968,0,64.47,0.8689,Other,Customer 1709,42,Address 1709,4061.52,2023-12-10,0,Merchant 2968,Location 2968,2022-01,Monday,17,0.4228,Medium Risk,Monitor
+403,23.41,1120,2022-01-17 18:00:00,2955,0,85.03,0.1299,Retail,Customer 1120,47,Address 1120,7450.42,2022-04-30,0,Merchant 2955,Location 2955,2022-01,Monday,18,0.0866,Low Risk,No action
+404,60.61,1144,2022-01-17 19:00:00,2755,0,73.92,0.3913,Travel,Customer 1144,40,Address 1144,8451.47,2022-05-24,0,Merchant 2755,Location 2755,2022-01,Monday,19,0.1801,Low Risk,No action
+405,83.55,1578,2022-01-17 20:00:00,2773,0,54.95,0.4431,Other,Customer 1578,29,Address 1578,4571.54,2023-08-01,0,Merchant 2773,Location 2773,2022-01,Monday,20,0.2468,Low Risk,No action
+406,16.36,1586,2022-01-17 21:00:00,2449,0,37.2,0.4129,Online,Customer 1586,40,Address 1586,4726.94,2023-08-09,0,Merchant 2449,Location 2449,2022-01,Monday,21,0.2328,Low Risk,No action
+407,28.05,1943,2022-01-17 22:00:00,2049,0,46.31,0.3428,Online,Customer 1943,26,Address 1943,1418.31,2024-07-31,0,Merchant 2049,Location 2049,2022-01,Monday,22,0.2402,Low Risk,No action
+408,83.25,1977,2022-01-17 23:00:00,2288,0,93.34,0.9315,Food,Customer 1977,40,Address 1977,3066.44,2024-09-03,0,Merchant 2288,Location 2288,2022-01,Monday,23,0.4554,Medium Risk,Monitor
+409,12.83,1717,2022-01-18 00:00:00,2592,1,34.31,0.5853,Retail,Customer 1717,51,Address 1717,5002.07,2023-12-18,0,Merchant 2592,Location 2592,2022-01,Tuesday,0,0.593,Medium Risk,Monitor
+410,25.01,1350,2022-01-18 01:00:00,2974,0,84.2,0.1612,Other,Customer 1350,49,Address 1350,3431.94,2022-12-16,0,Merchant 2974,Location 2974,2022-01,Tuesday,1,0.1415,Low Risk,No action
+411,98.4,1530,2022-01-18 02:00:00,2620,0,61.28,0.5145,Food,Customer 1530,62,Address 1530,9391.39,2023-06-14,0,Merchant 2620,Location 2620,2022-01,Tuesday,2,0.2184,Low Risk,No action
+412,86.79,1814,2022-01-18 03:00:00,2703,0,94.17,0.5285,Other,Customer 1814,28,Address 1814,6484.65,2024-03-24,0,Merchant 2703,Location 2703,2022-01,Tuesday,3,0.2616,Low Risk,No action
+413,98.5,1208,2022-01-18 04:00:00,2079,0,98.82,0.0141,Retail,Customer 1208,64,Address 1208,8321.69,2022-07-27,0,Merchant 2079,Location 2079,2022-01,Tuesday,4,0.0281,Low Risk,No action
+414,69.88,1214,2022-01-18 05:00:00,2564,0,98.47,0.0304,Travel,Customer 1214,42,Address 1214,6807.18,2022-08-02,0,Merchant 2564,Location 2564,2022-01,Tuesday,5,0.0534,Low Risk,No action
+415,58.79,1904,2022-01-18 06:00:00,2272,0,28.16,0.3647,Other,Customer 1904,36,Address 1904,4839.49,2024-06-22,0,Merchant 2272,Location 2272,2022-01,Tuesday,6,0.2111,Low Risk,No action
+416,76.93,1875,2022-01-18 07:00:00,2028,0,55.22,0.8285,Food,Customer 1875,56,Address 1875,6852.23,2024-05-24,0,Merchant 2028,Location 2028,2022-01,Tuesday,7,0.3727,Medium Risk,Monitor
+417,84.73,1480,2022-01-18 08:00:00,2638,0,10.06,0.6275,Food,Customer 1480,26,Address 1480,7269.76,2023-04-25,0,Merchant 2638,Location 2638,2022-01,Tuesday,8,0.2862,Low Risk,No action
+418,14.19,1282,2022-01-18 09:00:00,2994,0,76.28,0.6267,Other,Customer 1282,39,Address 1282,7308.7,2022-10-09,0,Merchant 2994,Location 2994,2022-01,Tuesday,9,0.2844,Low Risk,No action
+419,41.35,1109,2022-01-18 10:00:00,2356,0,66.23,0.195,Retail,Customer 1109,63,Address 1109,8085.07,2022-04-19,0,Merchant 2356,Location 2356,2022-01,Tuesday,10,0.1009,Low Risk,No action
+420,79.34,1304,2022-01-18 11:00:00,2997,0,38.96,0.0069,Retail,Customer 1304,62,Address 1304,9631.52,2022-10-31,0,Merchant 2997,Location 2997,2022-01,Tuesday,11,0.0079,Low Risk,No action
+421,26.24,1906,2022-01-18 12:00:00,2476,0,59.36,0.1719,Travel,Customer 1906,47,Address 1906,8161.51,2024-06-24,0,Merchant 2476,Location 2476,2022-01,Tuesday,12,0.0908,Low Risk,No action
+422,66.96,1218,2022-01-18 13:00:00,2547,0,70.79,0.0094,Travel,Customer 1218,63,Address 1218,8922.54,2022-08-06,0,Merchant 2547,Location 2547,2022-01,Tuesday,13,0.0182,Low Risk,No action
+423,17.83,1773,2022-01-18 14:00:00,2533,0,82.33,0.9615,Other,Customer 1773,24,Address 1773,1087.07,2024-02-12,0,Merchant 2533,Location 2533,2022-01,Tuesday,14,0.4873,Medium Risk,Monitor
+424,65.62,1666,2022-01-18 15:00:00,2708,0,89.11,0.3376,Retail,Customer 1666,36,Address 1666,9674.06,2023-10-28,0,Merchant 2708,Location 2708,2022-01,Tuesday,15,0.143,Low Risk,No action
+425,52.91,1708,2022-01-18 16:00:00,2325,0,33.56,0.5195,Online,Customer 1708,30,Address 1708,2877.53,2023-12-09,0,Merchant 2325,Location 2325,2022-01,Tuesday,16,0.2967,Low Risk,No action
+426,54.95,1389,2022-01-18 17:00:00,2138,0,17.48,0.5636,Online,Customer 1389,61,Address 1389,1815.83,2023-01-24,0,Merchant 2138,Location 2138,2022-01,Tuesday,17,0.3194,Medium Risk,Monitor
+427,57.04,1026,2022-01-18 18:00:00,2644,0,92.37,0.221,Travel,Customer 1026,58,Address 1026,8091.74,2022-01-26,0,Merchant 2644,Location 2644,2022-01,Tuesday,18,0.1128,Low Risk,No action
+428,11.57,1293,2022-01-18 19:00:00,2369,0,20.79,0.6339,Food,Customer 1293,51,Address 1293,3955.56,2022-10-20,0,Merchant 2369,Location 2369,2022-01,Tuesday,19,0.3261,Medium Risk,Monitor
+429,50.49,1518,2022-01-18 20:00:00,2797,0,79.89,0.3776,Other,Customer 1518,19,Address 1518,1512.26,2023-06-02,0,Merchant 2797,Location 2797,2022-01,Tuesday,20,0.2523,Low Risk,No action
+430,26.73,1167,2022-01-18 21:00:00,2004,0,77.49,0.097,Retail,Customer 1167,33,Address 1167,4121.32,2022-06-16,0,Merchant 2004,Location 2004,2022-01,Tuesday,21,0.1117,Low Risk,No action
+431,70.35,1713,2022-01-18 22:00:00,2099,0,56.42,0.6685,Online,Customer 1713,57,Address 1713,6676.14,2023-12-14,1,Merchant 2099,Location 2099,2022-01,Tuesday,22,0.5103,Medium Risk,Monitor
+432,82.11,1972,2022-01-18 23:00:00,2635,0,15.16,0.0442,Retail,Customer 1972,39,Address 1972,6552.82,2024-08-29,0,Merchant 2635,Location 2635,2022-01,Tuesday,23,0.0648,Low Risk,No action
+433,26.72,1213,2022-01-19 00:00:00,2286,0,66.29,0.2401,Retail,Customer 1213,23,Address 1213,2478.83,2022-08-01,0,Merchant 2286,Location 2286,2022-01,Wednesday,0,0.1809,Low Risk,No action
+434,31.74,1571,2022-01-19 01:00:00,2362,0,60.81,0.9743,Online,Customer 1571,24,Address 1571,9122.33,2023-07-25,0,Merchant 2362,Location 2362,2022-01,Wednesday,1,0.4018,Medium Risk,Monitor
+435,23.73,1886,2022-01-19 02:00:00,2360,0,57.75,0.4813,Other,Customer 1886,37,Address 1886,9467.31,2024-06-04,0,Merchant 2360,Location 2360,2022-01,Wednesday,2,0.2024,Low Risk,No action
+436,44.5,1658,2022-01-19 03:00:00,2784,0,88.25,0.7285,Travel,Customer 1658,44,Address 1658,6506.93,2023-10-20,0,Merchant 2784,Location 2784,2022-01,Wednesday,3,0.337,Medium Risk,Monitor
+437,20.32,1155,2022-01-19 04:00:00,2888,0,13.18,0.8831,Retail,Customer 1155,61,Address 1155,4698.08,2022-06-04,0,Merchant 2888,Location 2888,2022-01,Wednesday,4,0.4205,Medium Risk,Monitor
+438,38.42,1190,2022-01-19 05:00:00,2675,1,79.5,0.6005,Food,Customer 1190,24,Address 1190,8351.89,2022-07-09,0,Merchant 2675,Location 2675,2022-01,Wednesday,5,0.5601,Medium Risk,Monitor
+439,90.96,1190,2022-01-19 06:00:00,2113,0,35.0,0.5238,Food,Customer 1190,24,Address 1190,8351.89,2022-07-09,0,Merchant 2113,Location 2113,2022-01,Wednesday,6,0.2361,Low Risk,No action
+440,86.59,1175,2022-01-19 07:00:00,2760,0,87.65,0.2818,Food,Customer 1175,26,Address 1175,5113.28,2022-06-24,0,Merchant 2760,Location 2760,2022-01,Wednesday,7,0.1713,Low Risk,No action
+441,59.29,1376,2022-01-19 08:00:00,2204,0,94.53,0.8727,Online,Customer 1376,53,Address 1376,5745.13,2023-01-11,0,Merchant 2204,Location 2204,2022-01,Wednesday,8,0.405,Medium Risk,Monitor
+442,92.39,1330,2022-01-19 09:00:00,2398,0,91.34,0.387,Other,Customer 1330,63,Address 1330,8773.96,2022-11-26,1,Merchant 2398,Location 2398,2022-01,Wednesday,9,0.3736,Medium Risk,Monitor
+443,48.0,1018,2022-01-19 10:00:00,2275,0,97.04,0.338,Food,Customer 1018,28,Address 1018,2727.83,2022-01-18,0,Merchant 2275,Location 2275,2022-01,Wednesday,10,0.2246,Low Risk,No action
+444,76.41,1512,2022-01-19 11:00:00,2539,0,35.91,0.8196,Retail,Customer 1512,64,Address 1512,7327.56,2023-05-27,0,Merchant 2539,Location 2539,2022-01,Wednesday,11,0.3636,Medium Risk,Monitor
+445,12.79,1704,2022-01-19 12:00:00,2717,0,55.92,0.2338,Retail,Customer 1704,23,Address 1704,1670.49,2023-12-05,0,Merchant 2717,Location 2717,2022-01,Wednesday,12,0.1884,Low Risk,No action
+446,21.94,1059,2022-01-19 13:00:00,2706,0,86.84,0.3686,Other,Customer 1059,42,Address 1059,4450.43,2022-02-28,0,Merchant 2706,Location 2706,2022-01,Wednesday,13,0.2179,Low Risk,No action
+447,73.17,1608,2022-01-19 14:00:00,2409,0,33.69,0.721,Online,Customer 1608,28,Address 1608,4084.72,2023-08-31,0,Merchant 2409,Location 2409,2022-01,Wednesday,14,0.3616,Medium Risk,Monitor
+448,62.87,1240,2022-01-19 15:00:00,2079,0,59.63,0.0469,Online,Customer 1240,43,Address 1240,1883.49,2022-08-28,0,Merchant 2079,Location 2079,2022-01,Wednesday,15,0.1154,Low Risk,No action
+449,12.95,1358,2022-01-19 16:00:00,2597,0,68.98,0.8767,Retail,Customer 1358,51,Address 1358,7039.27,2022-12-24,0,Merchant 2597,Location 2597,2022-01,Wednesday,16,0.3928,Medium Risk,Monitor
+450,11.17,1004,2022-01-19 17:00:00,2184,0,85.09,0.5258,Other,Customer 1004,30,Address 1004,3101.51,2022-01-04,0,Merchant 2184,Location 2184,2022-01,Wednesday,17,0.2974,Low Risk,No action
+451,76.9,1902,2022-01-19 18:00:00,2324,0,55.73,0.8466,Food,Customer 1902,35,Address 1902,6370.26,2024-06-20,0,Merchant 2324,Location 2324,2022-01,Wednesday,18,0.3879,Medium Risk,Monitor
+452,63.34,1775,2022-01-19 19:00:00,2826,0,52.94,0.7841,Online,Customer 1775,45,Address 1775,1770.75,2024-02-14,0,Merchant 2826,Location 2826,2022-01,Wednesday,19,0.4116,Medium Risk,Monitor
+453,62.9,1927,2022-01-19 20:00:00,2893,0,52.42,0.9349,Other,Customer 1927,44,Address 1927,9151.6,2024-07-15,0,Merchant 2893,Location 2893,2022-01,Wednesday,20,0.3867,Medium Risk,Monitor
+454,82.94,1255,2022-01-19 21:00:00,2371,0,63.64,0.802,Retail,Customer 1255,32,Address 1255,5672.32,2022-09-12,0,Merchant 2371,Location 2371,2022-01,Wednesday,21,0.377,Medium Risk,Monitor
+455,58.11,1827,2022-01-19 22:00:00,2981,0,17.64,0.9339,Food,Customer 1827,21,Address 1827,4559.45,2024-04-06,0,Merchant 2981,Location 2981,2022-01,Wednesday,22,0.4395,Medium Risk,Monitor
+456,10.59,1191,2022-01-19 23:00:00,2645,0,13.35,0.0314,Retail,Customer 1191,60,Address 1191,5413.97,2022-07-10,0,Merchant 2645,Location 2645,2022-01,Wednesday,23,0.07,Low Risk,No action
+457,73.61,1266,2022-01-20 00:00:00,2060,0,47.84,0.0711,Online,Customer 1266,50,Address 1266,1773.81,2022-09-23,0,Merchant 2060,Location 2060,2022-01,Thursday,0,0.1267,Low Risk,No action
+458,35.29,1786,2022-01-20 01:00:00,2625,0,12.81,0.9311,Retail,Customer 1786,50,Address 1786,1656.96,2024-02-25,0,Merchant 2625,Location 2625,2022-01,Thursday,1,0.47,Medium Risk,Monitor
+459,40.23,1024,2022-01-20 02:00:00,2850,0,60.06,0.3162,Travel,Customer 1024,40,Address 1024,1795.33,2022-01-24,0,Merchant 2850,Location 2850,2022-01,Thursday,2,0.2222,Low Risk,No action
+460,83.69,1417,2022-01-20 03:00:00,2019,0,23.3,0.4147,Retail,Customer 1417,30,Address 1417,1735.15,2023-02-21,0,Merchant 2019,Location 2019,2022-01,Thursday,3,0.2668,Low Risk,No action
+461,27.58,1283,2022-01-20 04:00:00,2374,0,57.63,0.4155,Food,Customer 1283,63,Address 1283,9408.48,2022-10-10,0,Merchant 2374,Location 2374,2022-01,Thursday,4,0.1798,Low Risk,No action
+462,53.23,1462,2022-01-20 05:00:00,2630,0,44.49,0.2487,Food,Customer 1462,30,Address 1462,9035.12,2023-04-07,0,Merchant 2630,Location 2630,2022-01,Thursday,5,0.1096,Low Risk,No action
+463,44.86,1623,2022-01-20 06:00:00,2984,0,71.39,0.2481,Food,Customer 1623,34,Address 1623,2341.71,2023-09-15,0,Merchant 2984,Location 2984,2022-01,Thursday,6,0.1862,Low Risk,No action
+464,15.72,1615,2022-01-20 07:00:00,2225,0,55.77,0.224,Travel,Customer 1615,28,Address 1615,9447.92,2023-09-07,0,Merchant 2225,Location 2225,2022-01,Thursday,7,0.0959,Low Risk,No action
+465,96.77,1488,2022-01-20 08:00:00,2380,0,58.74,0.7599,Retail,Customer 1488,31,Address 1488,6215.27,2023-05-03,0,Merchant 2380,Location 2380,2022-01,Thursday,8,0.3547,Medium Risk,Monitor
+466,88.23,1144,2022-01-20 09:00:00,2178,0,77.05,0.4376,Food,Customer 1144,40,Address 1144,8451.47,2022-05-24,0,Merchant 2178,Location 2178,2022-01,Thursday,9,0.2005,Low Risk,No action
+467,39.63,1979,2022-01-20 10:00:00,2533,0,13.27,0.8107,Other,Customer 1979,20,Address 1979,8722.69,2024-09-05,0,Merchant 2533,Location 2533,2022-01,Thursday,10,0.3432,Medium Risk,Monitor
+468,91.17,1008,2022-01-20 11:00:00,2468,0,96.03,0.3267,Retail,Customer 1008,21,Address 1008,8303.77,2022-01-08,0,Merchant 2468,Location 2468,2022-01,Thursday,11,0.1533,Low Risk,No action
+469,62.88,1497,2022-01-20 12:00:00,2544,0,44.71,0.772,Travel,Customer 1497,43,Address 1497,5271.42,2023-05-12,0,Merchant 2544,Location 2544,2022-01,Thursday,12,0.3683,Medium Risk,Monitor
+470,47.28,1702,2022-01-20 13:00:00,2875,0,91.25,0.9538,Food,Customer 1702,32,Address 1702,4756.91,2023-12-03,0,Merchant 2875,Location 2875,2022-01,Thursday,13,0.4438,Medium Risk,Monitor
+471,57.87,1696,2022-01-20 14:00:00,2629,0,49.04,0.159,Travel,Customer 1696,22,Address 1696,6165.71,2023-11-27,0,Merchant 2629,Location 2629,2022-01,Thursday,14,0.1109,Low Risk,No action
+472,19.42,1969,2022-01-20 15:00:00,2323,0,26.21,0.8003,Travel,Customer 1969,43,Address 1969,7004.95,2024-08-26,0,Merchant 2323,Location 2323,2022-01,Thursday,15,0.3613,Medium Risk,Monitor
+473,54.47,1807,2022-01-20 16:00:00,2874,0,53.35,0.807,Food,Customer 1807,59,Address 1807,9618.24,2024-03-17,0,Merchant 2874,Location 2874,2022-01,Thursday,16,0.3304,Medium Risk,Monitor
+474,47.22,1124,2022-01-20 17:00:00,2519,0,42.85,0.2192,Food,Customer 1124,45,Address 1124,6746.99,2022-05-04,0,Merchant 2519,Location 2519,2022-01,Thursday,17,0.1285,Low Risk,No action
+475,64.7,1912,2022-01-20 18:00:00,2672,0,87.59,0.3484,Other,Customer 1912,45,Address 1912,9262.12,2024-06-30,0,Merchant 2672,Location 2672,2022-01,Thursday,18,0.1524,Low Risk,No action
+476,54.67,1315,2022-01-20 19:00:00,2976,0,75.82,0.117,Online,Customer 1315,51,Address 1315,3432.05,2022-11-11,0,Merchant 2976,Location 2976,2022-01,Thursday,19,0.1264,Low Risk,No action
+477,93.95,1357,2022-01-20 20:00:00,2711,0,24.97,0.0715,Travel,Customer 1357,45,Address 1357,9999.78,2022-12-23,0,Merchant 2711,Location 2711,2022-01,Thursday,20,0.0336,Low Risk,No action
+478,69.77,1851,2022-01-20 21:00:00,2154,0,73.92,0.4035,Food,Customer 1851,21,Address 1851,3527.23,2024-04-30,0,Merchant 2154,Location 2154,2022-01,Thursday,21,0.2402,Low Risk,No action
+479,40.1,1202,2022-01-20 22:00:00,2597,0,98.08,0.6104,Food,Customer 1202,52,Address 1202,3143.93,2022-07-21,0,Merchant 2597,Location 2597,2022-01,Thursday,22,0.323,Medium Risk,Monitor
+480,60.9,1834,2022-01-20 23:00:00,2165,0,76.65,0.5808,Online,Customer 1834,41,Address 1834,7732.4,2024-04-13,0,Merchant 2165,Location 2165,2022-01,Thursday,23,0.2592,Low Risk,No action
+481,44.38,1944,2022-01-21 00:00:00,2355,0,48.92,0.4932,Online,Customer 1944,51,Address 1944,2462.05,2024-08-01,0,Merchant 2355,Location 2355,2022-01,Friday,0,0.2884,Low Risk,No action
+482,70.05,1573,2022-01-21 01:00:00,2584,0,98.52,0.7061,Food,Customer 1573,35,Address 1573,8400.25,2023-07-27,1,Merchant 2584,Location 2584,2022-01,Friday,1,0.5043,Medium Risk,Monitor
+483,36.97,1943,2022-01-21 02:00:00,2766,0,75.56,0.5215,Retail,Customer 1943,26,Address 1943,1418.31,2024-07-31,0,Merchant 2766,Location 2766,2022-01,Friday,2,0.3111,Medium Risk,Monitor
+484,12.79,1219,2022-01-21 03:00:00,2136,0,18.23,0.54,Travel,Customer 1219,23,Address 1219,7649.65,2022-08-07,0,Merchant 2136,Location 2136,2022-01,Friday,3,0.2495,Low Risk,No action
+485,58.71,1223,2022-01-21 04:00:00,2111,0,43.97,0.0431,Other,Customer 1223,20,Address 1223,8213.34,2022-08-11,0,Merchant 2111,Location 2111,2022-01,Friday,4,0.0427,Low Risk,No action
+486,45.96,1753,2022-01-21 05:00:00,2730,0,76.34,0.2821,Food,Customer 1753,52,Address 1753,3905.92,2024-01-23,0,Merchant 2730,Location 2730,2022-01,Friday,5,0.1871,Low Risk,No action
+487,22.09,1699,2022-01-21 06:00:00,2663,0,99.78,0.7338,Other,Customer 1699,23,Address 1699,5295.87,2023-11-30,0,Merchant 2663,Location 2663,2022-01,Friday,6,0.3521,Medium Risk,Monitor
+488,95.8,1862,2022-01-21 07:00:00,2465,0,30.08,0.1962,Travel,Customer 1862,35,Address 1862,6507.03,2024-05-11,0,Merchant 2465,Location 2465,2022-01,Friday,7,0.1216,Low Risk,No action
+489,19.08,1197,2022-01-21 08:00:00,2261,0,23.86,0.8007,Food,Customer 1197,18,Address 1197,3525.5,2022-07-16,0,Merchant 2261,Location 2261,2022-01,Friday,8,0.3993,Medium Risk,Monitor
+490,61.48,1690,2022-01-21 09:00:00,2922,0,34.82,0.6757,Other,Customer 1690,24,Address 1690,5729.01,2023-11-21,0,Merchant 2922,Location 2922,2022-01,Friday,9,0.323,Medium Risk,Monitor
+491,69.92,1207,2022-01-21 10:00:00,2866,0,16.83,0.3516,Other,Customer 1207,38,Address 1207,5655.63,2022-07-26,0,Merchant 2866,Location 2866,2022-01,Friday,10,0.1972,Low Risk,No action
+492,17.9,1122,2022-01-21 11:00:00,2616,0,29.27,0.7727,Travel,Customer 1122,54,Address 1122,4998.11,2022-05-02,0,Merchant 2616,Location 2616,2022-01,Friday,11,0.3712,Medium Risk,Monitor
+493,22.27,1626,2022-01-21 12:00:00,2837,0,59.67,0.4943,Other,Customer 1626,43,Address 1626,2802.6,2023-09-18,0,Merchant 2837,Location 2837,2022-01,Friday,12,0.2863,Low Risk,No action
+494,21.09,1931,2022-01-21 13:00:00,2901,0,52.55,0.4786,Travel,Customer 1931,26,Address 1931,6474.83,2024-07-19,0,Merchant 2901,Location 2901,2022-01,Friday,13,0.2402,Low Risk,No action
+495,32.92,1343,2022-01-21 14:00:00,2397,0,80.31,0.1592,Other,Customer 1343,48,Address 1343,8272.54,2022-12-09,0,Merchant 2397,Location 2397,2022-01,Friday,14,0.0854,Low Risk,No action
+496,38.41,1126,2022-01-21 15:00:00,2164,0,72.22,0.8042,Travel,Customer 1126,27,Address 1126,7080.1,2022-05-06,0,Merchant 2164,Location 2164,2022-01,Friday,15,0.3617,Medium Risk,Monitor
+497,69.4,1405,2022-01-21 16:00:00,2785,0,19.18,0.3302,Travel,Customer 1405,59,Address 1405,9246.52,2023-02-09,0,Merchant 2785,Location 2785,2022-01,Friday,16,0.1456,Low Risk,No action
+498,65.62,1587,2022-01-21 17:00:00,2583,0,56.83,0.1999,Online,Customer 1587,41,Address 1587,8573.12,2023-08-10,0,Merchant 2583,Location 2583,2022-01,Friday,17,0.0972,Low Risk,No action
+499,25.41,1276,2022-01-21 18:00:00,2733,0,60.61,0.2561,Travel,Customer 1276,31,Address 1276,4961.93,2022-10-03,0,Merchant 2733,Location 2733,2022-01,Friday,18,0.1605,Low Risk,No action
+500,67.29,1441,2022-01-21 19:00:00,2187,0,21.64,0.0937,Food,Customer 1441,37,Address 1441,7268.83,2023-03-17,0,Merchant 2187,Location 2187,2022-01,Friday,19,0.0754,Low Risk,No action
+501,91.69,1618,2022-01-21 20:00:00,2904,0,80.56,0.3759,Travel,Customer 1618,27,Address 1618,6741.43,2023-09-10,0,Merchant 2904,Location 2904,2022-01,Friday,20,0.1954,Low Risk,No action
+502,77.46,1484,2022-01-21 21:00:00,2080,0,87.96,0.9546,Retail,Customer 1484,21,Address 1484,8149.31,2023-04-29,0,Merchant 2080,Location 2080,2022-01,Friday,21,0.4058,Medium Risk,Monitor
+503,45.16,1655,2022-01-21 22:00:00,2127,0,72.76,0.6786,Online,Customer 1655,50,Address 1655,2152.99,2023-10-17,0,Merchant 2127,Location 2127,2022-01,Friday,22,0.3638,Medium Risk,Monitor
+504,93.5,1025,2022-01-21 23:00:00,2128,0,10.91,0.5715,Other,Customer 1025,18,Address 1025,4450.39,2022-01-25,0,Merchant 2128,Location 2128,2022-01,Friday,23,0.2952,Low Risk,No action
+505,53.93,1794,2022-01-22 00:00:00,2984,0,41.79,0.4852,Travel,Customer 1794,48,Address 1794,8336.54,2024-03-04,0,Merchant 2984,Location 2984,2022-01,Saturday,0,0.2179,Low Risk,No action
+506,81.71,1295,2022-01-22 01:00:00,2857,0,88.9,0.5392,Other,Customer 1295,60,Address 1295,5483.47,2022-10-22,0,Merchant 2857,Location 2857,2022-01,Saturday,1,0.2747,Low Risk,No action
+507,59.46,1741,2022-01-22 02:00:00,2991,0,77.98,0.7512,Travel,Customer 1741,33,Address 1741,9992.5,2024-01-11,0,Merchant 2991,Location 2991,2022-01,Saturday,2,0.3036,Medium Risk,Monitor
+508,14.14,1266,2022-01-22 03:00:00,2772,0,91.66,0.2107,Online,Customer 1266,50,Address 1266,1773.81,2022-09-23,0,Merchant 2772,Location 2772,2022-01,Saturday,3,0.1794,Low Risk,No action
+509,61.48,1600,2022-01-22 04:00:00,2208,0,56.0,0.6863,Other,Customer 1600,55,Address 1600,9402.34,2023-08-23,0,Merchant 2208,Location 2208,2022-01,Saturday,4,0.2834,Low Risk,No action
+510,56.79,1825,2022-01-22 05:00:00,2315,0,23.45,0.906,Other,Customer 1825,54,Address 1825,4886.01,2024-04-04,0,Merchant 2315,Location 2315,2022-01,Saturday,5,0.426,Medium Risk,Monitor
+511,54.79,1174,2022-01-22 06:00:00,2007,0,29.49,0.2556,Other,Customer 1174,27,Address 1174,9301.24,2022-06-23,0,Merchant 2007,Location 2007,2022-01,Saturday,6,0.11,Low Risk,No action
+512,23.52,1792,2022-01-22 07:00:00,2096,0,42.09,0.3582,Travel,Customer 1792,28,Address 1792,7699.46,2024-03-02,0,Merchant 2096,Location 2096,2022-01,Saturday,7,0.1763,Low Risk,No action
+513,57.82,1613,2022-01-22 08:00:00,2867,0,64.97,0.6472,Food,Customer 1613,21,Address 1613,8486.46,2023-09-05,0,Merchant 2867,Location 2867,2022-01,Saturday,8,0.2786,Low Risk,No action
+514,47.31,1562,2022-01-22 09:00:00,2841,0,21.8,0.6932,Travel,Customer 1562,43,Address 1562,9938.92,2023-07-16,0,Merchant 2841,Location 2841,2022-01,Saturday,9,0.281,Low Risk,No action
+515,25.04,1265,2022-01-22 10:00:00,2268,0,45.53,0.8926,Food,Customer 1265,47,Address 1265,7502.56,2022-09-22,0,Merchant 2268,Location 2268,2022-01,Saturday,10,0.3915,Medium Risk,Monitor
+516,19.74,1360,2022-01-22 11:00:00,2352,0,74.37,0.3344,Travel,Customer 1360,55,Address 1360,6839.03,2022-12-26,0,Merchant 2352,Location 2352,2022-01,Saturday,11,0.1767,Low Risk,No action
+517,63.15,1356,2022-01-22 12:00:00,2372,0,19.51,0.1733,Retail,Customer 1356,44,Address 1356,7927.59,2022-12-22,0,Merchant 2372,Location 2372,2022-01,Saturday,12,0.0945,Low Risk,No action
+518,77.02,1352,2022-01-22 13:00:00,2444,0,58.72,0.6303,Other,Customer 1352,20,Address 1352,8130.74,2022-12-18,0,Merchant 2444,Location 2444,2022-01,Saturday,13,0.2759,Low Risk,No action
+519,42.6,1697,2022-01-22 14:00:00,2038,1,49.42,0.3251,Other,Customer 1697,59,Address 1697,6865.65,2023-11-28,0,Merchant 2038,Location 2038,2022-01,Saturday,14,0.4698,Medium Risk,Monitor
+520,98.59,1050,2022-01-22 15:00:00,2933,0,45.51,0.6239,Online,Customer 1050,57,Address 1050,7921.75,2022-02-19,0,Merchant 2933,Location 2933,2022-01,Saturday,15,0.2755,Low Risk,No action
+521,29.32,1604,2022-01-22 16:00:00,2415,0,72.13,0.5216,Food,Customer 1604,36,Address 1604,4470.14,2023-08-27,0,Merchant 2415,Location 2415,2022-01,Saturday,16,0.2795,Low Risk,No action
+522,26.18,1608,2022-01-22 17:00:00,2705,0,65.68,0.9339,Food,Customer 1608,28,Address 1608,4084.72,2023-08-31,0,Merchant 2705,Location 2705,2022-01,Saturday,17,0.4454,Medium Risk,Monitor
+523,10.93,1318,2022-01-22 18:00:00,2090,0,77.92,0.165,Other,Customer 1318,61,Address 1318,3354.52,2022-11-14,0,Merchant 2090,Location 2090,2022-01,Saturday,18,0.1433,Low Risk,No action
+524,53.8,1503,2022-01-22 19:00:00,2101,0,66.32,0.2525,Retail,Customer 1503,37,Address 1503,4370.43,2023-05-18,0,Merchant 2101,Location 2101,2022-01,Saturday,19,0.167,Low Risk,No action
+525,28.33,1029,2022-01-22 20:00:00,2954,0,51.66,0.439,Travel,Customer 1029,37,Address 1029,8467.12,2022-01-29,0,Merchant 2954,Location 2954,2022-01,Saturday,20,0.2006,Low Risk,No action
+526,76.27,1052,2022-01-22 21:00:00,2066,0,45.9,0.1433,Food,Customer 1052,38,Address 1052,7224.63,2022-02-21,0,Merchant 2066,Location 2066,2022-01,Saturday,21,0.0943,Low Risk,No action
+527,39.83,1111,2022-01-22 22:00:00,2670,0,99.17,0.2726,Other,Customer 1111,32,Address 1111,7980.85,2022-04-21,0,Merchant 2670,Location 2670,2022-01,Saturday,22,0.1355,Low Risk,No action
+528,70.01,1501,2022-01-22 23:00:00,2200,0,75.63,0.7471,Travel,Customer 1501,48,Address 1501,2342.87,2023-05-16,0,Merchant 2200,Location 2200,2022-01,Saturday,23,0.3899,Medium Risk,Monitor
+529,89.72,1828,2022-01-23 00:00:00,2833,0,29.5,0.6646,Food,Customer 1828,62,Address 1828,2077.51,2024-04-07,0,Merchant 2833,Location 2833,2022-01,Sunday,0,0.3587,Medium Risk,Monitor
+530,27.25,1231,2022-01-23 01:00:00,2203,0,32.13,0.3018,Online,Customer 1231,63,Address 1231,1631.06,2022-08-19,0,Merchant 2203,Location 2203,2022-01,Sunday,1,0.22,Low Risk,No action
+531,42.28,1978,2022-01-23 02:00:00,2255,0,67.39,0.331,Retail,Customer 1978,51,Address 1978,7710.8,2024-09-04,0,Merchant 2255,Location 2255,2022-01,Sunday,2,0.1638,Low Risk,No action
+532,57.14,1496,2022-01-23 03:00:00,2359,0,28.47,0.4692,Other,Customer 1496,34,Address 1496,8472.42,2023-05-11,0,Merchant 2359,Location 2359,2022-01,Sunday,3,0.2125,Low Risk,No action
+533,81.5,1629,2022-01-23 04:00:00,2660,0,36.29,0.5016,Food,Customer 1629,33,Address 1629,2866.8,2023-09-21,0,Merchant 2660,Location 2660,2022-01,Sunday,4,0.2883,Low Risk,No action
+534,49.11,1477,2022-01-23 05:00:00,2489,0,21.97,0.2641,Other,Customer 1477,31,Address 1477,4219.36,2023-04-22,0,Merchant 2489,Location 2489,2022-01,Sunday,5,0.174,Low Risk,No action
+535,42.02,1425,2022-01-23 06:00:00,2499,0,76.87,0.2722,Online,Customer 1425,56,Address 1425,6441.93,2023-03-01,0,Merchant 2499,Location 2499,2022-01,Sunday,6,0.155,Low Risk,No action
+536,80.52,1837,2022-01-23 07:00:00,2538,0,97.24,0.9182,Food,Customer 1837,29,Address 1837,2223.17,2024-04-16,0,Merchant 2538,Location 2538,2022-01,Sunday,7,0.4602,Medium Risk,Monitor
+537,95.22,1954,2022-01-23 08:00:00,2553,0,44.08,0.4595,Other,Customer 1954,46,Address 1954,1418.0,2024-08-11,0,Merchant 2553,Location 2553,2022-01,Sunday,8,0.2876,Low Risk,No action
+538,77.12,1146,2022-01-23 09:00:00,2308,0,28.86,0.1914,Food,Customer 1146,23,Address 1146,4750.73,2022-05-26,0,Merchant 2308,Location 2308,2022-01,Sunday,9,0.1375,Low Risk,No action
+539,59.59,1591,2022-01-23 10:00:00,2830,0,80.18,0.1822,Food,Customer 1591,36,Address 1591,7962.41,2023-08-14,0,Merchant 2830,Location 2830,2022-01,Sunday,10,0.0973,Low Risk,No action
+540,44.13,1764,2022-01-23 11:00:00,2684,0,22.03,0.5852,Online,Customer 1764,49,Address 1764,7695.15,2024-02-03,0,Merchant 2684,Location 2684,2022-01,Sunday,11,0.2627,Low Risk,No action
+541,69.24,1510,2022-01-23 12:00:00,2934,0,80.32,0.4805,Other,Customer 1510,53,Address 1510,7685.51,2023-05-25,0,Merchant 2934,Location 2934,2022-01,Sunday,12,0.225,Low Risk,No action
+542,44.09,1382,2022-01-23 13:00:00,2657,0,77.24,0.5685,Food,Customer 1382,40,Address 1382,2896.26,2023-01-17,0,Merchant 2657,Location 2657,2022-01,Sunday,13,0.3113,Medium Risk,Monitor
+543,99.78,1439,2022-01-23 14:00:00,2379,0,49.85,0.832,Travel,Customer 1439,47,Address 1439,8557.61,2023-03-15,0,Merchant 2379,Location 2379,2022-01,Sunday,14,0.3542,Medium Risk,Monitor
+544,52.99,1955,2022-01-23 15:00:00,2643,0,20.3,0.4768,Retail,Customer 1955,34,Address 1955,9288.36,2024-08-12,0,Merchant 2643,Location 2643,2022-01,Sunday,15,0.2034,Low Risk,No action
+545,68.37,1016,2022-01-23 16:00:00,2264,0,46.79,0.8104,Other,Customer 1016,22,Address 1016,8612.86,2022-01-16,0,Merchant 2264,Location 2264,2022-01,Sunday,16,0.3444,Medium Risk,Monitor
+546,12.3,1460,2022-01-23 17:00:00,2784,0,71.11,0.8271,Travel,Customer 1460,29,Address 1460,5363.92,2023-04-05,0,Merchant 2784,Location 2784,2022-01,Sunday,17,0.3879,Medium Risk,Monitor
+547,98.65,1073,2022-01-23 18:00:00,2365,0,14.02,0.3062,Food,Customer 1073,56,Address 1073,2392.92,2022-03-14,0,Merchant 2365,Location 2365,2022-01,Sunday,18,0.214,Low Risk,No action
+548,85.31,1814,2022-01-23 19:00:00,2515,0,76.13,0.4135,Retail,Customer 1814,28,Address 1814,6484.65,2024-03-24,0,Merchant 2515,Location 2515,2022-01,Sunday,19,0.2152,Low Risk,No action
+549,21.03,1660,2022-01-23 20:00:00,2028,1,25.07,0.3586,Food,Customer 1660,34,Address 1660,6435.39,2023-10-22,0,Merchant 2028,Location 2028,2022-01,Sunday,20,0.4942,Medium Risk,Monitor
+550,82.0,1204,2022-01-23 21:00:00,2329,0,31.61,0.9528,Food,Customer 1204,45,Address 1204,3152.25,2022-07-23,0,Merchant 2329,Location 2329,2022-01,Sunday,21,0.4612,Medium Risk,Monitor
+551,82.16,1897,2022-01-23 22:00:00,2823,0,64.56,0.7648,Food,Customer 1897,27,Address 1897,2518.74,2024-06-15,0,Merchant 2823,Location 2823,2022-01,Sunday,22,0.3962,Medium Risk,Monitor
+552,30.56,1260,2022-01-23 23:00:00,2325,0,42.93,0.8539,Retail,Customer 1260,64,Address 1260,4878.42,2022-09-17,0,Merchant 2325,Location 2325,2022-01,Sunday,23,0.405,Medium Risk,Monitor
+553,52.7,1507,2022-01-24 00:00:00,2126,1,35.57,0.289,Food,Customer 1507,39,Address 1507,4994.36,2023-05-22,1,Merchant 2126,Location 2126,2022-01,Monday,0,0.6773,High Risk,Immediate review
+554,66.54,1119,2022-01-24 01:00:00,2309,0,22.58,0.2029,Retail,Customer 1119,61,Address 1119,6254.4,2022-04-29,0,Merchant 2309,Location 2309,2022-01,Monday,1,0.1288,Low Risk,No action
+555,66.49,1141,2022-01-24 02:00:00,2140,0,14.6,0.145,Online,Customer 1141,28,Address 1141,4082.52,2022-05-21,0,Merchant 2140,Location 2140,2022-01,Monday,2,0.1298,Low Risk,No action
+556,74.17,1822,2022-01-24 03:00:00,2730,0,55.25,0.2639,Retail,Customer 1822,44,Address 1822,8603.32,2024-04-01,0,Merchant 2730,Location 2730,2022-01,Monday,3,0.1222,Low Risk,No action
+557,66.24,1307,2022-01-24 04:00:00,2301,0,58.85,0.7081,Food,Customer 1307,31,Address 1307,8449.54,2022-11-03,0,Merchant 2301,Location 2301,2022-01,Monday,4,0.3058,Medium Risk,Monitor
+558,18.42,1176,2022-01-24 05:00:00,2743,0,57.22,0.066,Food,Customer 1176,20,Address 1176,5493.96,2022-06-25,0,Merchant 2743,Location 2743,2022-01,Monday,5,0.0856,Low Risk,No action
+559,96.41,1634,2022-01-24 06:00:00,2570,0,98.8,0.0003,Food,Customer 1634,44,Address 1634,5302.39,2023-09-26,0,Merchant 2570,Location 2570,2022-01,Monday,6,0.0556,Low Risk,No action
+560,37.37,1289,2022-01-24 07:00:00,2283,0,63.46,0.2512,Food,Customer 1289,31,Address 1289,9393.91,2022-10-16,0,Merchant 2283,Location 2283,2022-01,Monday,7,0.1066,Low Risk,No action
+561,57.89,1923,2022-01-24 08:00:00,2791,0,49.09,0.3654,Other,Customer 1923,41,Address 1923,3340.64,2024-07-11,0,Merchant 2791,Location 2791,2022-01,Monday,8,0.2282,Low Risk,No action
+562,65.14,1668,2022-01-24 09:00:00,2501,0,80.73,0.2612,Other,Customer 1668,47,Address 1668,7721.5,2023-10-30,0,Merchant 2501,Location 2501,2022-01,Monday,9,0.132,Low Risk,No action
+563,50.95,1732,2022-01-24 10:00:00,2123,0,28.19,0.7625,Retail,Customer 1732,42,Address 1732,6497.37,2024-01-02,0,Merchant 2123,Location 2123,2022-01,Monday,10,0.3524,Medium Risk,Monitor
+564,90.15,1666,2022-01-24 11:00:00,2879,0,28.08,0.2528,Online,Customer 1666,36,Address 1666,9674.06,2023-10-28,0,Merchant 2879,Location 2879,2022-01,Monday,11,0.104,Low Risk,No action
+565,49.7,1624,2022-01-24 12:00:00,2212,0,71.23,0.6894,Food,Customer 1624,18,Address 1624,4741.81,2023-09-16,0,Merchant 2212,Location 2212,2022-01,Monday,12,0.3405,Medium Risk,Monitor
+566,71.99,1786,2022-01-24 13:00:00,2559,0,12.95,0.4504,Other,Customer 1786,50,Address 1786,1656.96,2024-02-25,0,Merchant 2559,Location 2559,2022-01,Monday,13,0.2824,Low Risk,No action
+567,39.18,1019,2022-01-24 14:00:00,2444,0,12.48,0.0545,Retail,Customer 1019,37,Address 1019,3797.73,2022-01-19,0,Merchant 2444,Location 2444,2022-01,Monday,14,0.1,Low Risk,No action
+568,50.82,1978,2022-01-24 15:00:00,2112,0,66.0,0.8192,Online,Customer 1978,51,Address 1978,7710.8,2024-09-04,0,Merchant 2112,Location 2112,2022-01,Monday,15,0.3581,Medium Risk,Monitor
+569,85.3,1655,2022-01-24 16:00:00,2922,0,73.61,0.1086,Food,Customer 1655,50,Address 1655,2152.99,2023-10-17,0,Merchant 2922,Location 2922,2022-01,Monday,16,0.1362,Low Risk,No action
+570,80.9,1264,2022-01-24 17:00:00,2129,0,45.71,0.7706,Travel,Customer 1264,23,Address 1264,6025.0,2022-09-21,0,Merchant 2129,Location 2129,2022-01,Monday,17,0.361,Medium Risk,Monitor
+571,55.7,1487,2022-01-24 18:00:00,2739,0,23.2,0.7073,Travel,Customer 1487,51,Address 1487,8466.09,2023-05-02,0,Merchant 2739,Location 2739,2022-01,Monday,18,0.3039,Medium Risk,Monitor
+572,88.5,1219,2022-01-24 19:00:00,2008,0,23.83,0.6158,Online,Customer 1219,23,Address 1219,7649.65,2022-08-07,0,Merchant 2008,Location 2008,2022-01,Monday,19,0.2755,Low Risk,No action
+573,75.89,1102,2022-01-24 20:00:00,2227,0,60.09,0.4324,Travel,Customer 1102,28,Address 1102,7398.46,2022-04-12,0,Merchant 2227,Location 2227,2022-01,Monday,20,0.212,Low Risk,No action
+574,35.18,1799,2022-01-24 21:00:00,2970,0,95.83,0.171,Online,Customer 1799,24,Address 1799,4309.69,2024-03-09,0,Merchant 2970,Location 2970,2022-01,Monday,21,0.136,Low Risk,No action
+575,62.98,1137,2022-01-24 22:00:00,2380,0,90.21,0.2414,Retail,Customer 1137,52,Address 1137,4843.33,2022-05-17,0,Merchant 2380,Location 2380,2022-01,Monday,22,0.1552,Low Risk,No action
+576,97.05,1125,2022-01-24 23:00:00,2736,0,73.46,0.6123,Food,Customer 1125,58,Address 1125,8801.92,2022-05-05,0,Merchant 2736,Location 2736,2022-01,Monday,23,0.2586,Low Risk,No action
+577,76.76,1051,2022-01-25 00:00:00,2601,0,86.65,0.0305,Other,Customer 1051,30,Address 1051,4620.92,2022-02-20,0,Merchant 2601,Location 2601,2022-01,Tuesday,0,0.0783,Low Risk,No action
+578,62.17,1268,2022-01-25 01:00:00,2748,0,77.29,0.4535,Travel,Customer 1268,40,Address 1268,5840.97,2022-09-25,0,Merchant 2748,Location 2748,2022-01,Tuesday,1,0.2386,Low Risk,No action
+579,28.5,1882,2022-01-25 02:00:00,2783,0,34.85,0.9256,Travel,Customer 1882,36,Address 1882,3608.81,2024-05-31,0,Merchant 2783,Location 2783,2022-01,Tuesday,2,0.4462,Medium Risk,Monitor
+580,39.92,1751,2022-01-25 03:00:00,2885,0,27.27,0.7286,Online,Customer 1751,35,Address 1751,3532.25,2024-01-21,0,Merchant 2885,Location 2885,2022-01,Tuesday,3,0.3684,Medium Risk,Monitor
+581,84.5,1769,2022-01-25 04:00:00,2471,0,27.78,0.6151,Travel,Customer 1769,34,Address 1769,9517.55,2024-02-08,0,Merchant 2471,Location 2471,2022-01,Tuesday,4,0.251,Low Risk,No action
+582,78.3,1853,2022-01-25 05:00:00,2707,0,66.43,0.8944,Online,Customer 1853,30,Address 1853,1767.82,2024-05-02,0,Merchant 2707,Location 2707,2022-01,Tuesday,5,0.4576,Medium Risk,Monitor
+583,79.2,1622,2022-01-25 06:00:00,2734,0,66.99,0.6784,Online,Customer 1622,21,Address 1622,5611.75,2023-09-14,0,Merchant 2734,Location 2734,2022-01,Tuesday,6,0.3257,Medium Risk,Monitor
+584,50.32,1412,2022-01-25 07:00:00,2641,0,70.96,0.7143,Online,Customer 1412,19,Address 1412,2730.96,2023-02-16,0,Merchant 2641,Location 2641,2022-01,Tuesday,7,0.3729,Medium Risk,Monitor
+585,18.48,1036,2022-01-25 08:00:00,2362,0,96.86,0.2951,Online,Customer 1036,37,Address 1036,9381.15,2022-02-05,0,Merchant 2362,Location 2362,2022-01,Tuesday,8,0.1293,Low Risk,No action
+586,55.65,1665,2022-01-25 09:00:00,2700,0,75.71,0.8958,Travel,Customer 1665,30,Address 1665,5714.5,2023-10-27,0,Merchant 2700,Location 2700,2022-01,Tuesday,9,0.4165,Medium Risk,Monitor
+587,72.41,1299,2022-01-25 10:00:00,2881,0,79.88,0.3281,Food,Customer 1299,31,Address 1299,4661.56,2022-10-26,0,Merchant 2881,Location 2881,2022-01,Tuesday,10,0.1977,Low Risk,No action
+588,74.32,1351,2022-01-25 11:00:00,2142,0,63.01,0.6108,Other,Customer 1351,32,Address 1351,6685.6,2022-12-17,0,Merchant 2142,Location 2142,2022-01,Tuesday,11,0.2848,Low Risk,No action
+589,25.98,1096,2022-01-25 12:00:00,2749,0,97.13,0.4571,Travel,Customer 1096,57,Address 1096,6439.74,2022-04-06,0,Merchant 2749,Location 2749,2022-01,Tuesday,12,0.2347,Low Risk,No action
+590,70.54,1299,2022-01-25 13:00:00,2460,0,68.27,0.7298,Food,Customer 1299,31,Address 1299,4661.56,2022-10-26,0,Merchant 2460,Location 2460,2022-01,Tuesday,13,0.3577,Medium Risk,Monitor
+591,82.51,1367,2022-01-25 14:00:00,2709,0,18.79,0.9741,Travel,Customer 1367,19,Address 1367,6381.96,2023-01-02,0,Merchant 2709,Location 2709,2022-01,Tuesday,14,0.436,Medium Risk,Monitor
+592,57.88,1315,2022-01-25 15:00:00,2256,0,73.97,0.0436,Retail,Customer 1315,51,Address 1315,3432.05,2022-11-11,0,Merchant 2256,Location 2256,2022-01,Tuesday,15,0.0977,Low Risk,No action
+593,27.88,1531,2022-01-25 16:00:00,2091,0,33.89,0.9895,Other,Customer 1531,29,Address 1531,3163.59,2023-06-15,0,Merchant 2091,Location 2091,2022-01,Tuesday,16,0.4759,Medium Risk,Monitor
+594,22.01,1796,2022-01-25 17:00:00,2176,0,10.14,0.1233,Other,Customer 1796,33,Address 1796,5588.05,2024-03-06,0,Merchant 2176,Location 2176,2022-01,Tuesday,17,0.106,Low Risk,No action
+595,14.71,1340,2022-01-25 18:00:00,2387,0,89.72,0.6845,Other,Customer 1340,43,Address 1340,7309.48,2022-12-06,0,Merchant 2387,Location 2387,2022-01,Tuesday,18,0.3083,Medium Risk,Monitor
+596,44.32,1973,2022-01-25 19:00:00,2444,0,86.92,0.3896,Travel,Customer 1973,29,Address 1973,9772.83,2024-08-30,0,Merchant 2444,Location 2444,2022-01,Tuesday,19,0.1627,Low Risk,No action
+597,93.92,1626,2022-01-25 20:00:00,2486,0,24.24,0.0033,Food,Customer 1626,43,Address 1626,2802.6,2023-09-18,0,Merchant 2486,Location 2486,2022-01,Tuesday,20,0.0855,Low Risk,No action
+598,13.91,1558,2022-01-25 21:00:00,2979,0,72.91,0.9097,Retail,Customer 1558,35,Address 1558,9927.16,2023-07-12,0,Merchant 2979,Location 2979,2022-01,Tuesday,21,0.3686,Medium Risk,Monitor
+599,81.81,1005,2022-01-25 22:00:00,2191,0,82.85,0.6615,Other,Customer 1005,46,Address 1005,5405.77,2022-01-05,0,Merchant 2191,Location 2191,2022-01,Tuesday,22,0.3213,Medium Risk,Monitor
+600,49.68,1510,2022-01-25 23:00:00,2131,0,60.5,0.4684,Food,Customer 1510,53,Address 1510,7685.51,2023-05-25,0,Merchant 2131,Location 2131,2022-01,Tuesday,23,0.221,Low Risk,No action
+601,74.03,1565,2022-01-26 00:00:00,2489,0,83.12,0.0188,Retail,Customer 1565,33,Address 1565,8921.44,2023-07-19,0,Merchant 2489,Location 2489,2022-01,Wednesday,0,0.0224,Low Risk,No action
+602,71.22,1573,2022-01-26 01:00:00,2383,0,28.89,0.3262,Retail,Customer 1573,35,Address 1573,8400.25,2023-07-27,1,Merchant 2383,Location 2383,2022-01,Wednesday,1,0.3516,Medium Risk,Monitor
+603,45.4,1691,2022-01-26 02:00:00,2677,0,64.63,0.6413,Travel,Customer 1691,47,Address 1691,6089.05,2023-11-22,0,Merchant 2677,Location 2677,2022-01,Wednesday,2,0.3045,Medium Risk,Monitor
+604,68.3,1176,2022-01-26 03:00:00,2175,0,94.8,0.2656,Travel,Customer 1176,20,Address 1176,5493.96,2022-06-25,0,Merchant 2175,Location 2175,2022-01,Wednesday,3,0.1617,Low Risk,No action
+605,30.7,1470,2022-01-26 04:00:00,2023,0,80.12,0.8398,Other,Customer 1470,26,Address 1470,5964.38,2023-04-15,0,Merchant 2023,Location 2023,2022-01,Wednesday,4,0.3893,Medium Risk,Monitor
+606,55.29,1174,2022-01-26 05:00:00,2637,0,36.05,0.7108,Online,Customer 1174,27,Address 1174,9301.24,2022-06-23,0,Merchant 2637,Location 2637,2022-01,Wednesday,5,0.296,Low Risk,No action
+607,58.88,1289,2022-01-26 06:00:00,2365,1,49.12,0.549,Online,Customer 1289,31,Address 1289,9393.91,2022-10-16,0,Merchant 2365,Location 2365,2022-01,Wednesday,6,0.5306,Medium Risk,Monitor
+608,26.44,1755,2022-01-26 07:00:00,2224,0,85.8,0.986,Food,Customer 1755,42,Address 1755,2653.25,2024-01-25,0,Merchant 2224,Location 2224,2022-01,Wednesday,7,0.4812,Medium Risk,Monitor
+609,90.48,1132,2022-01-26 08:00:00,2922,1,71.46,0.2494,Online,Customer 1132,47,Address 1132,4552.11,2022-05-12,0,Merchant 2922,Location 2922,2022-01,Wednesday,8,0.4628,Medium Risk,Monitor
+610,90.61,1239,2022-01-26 09:00:00,2146,0,90.02,0.5123,Other,Customer 1239,40,Address 1239,8704.18,2022-08-27,0,Merchant 2146,Location 2146,2022-01,Wednesday,9,0.2257,Low Risk,No action
+611,88.34,1912,2022-01-26 10:00:00,2220,1,35.54,0.6464,Food,Customer 1912,45,Address 1912,9262.12,2024-06-30,0,Merchant 2220,Location 2220,2022-01,Wednesday,10,0.5684,Medium Risk,Monitor
+612,36.9,1414,2022-01-26 11:00:00,2884,0,61.06,0.8068,Travel,Customer 1414,18,Address 1414,2560.12,2023-02-18,0,Merchant 2884,Location 2884,2022-01,Wednesday,11,0.4118,Medium Risk,Monitor
+613,16.18,1770,2022-01-26 12:00:00,2184,0,33.42,0.2608,Other,Customer 1770,36,Address 1770,6847.49,2024-02-09,1,Merchant 2184,Location 2184,2022-01,Wednesday,12,0.3425,Medium Risk,Monitor
+614,11.56,1639,2022-01-26 13:00:00,2094,0,30.22,0.2913,Food,Customer 1639,54,Address 1639,6463.31,2023-10-01,0,Merchant 2094,Location 2094,2022-01,Wednesday,13,0.1643,Low Risk,No action
+615,14.56,1043,2022-01-26 14:00:00,2215,0,59.31,0.2284,Online,Customer 1043,25,Address 1043,8236.48,2022-02-12,0,Merchant 2215,Location 2215,2022-01,Wednesday,14,0.1128,Low Risk,No action
+616,40.84,1845,2022-01-26 15:00:00,2951,0,10.23,0.8181,Online,Customer 1845,24,Address 1845,9347.48,2024-04-24,0,Merchant 2951,Location 2951,2022-01,Wednesday,15,0.3377,Medium Risk,Monitor
+617,10.98,1821,2022-01-26 16:00:00,2491,0,97.43,0.5704,Food,Customer 1821,26,Address 1821,9713.66,2024-03-31,0,Merchant 2491,Location 2491,2022-01,Wednesday,16,0.232,Low Risk,No action
+618,68.16,1595,2022-01-26 17:00:00,2668,0,39.03,0.1066,Retail,Customer 1595,53,Address 1595,1150.3,2023-08-18,0,Merchant 2668,Location 2668,2022-01,Wednesday,17,0.144,Low Risk,No action
+619,51.21,1686,2022-01-26 18:00:00,2598,0,96.44,0.3011,Food,Customer 1686,51,Address 1686,1401.27,2023-11-17,0,Merchant 2598,Location 2598,2022-01,Wednesday,18,0.221,Low Risk,No action
+620,30.79,1901,2022-01-26 19:00:00,2856,0,66.4,0.6045,Retail,Customer 1901,57,Address 1901,1828.7,2024-06-19,0,Merchant 2856,Location 2856,2022-01,Wednesday,19,0.333,Medium Risk,Monitor
+621,30.65,1139,2022-01-26 20:00:00,2557,0,36.53,0.3732,Other,Customer 1139,21,Address 1139,3039.51,2022-05-19,0,Merchant 2557,Location 2557,2022-01,Wednesday,20,0.2352,Low Risk,No action
+622,77.37,1406,2022-01-26 21:00:00,2655,0,32.67,0.6589,Food,Customer 1406,56,Address 1406,6284.74,2023-02-10,0,Merchant 2655,Location 2655,2022-01,Wednesday,21,0.3119,Medium Risk,Monitor
+623,75.26,1730,2022-01-26 22:00:00,2004,0,99.1,0.8405,Food,Customer 1730,54,Address 1730,3967.08,2023-12-31,0,Merchant 2004,Location 2004,2022-01,Wednesday,22,0.4132,Medium Risk,Monitor
+624,91.48,1237,2022-01-26 23:00:00,2932,0,13.86,0.6732,Travel,Customer 1237,32,Address 1237,5160.48,2022-08-25,0,Merchant 2932,Location 2932,2022-01,Wednesday,23,0.3267,Medium Risk,Monitor
+625,55.16,1758,2022-01-27 00:00:00,2051,0,93.49,0.147,Retail,Customer 1758,38,Address 1758,2203.58,2024-01-28,1,Merchant 2051,Location 2051,2022-01,Thursday,0,0.3501,Medium Risk,Monitor
+626,25.55,1385,2022-01-27 01:00:00,2196,0,62.08,0.3399,Retail,Customer 1385,36,Address 1385,4335.81,2023-01-20,0,Merchant 2196,Location 2196,2022-01,Thursday,1,0.2098,Low Risk,No action
+627,96.58,1263,2022-01-27 02:00:00,2292,0,99.13,0.1142,Online,Customer 1263,21,Address 1263,3583.38,2022-09-20,0,Merchant 2292,Location 2292,2022-01,Thursday,2,0.1228,Low Risk,No action
+628,28.22,1736,2022-01-27 03:00:00,2211,0,58.86,0.9483,Other,Customer 1736,52,Address 1736,9279.11,2024-01-06,0,Merchant 2211,Location 2211,2022-01,Thursday,3,0.3883,Medium Risk,Monitor
+629,81.22,1626,2022-01-27 04:00:00,2265,0,85.23,0.3858,Travel,Customer 1626,43,Address 1626,2802.6,2023-09-18,0,Merchant 2265,Location 2265,2022-01,Thursday,4,0.2419,Low Risk,No action
+630,52.33,1399,2022-01-27 05:00:00,2115,0,95.74,0.1405,Travel,Customer 1399,18,Address 1399,9447.73,2023-02-03,0,Merchant 2115,Location 2115,2022-01,Thursday,5,0.0646,Low Risk,No action
+631,42.33,1137,2022-01-27 06:00:00,2303,0,56.75,0.2274,Online,Customer 1137,52,Address 1137,4843.33,2022-05-17,0,Merchant 2303,Location 2303,2022-01,Thursday,6,0.1512,Low Risk,No action
+632,79.37,1612,2022-01-27 07:00:00,2941,0,50.69,0.6432,Online,Customer 1612,23,Address 1612,1437.94,2023-09-04,0,Merchant 2941,Location 2941,2022-01,Thursday,7,0.3545,Medium Risk,Monitor
+633,11.71,1303,2022-01-27 08:00:00,2961,0,71.57,0.522,Food,Customer 1303,35,Address 1303,6650.96,2022-10-30,0,Merchant 2961,Location 2961,2022-01,Thursday,8,0.257,Low Risk,No action
+634,93.77,1865,2022-01-27 09:00:00,2332,0,20.78,0.2784,Online,Customer 1865,45,Address 1865,4468.34,2024-05-14,0,Merchant 2332,Location 2332,2022-01,Thursday,9,0.1776,Low Risk,No action
+635,83.15,1147,2022-01-27 10:00:00,2197,0,55.83,0.5897,Other,Customer 1147,59,Address 1147,6232.21,2022-05-27,0,Merchant 2197,Location 2197,2022-01,Thursday,10,0.2837,Low Risk,No action
+636,81.49,1234,2022-01-27 11:00:00,2391,0,48.98,0.8602,Food,Customer 1234,18,Address 1234,6737.5,2022-08-22,0,Merchant 2391,Location 2391,2022-01,Thursday,11,0.3898,Medium Risk,Monitor
+637,27.78,1469,2022-01-27 12:00:00,2253,0,18.29,0.2036,Other,Customer 1469,28,Address 1469,3017.78,2023-04-14,0,Merchant 2253,Location 2253,2022-01,Thursday,12,0.1649,Low Risk,No action
+638,99.88,1210,2022-01-27 13:00:00,2779,0,92.94,0.1813,Food,Customer 1210,39,Address 1210,9316.95,2022-07-29,0,Merchant 2779,Location 2779,2022-01,Thursday,13,0.0802,Low Risk,No action
+639,62.42,1802,2022-01-27 14:00:00,2183,0,93.26,0.917,Other,Customer 1802,23,Address 1802,6791.88,2024-03-12,0,Merchant 2183,Location 2183,2022-01,Thursday,14,0.4093,Medium Risk,Monitor
+640,87.31,1836,2022-01-27 15:00:00,2376,0,43.54,0.4171,Food,Customer 1836,47,Address 1836,4018.77,2024-04-15,0,Merchant 2376,Location 2376,2022-01,Thursday,15,0.2453,Low Risk,No action
+641,30.98,1003,2022-01-27 16:00:00,2496,0,46.04,0.9616,Travel,Customer 1003,40,Address 1003,1715.32,2022-01-03,0,Merchant 2496,Location 2496,2022-01,Thursday,16,0.4821,Medium Risk,Monitor
+642,79.33,1077,2022-01-27 17:00:00,2543,0,45.26,0.7288,Food,Customer 1077,38,Address 1077,7580.46,2022-03-18,0,Merchant 2543,Location 2543,2022-01,Thursday,17,0.3238,Medium Risk,Monitor
+643,61.06,1691,2022-01-27 18:00:00,2575,0,27.73,0.388,Retail,Customer 1691,47,Address 1691,6089.05,2023-11-22,0,Merchant 2575,Location 2575,2022-01,Thursday,18,0.2081,Low Risk,No action
+644,73.44,1309,2022-01-27 19:00:00,2529,0,80.15,0.7891,Other,Customer 1309,39,Address 1309,6507.02,2022-11-05,0,Merchant 2529,Location 2529,2022-01,Thursday,19,0.3629,Medium Risk,Monitor
+645,67.28,1287,2022-01-27 20:00:00,2014,0,40.9,0.0272,Retail,Customer 1287,34,Address 1287,9561.51,2022-10-14,0,Merchant 2014,Location 2014,2022-01,Thursday,20,0.0169,Low Risk,No action
+646,54.8,1825,2022-01-27 21:00:00,2317,0,77.27,0.6948,Travel,Customer 1825,54,Address 1825,4886.01,2024-04-04,0,Merchant 2317,Location 2317,2022-01,Thursday,21,0.34,Medium Risk,Monitor
+647,25.04,1697,2022-01-27 22:00:00,2080,0,49.86,0.6684,Online,Customer 1697,59,Address 1697,6865.65,2023-11-28,0,Merchant 2080,Location 2080,2022-01,Thursday,22,0.3066,Medium Risk,Monitor
+648,75.85,1905,2022-01-27 23:00:00,2112,0,15.9,0.3747,Other,Customer 1905,20,Address 1905,3055.41,2024-06-23,0,Merchant 2112,Location 2112,2022-01,Thursday,23,0.2355,Low Risk,No action
+649,85.18,1367,2022-01-28 00:00:00,2439,0,13.87,0.9825,Other,Customer 1367,19,Address 1367,6381.96,2023-01-02,0,Merchant 2439,Location 2439,2022-01,Friday,0,0.4392,Medium Risk,Monitor
+650,62.48,1853,2022-01-28 01:00:00,2813,0,88.29,0.4326,Retail,Customer 1853,30,Address 1853,1767.82,2024-05-02,0,Merchant 2813,Location 2813,2022-01,Friday,1,0.275,Low Risk,No action
+651,28.51,1618,2022-01-28 02:00:00,2770,0,58.88,0.878,Online,Customer 1618,27,Address 1618,6741.43,2023-09-10,0,Merchant 2770,Location 2770,2022-01,Friday,2,0.397,Medium Risk,Monitor
+652,52.45,1902,2022-01-28 03:00:00,2217,0,53.17,0.7512,Retail,Customer 1902,35,Address 1902,6370.26,2024-06-20,0,Merchant 2217,Location 2217,2022-01,Friday,3,0.3485,Medium Risk,Monitor
+653,49.49,1561,2022-01-28 04:00:00,2936,0,73.6,0.0926,Online,Customer 1561,58,Address 1561,8361.02,2023-07-15,0,Merchant 2936,Location 2936,2022-01,Friday,4,0.0607,Low Risk,No action
+654,91.06,1908,2022-01-28 05:00:00,2134,0,91.21,0.2842,Travel,Customer 1908,59,Address 1908,6721.22,2024-06-26,0,Merchant 2134,Location 2134,2022-01,Friday,5,0.1578,Low Risk,No action
+655,72.22,1161,2022-01-28 06:00:00,2713,0,68.54,0.0767,Other,Customer 1161,55,Address 1161,7545.03,2022-06-10,0,Merchant 2713,Location 2713,2022-01,Friday,6,0.064,Low Risk,No action
+656,68.5,1618,2022-01-28 07:00:00,2931,0,30.29,0.4291,Other,Customer 1618,27,Address 1618,6741.43,2023-09-10,0,Merchant 2931,Location 2931,2022-01,Friday,7,0.218,Low Risk,No action
+657,70.99,1586,2022-01-28 08:00:00,2526,0,98.11,0.5805,Retail,Customer 1586,40,Address 1586,4726.94,2023-08-09,0,Merchant 2526,Location 2526,2022-01,Friday,8,0.294,Low Risk,No action
+658,84.6,1930,2022-01-28 09:00:00,2022,1,86.59,0.613,Online,Customer 1930,61,Address 1930,1111.77,2024-07-18,0,Merchant 2022,Location 2022,2022-01,Friday,9,0.645,High Risk,Immediate review
+659,42.82,1712,2022-01-28 10:00:00,2438,0,50.2,0.3707,Other,Customer 1712,58,Address 1712,4878.87,2023-12-13,0,Merchant 2438,Location 2438,2022-01,Friday,10,0.2124,Low Risk,No action
+660,86.18,1279,2022-01-28 11:00:00,2832,0,65.52,0.4484,Food,Customer 1279,37,Address 1279,7156.87,2022-10-06,0,Merchant 2832,Location 2832,2022-01,Friday,11,0.2209,Low Risk,No action
+661,74.5,1926,2022-01-28 12:00:00,2562,0,35.48,0.8209,Retail,Customer 1926,62,Address 1926,1153.12,2024-07-14,0,Merchant 2562,Location 2562,2022-01,Friday,12,0.4306,Medium Risk,Monitor
+662,92.7,1244,2022-01-28 13:00:00,2385,0,91.52,0.5164,Online,Customer 1244,46,Address 1244,8723.86,2022-09-01,0,Merchant 2385,Location 2385,2022-01,Friday,13,0.2274,Low Risk,No action
+663,21.06,1519,2022-01-28 14:00:00,2394,0,31.49,0.4102,Online,Customer 1519,38,Address 1519,9405.64,2023-06-03,0,Merchant 2394,Location 2394,2022-01,Friday,14,0.1763,Low Risk,No action
+664,14.72,1216,2022-01-28 15:00:00,2840,0,32.16,0.0219,Food,Customer 1216,26,Address 1216,4741.19,2022-08-04,0,Merchant 2840,Location 2840,2022-01,Friday,15,0.0726,Low Risk,No action
+665,91.58,1142,2022-01-28 16:00:00,2283,0,95.61,0.5809,Other,Customer 1142,57,Address 1142,3789.36,2022-05-22,0,Merchant 2283,Location 2283,2022-01,Friday,16,0.3054,Medium Risk,Monitor
+666,28.59,1937,2022-01-28 17:00:00,2918,0,73.66,0.044,Travel,Customer 1937,27,Address 1937,5741.22,2024-07-25,0,Merchant 2918,Location 2918,2022-01,Friday,17,0.0728,Low Risk,No action
+667,77.69,1276,2022-01-28 18:00:00,2293,0,85.15,0.327,Online,Customer 1276,31,Address 1276,4961.93,2022-10-03,0,Merchant 2293,Location 2293,2022-01,Friday,18,0.1913,Low Risk,No action
+668,55.96,1200,2022-01-28 19:00:00,2695,0,73.27,0.8386,Online,Customer 1200,46,Address 1200,4555.71,2022-07-19,0,Merchant 2695,Location 2695,2022-01,Friday,19,0.4042,Medium Risk,Monitor
+669,64.8,1103,2022-01-28 20:00:00,2433,0,70.55,0.313,Other,Customer 1103,41,Address 1103,2465.96,2022-04-13,0,Merchant 2433,Location 2433,2022-01,Friday,20,0.215,Low Risk,No action
+670,81.03,1652,2022-01-28 21:00:00,2602,0,41.43,0.9253,Travel,Customer 1652,47,Address 1652,1671.71,2023-10-14,0,Merchant 2602,Location 2602,2022-01,Friday,21,0.467,Medium Risk,Monitor
+671,67.69,1694,2022-01-28 22:00:00,2984,1,57.25,0.9665,Food,Customer 1694,30,Address 1694,5628.78,2023-11-25,0,Merchant 2984,Location 2984,2022-01,Friday,22,0.7413,High Risk,Immediate review
+672,95.17,1851,2022-01-28 23:00:00,2240,1,52.42,0.1566,Online,Customer 1851,21,Address 1851,3527.23,2024-04-30,0,Merchant 2240,Location 2240,2022-01,Friday,23,0.4378,Medium Risk,Monitor
+673,88.37,1376,2022-01-29 00:00:00,2777,0,50.55,0.3864,Food,Customer 1376,53,Address 1376,5745.13,2023-01-11,0,Merchant 2777,Location 2777,2022-01,Saturday,0,0.209,Low Risk,No action
+674,27.16,1155,2022-01-29 01:00:00,2529,0,50.89,0.1794,Travel,Customer 1155,61,Address 1155,4698.08,2022-06-04,0,Merchant 2529,Location 2529,2022-01,Saturday,1,0.1341,Low Risk,No action
+675,34.24,1424,2022-01-29 02:00:00,2511,0,76.0,0.9534,Other,Customer 1424,37,Address 1424,4344.55,2023-02-28,0,Merchant 2511,Location 2511,2022-01,Saturday,2,0.4497,Medium Risk,Monitor
+676,26.7,1322,2022-01-29 03:00:00,2501,0,86.2,0.7996,Food,Customer 1322,29,Address 1322,9411.51,2022-11-18,0,Merchant 2501,Location 2501,2022-01,Saturday,3,0.3295,Medium Risk,Monitor
+677,24.6,1739,2022-01-29 04:00:00,2678,0,55.47,0.6903,Food,Customer 1739,61,Address 1739,3264.95,2024-01-09,0,Merchant 2678,Location 2678,2022-01,Saturday,4,0.3576,Medium Risk,Monitor
+678,32.43,1201,2022-01-29 05:00:00,2882,0,48.03,0.6459,Travel,Customer 1201,29,Address 1201,6298.3,2022-07-20,0,Merchant 2882,Location 2882,2022-01,Saturday,5,0.3049,Medium Risk,Monitor
+679,11.08,1733,2022-01-29 06:00:00,2540,0,19.62,0.0066,Online,Customer 1733,18,Address 1733,1362.04,2024-01-03,0,Merchant 2540,Location 2540,2022-01,Saturday,6,0.1017,Low Risk,No action
+680,53.54,1971,2022-01-29 07:00:00,2441,0,54.73,0.6253,Travel,Customer 1971,55,Address 1971,7251.7,2024-08-28,0,Merchant 2441,Location 2441,2022-01,Saturday,7,0.2855,Low Risk,No action
+681,62.57,1430,2022-01-29 08:00:00,2276,0,56.07,0.4885,Online,Customer 1430,24,Address 1430,9318.93,2023-03-06,0,Merchant 2276,Location 2276,2022-01,Saturday,8,0.2068,Low Risk,No action
+682,42.63,1148,2022-01-29 09:00:00,2272,0,86.25,0.4239,Online,Customer 1148,63,Address 1148,3214.34,2022-05-28,0,Merchant 2272,Location 2272,2022-01,Saturday,9,0.2554,Low Risk,No action
+683,20.32,1653,2022-01-29 10:00:00,2591,0,86.38,0.98,Retail,Customer 1653,49,Address 1653,7118.12,2023-10-15,0,Merchant 2591,Location 2591,2022-01,Saturday,10,0.4286,Medium Risk,Monitor
+684,64.26,1470,2022-01-29 11:00:00,2806,0,51.15,0.5773,Food,Customer 1470,26,Address 1470,5964.38,2023-04-15,0,Merchant 2806,Location 2806,2022-01,Saturday,11,0.2798,Low Risk,No action
+685,94.34,1455,2022-01-29 12:00:00,2862,0,19.37,0.9712,Travel,Customer 1455,39,Address 1455,3227.7,2023-03-31,0,Merchant 2862,Location 2862,2022-01,Saturday,12,0.4693,Medium Risk,Monitor
+686,62.53,1976,2022-01-29 13:00:00,2520,0,39.93,0.0127,Food,Customer 1976,54,Address 1976,2417.25,2024-09-02,0,Merchant 2520,Location 2520,2022-01,Saturday,13,0.0938,Low Risk,No action
+687,82.13,1879,2022-01-29 14:00:00,2915,0,29.63,0.7443,Retail,Customer 1879,50,Address 1879,3097.48,2024-05-28,0,Merchant 2915,Location 2915,2022-01,Saturday,14,0.3807,Medium Risk,Monitor
+688,23.62,1488,2022-01-29 15:00:00,2637,0,39.32,0.8928,Travel,Customer 1488,31,Address 1488,6215.27,2023-05-03,0,Merchant 2637,Location 2637,2022-01,Saturday,15,0.4091,Medium Risk,Monitor
+689,26.8,1920,2022-01-29 16:00:00,2444,0,36.25,0.8143,Other,Customer 1920,33,Address 1920,3434.61,2024-07-08,0,Merchant 2444,Location 2444,2022-01,Saturday,16,0.4054,Medium Risk,Monitor
+690,43.17,1428,2022-01-29 17:00:00,2755,0,52.04,0.198,Travel,Customer 1428,47,Address 1428,1106.44,2023-03-04,0,Merchant 2755,Location 2755,2022-01,Saturday,17,0.1789,Low Risk,No action
+691,66.42,1276,2022-01-29 18:00:00,2886,0,80.28,0.4085,Online,Customer 1276,31,Address 1276,4961.93,2022-10-03,0,Merchant 2886,Location 2886,2022-01,Saturday,18,0.2273,Low Risk,No action
+692,63.93,1469,2022-01-29 19:00:00,2992,0,93.5,0.4366,Food,Customer 1469,28,Address 1469,3017.78,2023-04-14,0,Merchant 2992,Location 2992,2022-01,Saturday,19,0.2629,Low Risk,No action
+693,69.74,1480,2022-01-29 20:00:00,2328,1,88.69,0.0607,Online,Customer 1480,26,Address 1480,7269.76,2023-04-25,0,Merchant 2328,Location 2328,2022-01,Saturday,20,0.3638,Medium Risk,Monitor
+694,29.95,1770,2022-01-29 21:00:00,2486,0,80.05,0.6807,Online,Customer 1770,36,Address 1770,6847.49,2024-02-09,1,Merchant 2486,Location 2486,2022-01,Saturday,21,0.5129,Medium Risk,Monitor
+695,40.77,1882,2022-01-29 22:00:00,2097,0,29.94,0.2502,Food,Customer 1882,36,Address 1882,3608.81,2024-05-31,0,Merchant 2097,Location 2097,2022-01,Saturday,22,0.1726,Low Risk,No action
+696,41.6,1683,2022-01-29 23:00:00,2177,0,76.67,0.9284,Online,Customer 1683,46,Address 1683,8943.38,2023-11-14,0,Merchant 2177,Location 2177,2022-01,Saturday,23,0.3858,Medium Risk,Monitor
+697,62.32,1570,2022-01-30 00:00:00,2464,0,13.99,0.5834,Retail,Customer 1570,21,Address 1570,1117.75,2023-07-24,0,Merchant 2464,Location 2464,2022-01,Sunday,0,0.3334,Medium Risk,Monitor
+698,63.67,1971,2022-01-30 01:00:00,2474,0,25.41,0.0613,Food,Customer 1971,55,Address 1971,7251.7,2024-08-28,0,Merchant 2474,Location 2474,2022-01,Sunday,1,0.0651,Low Risk,No action
+699,61.31,1189,2022-01-30 02:00:00,2468,1,68.21,0.0549,Retail,Customer 1189,49,Address 1189,1056.3,2022-07-08,0,Merchant 2468,Location 2468,2022-01,Sunday,2,0.4283,Medium Risk,Monitor
+700,48.39,1637,2022-01-30 03:00:00,2943,0,90.24,0.3412,Other,Customer 1637,59,Address 1637,4351.68,2023-09-29,0,Merchant 2943,Location 2943,2022-01,Sunday,3,0.2097,Low Risk,No action
+701,39.79,1424,2022-01-30 04:00:00,2489,0,61.31,0.1982,Online,Customer 1424,37,Address 1424,4344.55,2023-02-28,0,Merchant 2489,Location 2489,2022-01,Sunday,4,0.1469,Low Risk,No action
+702,68.89,1516,2022-01-30 05:00:00,2591,0,27.05,0.6429,Other,Customer 1516,41,Address 1516,8658.74,2023-05-31,0,Merchant 2591,Location 2591,2022-01,Sunday,5,0.2735,Low Risk,No action
+703,53.2,1591,2022-01-30 06:00:00,2631,0,93.63,0.0876,Retail,Customer 1591,36,Address 1591,7962.41,2023-08-14,0,Merchant 2631,Location 2631,2022-01,Sunday,6,0.0637,Low Risk,No action
+704,55.19,1876,2022-01-30 07:00:00,2325,0,64.55,0.2316,Retail,Customer 1876,31,Address 1876,8278.71,2024-05-25,0,Merchant 2325,Location 2325,2022-01,Sunday,7,0.1137,Low Risk,No action
+705,13.49,1569,2022-01-30 08:00:00,2253,0,44.64,0.9852,Online,Customer 1569,31,Address 1569,6363.94,2023-07-23,0,Merchant 2253,Location 2253,2022-01,Sunday,8,0.441,Medium Risk,Monitor
+706,50.21,1513,2022-01-30 09:00:00,2059,0,43.65,0.4637,Travel,Customer 1513,47,Address 1513,6238.21,2023-05-28,0,Merchant 2059,Location 2059,2022-01,Sunday,9,0.2384,Low Risk,No action
+707,13.35,1581,2022-01-30 10:00:00,2768,0,74.56,0.5049,Online,Customer 1581,41,Address 1581,8128.02,2023-08-04,0,Merchant 2768,Location 2768,2022-01,Sunday,10,0.2287,Low Risk,No action
+708,85.45,1835,2022-01-30 11:00:00,2709,0,99.27,0.2923,Retail,Customer 1835,33,Address 1835,3400.98,2024-04-14,0,Merchant 2709,Location 2709,2022-01,Sunday,11,0.1977,Low Risk,No action
+709,54.76,1572,2022-01-30 12:00:00,2822,0,33.12,0.2547,Food,Customer 1572,47,Address 1572,2067.49,2023-07-26,0,Merchant 2822,Location 2822,2022-01,Sunday,12,0.1923,Low Risk,No action
+710,19.97,1072,2022-01-30 13:00:00,2363,0,46.45,0.4065,Retail,Customer 1072,21,Address 1072,3239.35,2022-03-13,0,Merchant 2363,Location 2363,2022-01,Sunday,13,0.2457,Low Risk,No action
+711,33.0,1045,2022-01-30 14:00:00,2016,0,42.59,0.7644,Travel,Customer 1045,58,Address 1045,5168.96,2022-02-14,0,Merchant 2016,Location 2016,2022-01,Sunday,14,0.3657,Medium Risk,Monitor
+712,25.89,1581,2022-01-30 15:00:00,2850,0,95.31,0.2569,Travel,Customer 1581,41,Address 1581,8128.02,2023-08-04,0,Merchant 2850,Location 2850,2022-01,Sunday,15,0.1255,Low Risk,No action
+713,38.96,1750,2022-01-30 16:00:00,2592,0,92.24,0.7449,Other,Customer 1750,36,Address 1750,8128.69,2024-01-20,0,Merchant 2592,Location 2592,2022-01,Sunday,16,0.3237,Medium Risk,Monitor
+714,36.12,1989,2022-01-30 17:00:00,2281,0,76.56,0.7263,Food,Customer 1989,18,Address 1989,3448.96,2024-09-15,0,Merchant 2281,Location 2281,2022-01,Sunday,17,0.3681,Medium Risk,Monitor
+715,72.44,1033,2022-01-30 18:00:00,2379,0,61.12,0.0863,Other,Customer 1033,50,Address 1033,2042.69,2022-02-02,0,Merchant 2379,Location 2379,2022-01,Sunday,18,0.1294,Low Risk,No action
+716,81.24,1012,2022-01-30 19:00:00,2400,0,38.33,0.9294,Retail,Customer 1012,45,Address 1012,2706.15,2022-01-12,0,Merchant 2400,Location 2400,2022-01,Sunday,19,0.4586,Medium Risk,Monitor
+717,43.1,1410,2022-01-30 20:00:00,2722,0,96.51,0.0195,Food,Customer 1410,25,Address 1410,2716.98,2023-02-14,0,Merchant 2722,Location 2722,2022-01,Sunday,20,0.0943,Low Risk,No action
+718,69.54,1618,2022-01-30 21:00:00,2048,1,76.91,0.5073,Retail,Customer 1618,27,Address 1618,6741.43,2023-09-10,0,Merchant 2048,Location 2048,2022-01,Sunday,21,0.5472,Medium Risk,Monitor
+719,76.25,1401,2022-01-30 22:00:00,2673,0,30.44,0.3564,Travel,Customer 1401,25,Address 1401,9089.24,2023-02-05,0,Merchant 2673,Location 2673,2022-01,Sunday,22,0.1583,Low Risk,No action
+720,95.39,1898,2022-01-30 23:00:00,2821,0,12.16,0.296,Other,Customer 1898,38,Address 1898,1373.38,2024-06-16,0,Merchant 2821,Location 2821,2022-01,Sunday,23,0.2204,Low Risk,No action
+721,71.44,1891,2022-01-31 00:00:00,2631,0,58.0,0.3899,Travel,Customer 1891,33,Address 1891,4322.6,2024-06-09,0,Merchant 2631,Location 2631,2022-01,Monday,0,0.2285,Low Risk,No action
+722,63.87,1480,2022-01-31 01:00:00,2163,0,76.15,0.2824,Other,Customer 1480,26,Address 1480,7269.76,2023-04-25,0,Merchant 2163,Location 2163,2022-01,Monday,1,0.1494,Low Risk,No action
+723,49.08,1438,2022-01-31 02:00:00,2127,0,11.11,0.8501,Food,Customer 1438,53,Address 1438,1779.99,2023-03-14,0,Merchant 2127,Location 2127,2022-01,Monday,2,0.4375,Medium Risk,Monitor
+724,13.47,1348,2022-01-31 03:00:00,2685,0,12.41,0.5779,Online,Customer 1348,41,Address 1348,1599.23,2022-12-14,0,Merchant 2685,Location 2685,2022-01,Monday,3,0.3273,Medium Risk,Monitor
+725,50.96,1506,2022-01-31 04:00:00,2820,0,27.67,0.6427,Retail,Customer 1506,22,Address 1506,5745.09,2023-05-21,0,Merchant 2820,Location 2820,2022-01,Monday,4,0.3077,Medium Risk,Monitor
+726,97.97,1090,2022-01-31 05:00:00,2251,0,69.58,0.5945,Other,Customer 1090,26,Address 1090,8109.98,2022-03-31,0,Merchant 2251,Location 2251,2022-01,Monday,5,0.2617,Low Risk,No action
+727,46.61,1669,2022-01-31 06:00:00,2815,1,65.0,0.8157,Retail,Customer 1669,44,Address 1669,4490.14,2023-10-31,0,Merchant 2815,Location 2815,2022-01,Monday,6,0.6942,High Risk,Immediate review
+728,86.76,1145,2022-01-31 07:00:00,2963,0,94.06,0.99,Online,Customer 1145,56,Address 1145,9855.67,2022-05-25,0,Merchant 2963,Location 2963,2022-01,Monday,7,0.3986,Medium Risk,Monitor
+729,31.37,1368,2022-01-31 08:00:00,2464,0,36.44,0.1853,Food,Customer 1368,19,Address 1368,8411.64,2023-01-03,0,Merchant 2464,Location 2464,2022-01,Monday,8,0.0934,Low Risk,No action
+730,60.56,1743,2022-01-31 09:00:00,2881,0,97.62,0.4138,Travel,Customer 1743,45,Address 1743,6595.92,2024-01-13,0,Merchant 2881,Location 2881,2022-01,Monday,9,0.2146,Low Risk,No action
+731,44.0,1680,2022-01-31 10:00:00,2560,0,77.85,0.1561,Food,Customer 1680,43,Address 1680,1308.38,2023-11-11,0,Merchant 2560,Location 2560,2022-01,Monday,10,0.161,Low Risk,No action
+732,50.91,1366,2022-01-31 11:00:00,2045,0,20.58,0.4673,Online,Customer 1366,45,Address 1366,3069.64,2023-01-01,0,Merchant 2045,Location 2045,2022-01,Monday,11,0.2729,Low Risk,No action
+733,23.93,1197,2022-01-31 12:00:00,2555,0,15.17,0.9012,Travel,Customer 1197,18,Address 1197,3525.5,2022-07-16,0,Merchant 2555,Location 2555,2022-01,Monday,12,0.4409,Medium Risk,Monitor
+734,16.27,1976,2022-01-31 13:00:00,2879,1,34.86,0.6946,Travel,Customer 1976,54,Address 1976,2417.25,2024-09-02,0,Merchant 2879,Location 2879,2022-01,Monday,13,0.6678,High Risk,Immediate review
+735,68.62,1610,2022-01-31 14:00:00,2086,0,97.06,0.3224,Retail,Customer 1610,22,Address 1610,4122.16,2023-09-02,0,Merchant 2086,Location 2086,2022-01,Monday,14,0.1999,Low Risk,No action
+736,64.23,1501,2022-01-31 15:00:00,2624,0,60.94,0.5156,Travel,Customer 1501,48,Address 1501,2342.87,2023-05-16,0,Merchant 2624,Location 2624,2022-01,Monday,15,0.2999,Low Risk,No action
+737,95.16,1473,2022-01-31 16:00:00,2503,0,53.03,0.2874,Travel,Customer 1473,26,Address 1473,3026.37,2023-04-18,0,Merchant 2503,Location 2503,2022-01,Monday,16,0.1998,Low Risk,No action
+738,11.13,1399,2022-01-31 17:00:00,2390,0,40.91,0.2308,Food,Customer 1399,18,Address 1399,9447.73,2023-02-03,0,Merchant 2390,Location 2390,2022-01,Monday,17,0.0978,Low Risk,No action
+739,15.7,1630,2022-01-31 18:00:00,2802,0,13.31,0.9662,Online,Customer 1630,42,Address 1630,2420.84,2023-09-22,1,Merchant 2802,Location 2802,2022-01,Monday,18,0.6756,High Risk,Immediate review
+740,82.22,1413,2022-01-31 19:00:00,2086,0,95.47,0.2078,Food,Customer 1413,18,Address 1413,1279.67,2023-02-17,0,Merchant 2086,Location 2086,2022-01,Monday,19,0.1828,Low Risk,No action
+741,70.34,1148,2022-01-31 20:00:00,2066,0,97.63,0.2052,Other,Customer 1148,63,Address 1148,3214.34,2022-05-28,0,Merchant 2066,Location 2066,2022-01,Monday,20,0.163,Low Risk,No action
+742,99.89,1282,2022-01-31 21:00:00,2971,0,10.19,0.789,Travel,Customer 1282,39,Address 1282,7308.7,2022-10-09,0,Merchant 2971,Location 2971,2022-01,Monday,21,0.3521,Medium Risk,Monitor
+743,77.7,1521,2022-01-31 22:00:00,2803,0,86.52,0.999,Food,Customer 1521,27,Address 1521,8108.97,2023-06-05,0,Merchant 2803,Location 2803,2022-01,Monday,22,0.423,Medium Risk,Monitor
+744,85.95,1126,2022-01-31 23:00:00,2421,0,59.39,0.7157,Retail,Customer 1126,27,Address 1126,7080.1,2022-05-06,0,Merchant 2421,Location 2421,2022-01,Monday,23,0.3257,Medium Risk,Monitor
+745,90.14,1125,2022-02-01 00:00:00,2775,0,40.1,0.5391,Other,Customer 1125,58,Address 1125,8801.92,2022-05-05,0,Merchant 2775,Location 2775,2022-02,Tuesday,0,0.2338,Low Risk,No action
+746,24.96,1252,2022-02-01 01:00:00,2843,0,77.6,0.6119,Other,Customer 1252,53,Address 1252,9182.87,2022-09-09,0,Merchant 2843,Location 2843,2022-02,Tuesday,1,0.2542,Low Risk,No action
+747,66.25,1581,2022-02-01 02:00:00,2070,0,96.27,0.1396,Food,Customer 1581,41,Address 1581,8128.02,2023-08-04,0,Merchant 2070,Location 2070,2022-02,Tuesday,2,0.0815,Low Risk,No action
+748,97.69,1269,2022-02-01 03:00:00,2285,0,57.81,0.1179,Retail,Customer 1269,34,Address 1269,9261.11,2022-09-26,0,Merchant 2285,Location 2285,2022-02,Tuesday,3,0.0598,Low Risk,No action
+749,62.11,1422,2022-02-01 04:00:00,2736,0,54.84,0.5101,Food,Customer 1422,32,Address 1422,6988.0,2023-02-26,0,Merchant 2736,Location 2736,2022-02,Tuesday,4,0.2466,Low Risk,No action
+750,48.76,1405,2022-02-01 05:00:00,2463,0,73.49,0.5221,Other,Customer 1405,59,Address 1405,9246.52,2023-02-09,0,Merchant 2463,Location 2463,2022-02,Tuesday,5,0.2256,Low Risk,No action
+751,26.51,1655,2022-02-01 06:00:00,2897,0,88.54,0.0848,Other,Customer 1655,50,Address 1655,2152.99,2023-10-17,0,Merchant 2897,Location 2897,2022-02,Tuesday,6,0.1274,Low Risk,No action
+752,88.54,1143,2022-02-01 07:00:00,2753,0,24.63,0.7579,Retail,Customer 1143,58,Address 1143,3367.92,2022-05-23,0,Merchant 2753,Location 2753,2022-02,Tuesday,7,0.3836,Medium Risk,Monitor
+753,72.96,1094,2022-02-01 08:00:00,2638,0,71.51,0.4925,Food,Customer 1094,32,Address 1094,4974.25,2022-04-04,0,Merchant 2638,Location 2638,2022-02,Tuesday,8,0.259,Low Risk,No action
+754,78.97,1577,2022-02-01 09:00:00,2889,0,80.69,0.997,Retail,Customer 1577,30,Address 1577,3282.99,2023-07-31,0,Merchant 2889,Location 2889,2022-02,Tuesday,9,0.4768,Medium Risk,Monitor
+755,50.53,1520,2022-02-01 10:00:00,2652,0,75.94,0.9576,Online,Customer 1520,25,Address 1520,9476.35,2023-06-04,0,Merchant 2652,Location 2652,2022-02,Tuesday,10,0.3899,Medium Risk,Monitor
+756,36.38,1424,2022-02-01 11:00:00,2012,0,17.05,0.2848,Retail,Customer 1424,37,Address 1424,4344.55,2023-02-28,0,Merchant 2012,Location 2012,2022-02,Tuesday,11,0.1844,Low Risk,No action
+757,89.17,1160,2022-02-01 12:00:00,2500,0,66.03,0.2957,Travel,Customer 1160,38,Address 1160,2683.91,2022-06-09,0,Merchant 2500,Location 2500,2022-02,Tuesday,12,0.2073,Low Risk,No action
+758,61.92,1057,2022-02-01 13:00:00,2621,0,96.54,0.6308,Travel,Customer 1057,21,Address 1057,6531.56,2022-02-26,0,Merchant 2621,Location 2621,2022-02,Tuesday,13,0.2967,Low Risk,No action
+759,60.53,1399,2022-02-01 14:00:00,2500,0,46.72,0.049,Travel,Customer 1399,18,Address 1399,9447.73,2023-02-03,0,Merchant 2500,Location 2500,2022-02,Tuesday,14,0.0298,Low Risk,No action
+760,29.53,1587,2022-02-01 15:00:00,2968,0,72.79,0.9109,Retail,Customer 1587,41,Address 1587,8573.12,2023-08-10,0,Merchant 2968,Location 2968,2022-02,Tuesday,15,0.3852,Medium Risk,Monitor
+761,14.12,1168,2022-02-01 16:00:00,2726,0,72.0,0.5063,Online,Customer 1168,42,Address 1168,3560.17,2022-06-17,0,Merchant 2726,Location 2726,2022-02,Tuesday,16,0.2805,Low Risk,No action
+762,22.88,1711,2022-02-01 17:00:00,2130,0,32.85,0.2804,Other,Customer 1711,20,Address 1711,5960.81,2023-12-12,0,Merchant 2130,Location 2130,2022-02,Tuesday,17,0.1623,Low Risk,No action
+763,79.75,1671,2022-02-01 18:00:00,2420,0,39.01,0.1228,Online,Customer 1671,27,Address 1671,3493.85,2023-11-02,0,Merchant 2420,Location 2420,2022-02,Tuesday,18,0.1277,Low Risk,No action
+764,58.16,1163,2022-02-01 19:00:00,2440,0,83.35,0.6785,Retail,Customer 1163,27,Address 1163,7524.89,2022-06-12,0,Merchant 2440,Location 2440,2022-02,Tuesday,19,0.3031,Medium Risk,Monitor
+765,83.83,1381,2022-02-01 20:00:00,2276,0,41.29,0.4772,Retail,Customer 1381,58,Address 1381,4206.2,2023-01-16,0,Merchant 2276,Location 2276,2022-02,Tuesday,20,0.2639,Low Risk,No action
+766,56.62,1961,2022-02-01 21:00:00,2270,0,42.24,0.3552,Retail,Customer 1961,47,Address 1961,3454.65,2024-08-18,0,Merchant 2270,Location 2270,2022-02,Tuesday,21,0.222,Low Risk,No action
+767,35.75,1722,2022-02-01 22:00:00,2658,0,23.28,0.744,Online,Customer 1722,53,Address 1722,2286.28,2023-12-23,0,Merchant 2658,Location 2658,2022-02,Tuesday,22,0.3889,Medium Risk,Monitor
+768,13.93,1532,2022-02-01 23:00:00,2239,0,49.09,0.7193,Food,Customer 1532,60,Address 1532,3744.64,2023-06-16,0,Merchant 2239,Location 2239,2022-02,Tuesday,23,0.3638,Medium Risk,Monitor
+769,39.16,1623,2022-02-02 00:00:00,2651,0,89.53,0.4301,Travel,Customer 1623,34,Address 1623,2341.71,2023-09-15,0,Merchant 2651,Location 2651,2022-02,Wednesday,0,0.2682,Low Risk,No action
+770,66.96,1555,2022-02-02 01:00:00,2834,0,99.37,0.926,Online,Customer 1555,45,Address 1555,1776.63,2023-07-09,0,Merchant 2834,Location 2834,2022-02,Wednesday,1,0.4664,Medium Risk,Monitor
+771,72.13,1464,2022-02-02 02:00:00,2865,0,16.88,0.7334,Food,Customer 1464,45,Address 1464,6683.68,2023-04-09,0,Merchant 2865,Location 2865,2022-02,Wednesday,2,0.3378,Medium Risk,Monitor
+772,56.42,1091,2022-02-02 03:00:00,2997,0,94.5,0.6688,Online,Customer 1091,58,Address 1091,1736.47,2022-04-01,0,Merchant 2997,Location 2997,2022-02,Wednesday,3,0.3635,Medium Risk,Monitor
+773,40.15,1182,2022-02-02 04:00:00,2636,0,59.08,0.3961,Food,Customer 1182,30,Address 1182,2636.68,2022-07-01,0,Merchant 2636,Location 2636,2022-02,Wednesday,4,0.2483,Low Risk,No action
+774,11.03,1771,2022-02-02 05:00:00,2842,0,12.91,0.8276,Online,Customer 1771,35,Address 1771,8894.83,2024-02-10,0,Merchant 2842,Location 2842,2022-02,Wednesday,5,0.3466,Medium Risk,Monitor
+775,55.29,1049,2022-02-02 06:00:00,2914,0,43.19,0.6442,Food,Customer 1049,30,Address 1049,7144.3,2022-02-18,0,Merchant 2914,Location 2914,2022-02,Wednesday,6,0.2936,Low Risk,No action
+776,37.17,1799,2022-02-02 07:00:00,2658,0,79.07,0.4922,Other,Customer 1799,24,Address 1799,4309.69,2024-03-09,0,Merchant 2658,Location 2658,2022-02,Wednesday,7,0.2684,Low Risk,No action
+777,38.46,1615,2022-02-02 08:00:00,2959,0,71.7,0.4659,Travel,Customer 1615,28,Address 1615,9447.92,2023-09-07,0,Merchant 2959,Location 2959,2022-02,Wednesday,8,0.1975,Low Risk,No action
+778,53.64,1802,2022-02-02 09:00:00,2635,0,19.04,0.1827,Other,Customer 1802,23,Address 1802,6791.88,2024-03-12,0,Merchant 2635,Location 2635,2022-02,Wednesday,9,0.1125,Low Risk,No action
+779,86.05,2000,2022-02-02 10:00:00,2780,0,55.01,0.5746,Other,Customer 2000,42,Address 2000,4853.02,2024-09-26,0,Merchant 2780,Location 2780,2022-02,Wednesday,10,0.2904,Low Risk,No action
+780,37.21,1058,2022-02-02 11:00:00,2825,0,89.5,0.317,Travel,Customer 1058,50,Address 1058,5923.74,2022-02-27,0,Merchant 2825,Location 2825,2022-02,Wednesday,11,0.1791,Low Risk,No action
+781,44.51,1678,2022-02-02 12:00:00,2155,0,92.16,0.7478,Travel,Customer 1678,33,Address 1678,3302.01,2023-11-09,1,Merchant 2155,Location 2155,2022-02,Wednesday,12,0.5798,Medium Risk,Monitor
+782,33.64,1473,2022-02-02 13:00:00,2307,0,34.3,0.826,Food,Customer 1473,26,Address 1473,3026.37,2023-04-18,0,Merchant 2307,Location 2307,2022-02,Wednesday,13,0.4142,Medium Risk,Monitor
+783,72.38,1733,2022-02-02 14:00:00,2112,0,37.16,0.8461,Food,Customer 1733,18,Address 1733,1362.04,2024-01-03,0,Merchant 2112,Location 2112,2022-02,Wednesday,14,0.4399,Medium Risk,Monitor
+784,24.99,1649,2022-02-02 15:00:00,2774,0,27.2,0.283,Online,Customer 1649,54,Address 1649,7708.88,2023-10-11,0,Merchant 2774,Location 2774,2022-02,Wednesday,15,0.144,Low Risk,No action
+785,93.97,1500,2022-02-02 16:00:00,2289,0,56.01,0.9762,Food,Customer 1500,19,Address 1500,4318.58,2023-05-15,0,Merchant 2289,Location 2289,2022-02,Wednesday,16,0.4594,Medium Risk,Monitor
+786,27.48,1366,2022-02-02 17:00:00,2553,0,93.71,0.2658,Other,Customer 1366,45,Address 1366,3069.64,2023-01-01,0,Merchant 2553,Location 2553,2022-02,Wednesday,17,0.1884,Low Risk,No action
+787,33.67,1001,2022-02-02 18:00:00,2627,0,87.38,0.0309,Food,Customer 1001,54,Address 1001,9507.27,2022-01-01,0,Merchant 2627,Location 2627,2022-02,Wednesday,18,0.0202,Low Risk,No action
+788,75.52,1986,2022-02-02 19:00:00,2235,0,29.47,0.0034,Retail,Customer 1986,51,Address 1986,6658.95,2024-09-12,0,Merchant 2235,Location 2235,2022-02,Wednesday,19,0.0436,Low Risk,No action
+789,69.45,1921,2022-02-02 20:00:00,2154,0,56.82,0.9532,Food,Customer 1921,44,Address 1921,1097.42,2024-07-09,0,Merchant 2154,Location 2154,2022-02,Wednesday,20,0.482,Medium Risk,Monitor
+790,58.0,1808,2022-02-02 21:00:00,2081,0,39.56,0.4246,Other,Customer 1808,43,Address 1808,7507.01,2024-03-18,0,Merchant 2081,Location 2081,2022-02,Wednesday,21,0.207,Low Risk,No action
+791,27.04,1503,2022-02-02 22:00:00,2309,0,18.52,0.9772,Travel,Customer 1503,37,Address 1503,4370.43,2023-05-18,0,Merchant 2309,Location 2309,2022-02,Wednesday,22,0.4586,Medium Risk,Monitor
+792,72.01,1017,2022-02-02 23:00:00,2173,0,26.46,0.927,Retail,Customer 1017,21,Address 1017,5179.0,2022-01-17,0,Merchant 2173,Location 2173,2022-02,Wednesday,23,0.4291,Medium Risk,Monitor
+793,53.97,1195,2022-02-03 00:00:00,2152,0,28.6,0.6572,Online,Customer 1195,64,Address 1195,6831.41,2022-07-14,0,Merchant 2152,Location 2152,2022-02,Thursday,0,0.3032,Medium Risk,Monitor
+794,50.24,1950,2022-02-03 01:00:00,2057,1,11.83,0.1754,Other,Customer 1950,48,Address 1950,2394.86,2024-08-07,0,Merchant 2057,Location 2057,2022-02,Thursday,1,0.4578,Medium Risk,Monitor
+795,91.23,1673,2022-02-03 02:00:00,2347,0,97.85,0.5584,Other,Customer 1673,55,Address 1673,9911.34,2023-11-04,0,Merchant 2347,Location 2347,2022-02,Thursday,2,0.2268,Low Risk,No action
+796,25.97,1528,2022-02-03 03:00:00,2256,0,45.3,0.6806,Travel,Customer 1528,28,Address 1528,4034.14,2023-06-12,0,Merchant 2256,Location 2256,2022-02,Thursday,3,0.3446,Medium Risk,Monitor
+797,58.47,1480,2022-02-03 04:00:00,2761,0,60.43,0.1634,Online,Customer 1480,26,Address 1480,7269.76,2023-04-25,0,Merchant 2761,Location 2761,2022-02,Thursday,4,0.0995,Low Risk,No action
+798,71.4,1771,2022-02-03 05:00:00,2932,0,95.86,0.2189,Travel,Customer 1771,35,Address 1771,8894.83,2024-02-10,0,Merchant 2932,Location 2932,2022-02,Thursday,5,0.101,Low Risk,No action
+799,23.1,1667,2022-02-03 06:00:00,2440,0,63.72,0.3935,Online,Customer 1667,35,Address 1667,4096.12,2023-10-29,0,Merchant 2440,Location 2440,2022-02,Thursday,6,0.2314,Low Risk,No action
+800,74.25,1429,2022-02-03 07:00:00,2530,0,69.16,0.9668,Food,Customer 1429,33,Address 1429,8687.34,2023-03-05,0,Merchant 2530,Location 2530,2022-02,Thursday,7,0.4056,Medium Risk,Monitor
+801,56.12,1152,2022-02-03 08:00:00,2446,0,33.9,0.3569,Food,Customer 1152,55,Address 1152,7273.98,2022-06-01,0,Merchant 2446,Location 2446,2022-02,Thursday,8,0.1811,Low Risk,No action
+802,37.1,1733,2022-02-03 09:00:00,2752,0,97.21,0.4077,Other,Customer 1733,18,Address 1733,1362.04,2024-01-03,0,Merchant 2752,Location 2752,2022-02,Thursday,9,0.2659,Low Risk,No action
+803,53.26,1273,2022-02-03 10:00:00,2648,0,66.59,0.9796,Other,Customer 1273,61,Address 1273,7120.62,2022-09-30,0,Merchant 2648,Location 2648,2022-02,Thursday,10,0.4281,Medium Risk,Monitor
+804,86.58,1515,2022-02-03 11:00:00,2643,0,60.68,0.8827,Online,Customer 1515,37,Address 1515,7872.51,2023-05-30,0,Merchant 2643,Location 2643,2022-02,Thursday,11,0.3834,Medium Risk,Monitor
+805,34.78,1999,2022-02-03 12:00:00,2843,0,56.25,0.1824,Food,Customer 1999,57,Address 1999,7376.85,2024-09-25,0,Merchant 2843,Location 2843,2022-02,Thursday,12,0.1046,Low Risk,No action
+806,10.01,1084,2022-02-03 13:00:00,2037,0,18.33,0.5194,Other,Customer 1084,60,Address 1084,2169.43,2022-03-25,0,Merchant 2037,Location 2037,2022-02,Thursday,13,0.3031,Medium Risk,Monitor
+807,51.93,1244,2022-02-03 14:00:00,2929,0,23.79,0.8244,Retail,Customer 1244,46,Address 1244,8723.86,2022-09-01,0,Merchant 2929,Location 2929,2022-02,Thursday,14,0.347,Medium Risk,Monitor
+808,49.04,1622,2022-02-03 15:00:00,2767,0,79.63,0.9602,Other,Customer 1622,21,Address 1622,5611.75,2023-09-14,0,Merchant 2767,Location 2767,2022-02,Thursday,15,0.4388,Medium Risk,Monitor
+809,98.18,1177,2022-02-03 16:00:00,2466,0,38.12,0.6272,Food,Customer 1177,50,Address 1177,2146.03,2022-06-26,0,Merchant 2466,Location 2466,2022-02,Thursday,16,0.3424,Medium Risk,Monitor
+810,31.85,1263,2022-02-03 17:00:00,2227,0,36.35,0.6571,Retail,Customer 1263,21,Address 1263,3583.38,2022-09-20,0,Merchant 2227,Location 2227,2022-02,Thursday,17,0.338,Medium Risk,Monitor
+811,76.75,1944,2022-02-03 18:00:00,2624,0,28.04,0.0009,Travel,Customer 1944,51,Address 1944,2462.05,2024-08-01,0,Merchant 2624,Location 2624,2022-02,Thursday,18,0.0876,Low Risk,No action
+812,28.03,1419,2022-02-03 19:00:00,2844,0,70.14,0.8501,Online,Customer 1419,28,Address 1419,1069.84,2023-02-23,0,Merchant 2844,Location 2844,2022-02,Thursday,19,0.4442,Medium Risk,Monitor
+813,68.65,1418,2022-02-03 20:00:00,2831,0,68.28,0.0354,Food,Customer 1418,19,Address 1418,5724.61,2023-02-22,0,Merchant 2831,Location 2831,2022-02,Thursday,20,0.0692,Low Risk,No action
+814,38.08,1769,2022-02-03 21:00:00,2490,0,91.02,0.4153,Retail,Customer 1769,34,Address 1769,9517.55,2024-02-08,0,Merchant 2490,Location 2490,2022-02,Thursday,21,0.1775,Low Risk,No action
+815,94.63,1056,2022-02-03 22:00:00,2202,0,82.09,0.1044,Food,Customer 1056,46,Address 1056,3507.49,2022-02-25,0,Merchant 2202,Location 2202,2022-02,Thursday,22,0.1186,Low Risk,No action
+816,26.52,1924,2022-02-03 23:00:00,2001,0,54.4,0.2092,Online,Customer 1924,60,Address 1924,2652.93,2024-07-12,0,Merchant 2001,Location 2001,2022-02,Thursday,23,0.1702,Low Risk,No action
+817,80.67,2000,2022-02-04 00:00:00,2570,0,69.67,0.3308,Travel,Customer 2000,42,Address 2000,4853.02,2024-09-26,0,Merchant 2570,Location 2570,2022-02,Friday,0,0.196,Low Risk,No action
+818,69.49,1843,2022-02-04 01:00:00,2194,0,63.54,0.5191,Food,Customer 1843,33,Address 1843,8695.44,2024-04-22,0,Merchant 2194,Location 2194,2022-02,Friday,1,0.2287,Low Risk,No action
+819,80.56,1328,2022-02-04 02:00:00,2235,0,14.93,0.0202,Retail,Customer 1328,62,Address 1328,4443.04,2022-11-24,0,Merchant 2235,Location 2235,2022-02,Friday,2,0.0762,Low Risk,No action
+820,67.22,1469,2022-02-04 03:00:00,2128,0,69.39,0.6054,Online,Customer 1469,28,Address 1469,3017.78,2023-04-14,0,Merchant 2128,Location 2128,2022-02,Friday,3,0.3229,Medium Risk,Monitor
+821,89.81,1625,2022-02-04 04:00:00,2827,0,43.33,0.9956,Retail,Customer 1625,41,Address 1625,8077.12,2023-09-17,0,Merchant 2827,Location 2827,2022-02,Friday,4,0.4223,Medium Risk,Monitor
+822,41.34,1899,2022-02-04 05:00:00,2277,0,57.13,0.0181,Food,Customer 1899,46,Address 1899,6060.94,2024-06-17,0,Merchant 2277,Location 2277,2022-02,Friday,5,0.0571,Low Risk,No action
+823,61.04,1854,2022-02-04 06:00:00,2013,0,47.24,0.5657,Other,Customer 1854,57,Address 1854,9960.17,2024-05-03,0,Merchant 2013,Location 2013,2022-02,Friday,6,0.228,Low Risk,No action
+824,39.8,1687,2022-02-04 07:00:00,2687,0,16.89,0.7563,Retail,Customer 1687,28,Address 1687,7484.04,2023-11-18,0,Merchant 2687,Location 2687,2022-02,Friday,7,0.3356,Medium Risk,Monitor
+825,68.43,1549,2022-02-04 08:00:00,2590,0,94.09,0.8328,Other,Customer 1549,60,Address 1549,4220.47,2023-07-03,0,Merchant 2590,Location 2590,2022-02,Friday,8,0.4059,Medium Risk,Monitor
+826,15.83,1981,2022-02-04 09:00:00,2227,0,37.06,0.3279,Other,Customer 1981,48,Address 1981,2711.23,2024-09-07,0,Merchant 2227,Location 2227,2022-02,Friday,9,0.2186,Low Risk,No action
+827,51.66,1991,2022-02-04 10:00:00,2955,0,25.15,0.3941,Online,Customer 1991,61,Address 1991,3272.31,2024-09-17,0,Merchant 2955,Location 2955,2022-02,Friday,10,0.2404,Low Risk,No action
+828,32.97,1776,2022-02-04 11:00:00,2075,0,20.45,0.84,Online,Customer 1776,31,Address 1776,3715.77,2024-02-15,0,Merchant 2075,Location 2075,2022-02,Friday,11,0.4144,Medium Risk,Monitor
+829,98.14,1565,2022-02-04 12:00:00,2524,0,50.96,0.8383,Travel,Customer 1565,33,Address 1565,8921.44,2023-07-19,0,Merchant 2524,Location 2524,2022-02,Friday,12,0.352,Medium Risk,Monitor
+830,88.89,1986,2022-02-04 13:00:00,2992,0,90.87,0.8583,Food,Customer 1986,51,Address 1986,6658.95,2024-09-12,0,Merchant 2992,Location 2992,2022-02,Friday,13,0.3899,Medium Risk,Monitor
+831,29.63,1205,2022-02-04 14:00:00,2629,0,62.4,0.7058,Online,Customer 1205,37,Address 1205,5707.42,2022-07-24,0,Merchant 2629,Location 2629,2022-02,Friday,14,0.336,Medium Risk,Monitor
+832,85.3,1155,2022-02-04 15:00:00,2819,0,72.66,0.7316,Food,Customer 1155,61,Address 1155,4698.08,2022-06-04,0,Merchant 2819,Location 2819,2022-02,Friday,15,0.3581,Medium Risk,Monitor
+833,73.3,1277,2022-02-04 16:00:00,2269,0,71.52,0.6168,Online,Customer 1277,22,Address 1277,5042.2,2022-10-04,0,Merchant 2269,Location 2269,2022-02,Friday,16,0.3047,Medium Risk,Monitor
+834,38.98,1311,2022-02-04 17:00:00,2154,0,97.86,0.8906,Online,Customer 1311,25,Address 1311,9253.48,2022-11-07,0,Merchant 2154,Location 2154,2022-02,Friday,17,0.3699,Medium Risk,Monitor
+835,43.96,1503,2022-02-04 18:00:00,2993,0,42.2,0.6734,Other,Customer 1503,37,Address 1503,4370.43,2023-05-18,0,Merchant 2993,Location 2993,2022-02,Friday,18,0.3375,Medium Risk,Monitor
+836,63.41,1051,2022-02-04 19:00:00,2869,0,29.36,0.7075,Retail,Customer 1051,30,Address 1051,4620.92,2022-02-20,0,Merchant 2869,Location 2869,2022-02,Friday,19,0.3492,Medium Risk,Monitor
+837,80.56,1132,2022-02-04 20:00:00,2974,0,99.6,0.4975,Retail,Customer 1132,47,Address 1132,4552.11,2022-05-12,0,Merchant 2974,Location 2974,2022-02,Friday,20,0.268,Low Risk,No action
+838,49.19,1651,2022-02-04 21:00:00,2982,0,54.45,0.3381,Retail,Customer 1651,58,Address 1651,8326.15,2023-10-13,0,Merchant 2982,Location 2982,2022-02,Friday,21,0.1614,Low Risk,No action
+839,36.49,1744,2022-02-04 22:00:00,2889,0,61.49,0.4176,Retail,Customer 1744,27,Address 1744,6141.1,2024-01-14,0,Merchant 2889,Location 2889,2022-02,Friday,22,0.222,Low Risk,No action
+840,42.73,1579,2022-02-04 23:00:00,2057,0,30.3,0.9501,Travel,Customer 1579,41,Address 1579,2479.27,2023-08-02,0,Merchant 2057,Location 2057,2022-02,Friday,23,0.4668,Medium Risk,Monitor
+841,99.58,1386,2022-02-05 00:00:00,2539,0,73.38,0.0748,Food,Customer 1386,25,Address 1386,4904.7,2023-01-21,0,Merchant 2539,Location 2539,2022-02,Saturday,0,0.0924,Low Risk,No action
+842,41.82,1296,2022-02-05 01:00:00,2935,0,97.91,0.1697,Food,Customer 1296,28,Address 1296,1364.64,2022-10-23,0,Merchant 2935,Location 2935,2022-02,Saturday,1,0.1653,Low Risk,No action
+843,24.14,1492,2022-02-05 02:00:00,2851,0,83.72,0.1773,Travel,Customer 1492,46,Address 1492,2989.82,2023-05-07,0,Merchant 2851,Location 2851,2022-02,Saturday,2,0.1528,Low Risk,No action
+844,75.27,1490,2022-02-05 03:00:00,2810,0,24.67,0.4452,Other,Customer 1490,56,Address 1490,9025.61,2023-05-05,0,Merchant 2810,Location 2810,2022-02,Saturday,3,0.1953,Low Risk,No action
+845,30.66,1921,2022-02-05 04:00:00,2826,0,20.48,0.489,Food,Customer 1921,44,Address 1921,1097.42,2024-07-09,0,Merchant 2826,Location 2826,2022-02,Saturday,4,0.2996,Low Risk,No action
+846,72.45,1647,2022-02-05 05:00:00,2112,0,34.1,0.058,Retail,Customer 1647,57,Address 1647,8742.26,2023-10-09,0,Merchant 2112,Location 2112,2022-02,Saturday,5,0.0435,Low Risk,No action
+847,80.23,1188,2022-02-05 06:00:00,2597,0,81.3,0.0593,Online,Customer 1188,23,Address 1188,7478.91,2022-07-07,0,Merchant 2597,Location 2597,2022-02,Saturday,6,0.0601,Low Risk,No action
+848,91.48,1053,2022-02-05 07:00:00,2288,1,85.34,0.8898,Travel,Customer 1053,22,Address 1053,8044.24,2022-02-22,0,Merchant 2288,Location 2288,2022-02,Saturday,7,0.6836,High Risk,Immediate review
+849,81.17,1454,2022-02-05 08:00:00,2370,0,94.54,0.1247,Travel,Customer 1454,33,Address 1454,8478.78,2023-03-30,0,Merchant 2370,Location 2370,2022-02,Saturday,8,0.0719,Low Risk,No action
+850,63.46,1597,2022-02-05 09:00:00,2850,0,47.56,0.8581,Retail,Customer 1597,33,Address 1597,7732.13,2023-08-20,0,Merchant 2850,Location 2850,2022-02,Saturday,9,0.3743,Medium Risk,Monitor
+851,29.91,1759,2022-02-05 10:00:00,2395,0,67.1,0.2945,Other,Customer 1759,33,Address 1759,6608.39,2024-01-29,0,Merchant 2395,Location 2395,2022-02,Saturday,10,0.164,Low Risk,No action
+852,64.4,1356,2022-02-05 11:00:00,2406,0,27.0,0.3808,Retail,Customer 1356,44,Address 1356,7927.59,2022-12-22,0,Merchant 2406,Location 2406,2022-02,Saturday,11,0.1825,Low Risk,No action
+853,59.66,1924,2022-02-05 12:00:00,2295,0,29.5,0.1283,Food,Customer 1924,60,Address 1924,2652.93,2024-07-12,0,Merchant 2295,Location 2295,2022-02,Saturday,12,0.1402,Low Risk,No action
+854,66.52,1834,2022-02-05 13:00:00,2484,0,32.5,0.1947,Other,Customer 1834,41,Address 1834,7732.4,2024-04-13,0,Merchant 2484,Location 2484,2022-02,Saturday,13,0.1036,Low Risk,No action
+855,59.57,1176,2022-02-05 14:00:00,2892,0,71.48,0.5941,Other,Customer 1176,20,Address 1176,5493.96,2022-06-25,0,Merchant 2892,Location 2892,2022-02,Saturday,14,0.2921,Low Risk,No action
+856,77.93,1551,2022-02-05 15:00:00,2811,0,41.57,0.9435,Travel,Customer 1551,58,Address 1551,2398.04,2023-07-05,0,Merchant 2811,Location 2811,2022-02,Saturday,15,0.4664,Medium Risk,Monitor
+857,61.69,1934,2022-02-05 16:00:00,2294,0,17.17,0.9803,Food,Customer 1934,56,Address 1934,1662.33,2024-07-22,0,Merchant 2294,Location 2294,2022-02,Saturday,16,0.4886,Medium Risk,Monitor
+858,64.09,1190,2022-02-05 17:00:00,2558,0,93.56,0.7394,Food,Customer 1190,24,Address 1190,8351.89,2022-07-09,0,Merchant 2558,Location 2558,2022-02,Saturday,17,0.3185,Medium Risk,Monitor
+859,42.16,1980,2022-02-05 18:00:00,2407,0,47.28,0.7389,Online,Customer 1980,44,Address 1980,7509.57,2024-09-06,0,Merchant 2407,Location 2407,2022-02,Saturday,18,0.3281,Medium Risk,Monitor
+860,14.38,1322,2022-02-05 19:00:00,2408,0,78.79,0.8305,Retail,Customer 1322,29,Address 1322,9411.51,2022-11-18,0,Merchant 2408,Location 2408,2022-02,Saturday,19,0.3419,Medium Risk,Monitor
+861,80.21,1765,2022-02-05 20:00:00,2015,0,13.51,0.2445,Travel,Customer 1765,29,Address 1765,5112.34,2024-02-04,0,Merchant 2015,Location 2015,2022-02,Saturday,20,0.153,Low Risk,No action
+862,80.42,1553,2022-02-05 21:00:00,2077,0,78.36,0.2645,Travel,Customer 1553,37,Address 1553,5095.38,2023-07-07,0,Merchant 2077,Location 2077,2022-02,Saturday,21,0.1634,Low Risk,No action
+863,36.91,1143,2022-02-05 22:00:00,2124,0,61.21,0.7028,Retail,Customer 1143,58,Address 1143,3367.92,2022-05-23,0,Merchant 2124,Location 2124,2022-02,Saturday,22,0.3604,Medium Risk,Monitor
+864,29.08,1709,2022-02-05 23:00:00,2137,0,16.14,0.5676,Other,Customer 1709,42,Address 1709,4061.52,2023-12-10,0,Merchant 2137,Location 2137,2022-02,Saturday,23,0.2984,Low Risk,No action
+865,19.35,1839,2022-02-06 00:00:00,2163,0,66.87,0.5796,Online,Customer 1839,18,Address 1839,5856.06,2024-04-18,0,Merchant 2163,Location 2163,2022-02,Sunday,0,0.2813,Low Risk,No action
+866,34.45,1249,2022-02-06 01:00:00,2395,0,42.57,0.129,Online,Customer 1249,26,Address 1249,5944.21,2022-09-06,0,Merchant 2395,Location 2395,2022-02,Sunday,1,0.1044,Low Risk,No action
+867,81.42,1128,2022-02-06 02:00:00,2160,0,96.8,0.807,Travel,Customer 1128,21,Address 1128,7899.46,2022-05-08,0,Merchant 2160,Location 2160,2022-02,Sunday,2,0.3523,Medium Risk,Monitor
+868,27.45,1111,2022-02-06 03:00:00,2712,0,49.87,0.7509,Retail,Customer 1111,32,Address 1111,7980.85,2022-04-21,0,Merchant 2712,Location 2712,2022-02,Sunday,3,0.327,Medium Risk,Monitor
+869,65.7,1656,2022-02-06 04:00:00,2252,0,60.71,0.5577,Retail,Customer 1656,48,Address 1656,5626.57,2023-10-18,0,Merchant 2252,Location 2252,2022-02,Sunday,4,0.2774,Low Risk,No action
+870,50.7,1814,2022-02-06 05:00:00,2302,0,42.59,0.1124,Online,Customer 1814,28,Address 1814,6484.65,2024-03-24,0,Merchant 2302,Location 2302,2022-02,Sunday,5,0.0918,Low Risk,No action
+871,50.24,1393,2022-02-06 06:00:00,2875,0,71.62,0.9506,Retail,Customer 1393,47,Address 1393,3238.18,2023-01-28,0,Merchant 2875,Location 2875,2022-02,Sunday,6,0.4594,Medium Risk,Monitor
+872,21.15,1920,2022-02-06 07:00:00,2451,0,16.2,0.7621,Retail,Customer 1920,33,Address 1920,3434.61,2024-07-08,0,Merchant 2451,Location 2451,2022-02,Sunday,7,0.3842,Medium Risk,Monitor
+873,16.44,1085,2022-02-06 08:00:00,2859,0,52.17,0.512,Retail,Customer 1085,35,Address 1085,6148.87,2022-03-26,0,Merchant 2859,Location 2859,2022-02,Sunday,8,0.257,Low Risk,No action
+874,70.3,1212,2022-02-06 09:00:00,2116,0,58.76,0.3382,Food,Customer 1212,55,Address 1212,9974.7,2022-07-31,0,Merchant 2116,Location 2116,2022-02,Sunday,9,0.1419,Low Risk,No action
+875,94.25,1708,2022-02-06 10:00:00,2919,0,32.52,0.7527,Food,Customer 1708,30,Address 1708,2877.53,2023-12-09,0,Merchant 2919,Location 2919,2022-02,Sunday,10,0.3867,Medium Risk,Monitor
+876,64.09,1917,2022-02-06 11:00:00,2172,0,41.01,0.2005,Travel,Customer 1917,37,Address 1917,7381.25,2024-07-05,0,Merchant 2172,Location 2172,2022-02,Sunday,11,0.1121,Low Risk,No action
+877,77.26,1376,2022-02-06 12:00:00,2497,0,62.54,0.1394,Online,Customer 1376,53,Address 1376,5745.13,2023-01-11,0,Merchant 2497,Location 2497,2022-02,Sunday,12,0.1086,Low Risk,No action
+878,40.31,1495,2022-02-06 13:00:00,2024,0,50.92,0.848,Online,Customer 1495,20,Address 1495,1236.38,2023-05-10,0,Merchant 2024,Location 2024,2022-02,Sunday,13,0.4418,Medium Risk,Monitor
+879,84.55,1623,2022-02-06 14:00:00,2034,0,44.38,0.3341,Food,Customer 1623,34,Address 1623,2341.71,2023-09-15,0,Merchant 2034,Location 2034,2022-02,Sunday,14,0.2262,Low Risk,No action
+880,95.23,1423,2022-02-06 15:00:00,2116,0,11.92,0.5847,Retail,Customer 1423,40,Address 1423,7025.45,2023-02-27,0,Merchant 2116,Location 2116,2022-02,Sunday,15,0.2715,Low Risk,No action
+881,50.83,1504,2022-02-06 16:00:00,2241,0,23.56,0.4986,Other,Customer 1504,64,Address 1504,1165.43,2023-05-19,0,Merchant 2241,Location 2241,2022-02,Sunday,16,0.3029,Medium Risk,Monitor
+882,84.6,1571,2022-02-06 17:00:00,2379,0,41.94,0.5007,Food,Customer 1571,24,Address 1571,9122.33,2023-07-25,0,Merchant 2379,Location 2379,2022-02,Sunday,17,0.215,Low Risk,No action
+883,63.53,1406,2022-02-06 18:00:00,2050,0,12.85,0.4272,Retail,Customer 1406,56,Address 1406,6284.74,2023-02-10,0,Merchant 2050,Location 2050,2022-02,Sunday,18,0.2235,Low Risk,No action
+884,66.27,1704,2022-02-06 19:00:00,2738,0,82.0,0.1912,Food,Customer 1704,23,Address 1704,1670.49,2023-12-05,0,Merchant 2738,Location 2738,2022-02,Sunday,19,0.1708,Low Risk,No action
+885,23.45,1210,2022-02-06 20:00:00,2200,0,11.02,0.053,Online,Customer 1210,39,Address 1210,9316.95,2022-07-29,0,Merchant 2200,Location 2200,2022-02,Sunday,20,0.0346,Low Risk,No action
+886,90.06,1821,2022-02-06 21:00:00,2831,0,71.63,0.819,Retail,Customer 1821,26,Address 1821,9713.66,2024-03-31,0,Merchant 2831,Location 2831,2022-02,Sunday,21,0.3332,Medium Risk,Monitor
+887,25.53,1180,2022-02-06 22:00:00,2813,0,30.63,0.7559,Online,Customer 1180,59,Address 1180,8645.38,2022-06-29,0,Merchant 2813,Location 2813,2022-02,Sunday,22,0.321,Medium Risk,Monitor
+888,74.07,1433,2022-02-06 23:00:00,2938,0,10.25,0.2772,Travel,Customer 1433,55,Address 1433,6991.29,2023-03-09,0,Merchant 2938,Location 2938,2022-02,Sunday,23,0.1495,Low Risk,No action
+889,26.68,1928,2022-02-07 00:00:00,2631,0,31.96,0.0141,Retail,Customer 1928,60,Address 1928,9352.66,2024-07-16,0,Merchant 2631,Location 2631,2022-02,Monday,0,0.015,Low Risk,No action
+890,87.18,1906,2022-02-07 01:00:00,2660,0,30.1,0.5086,Travel,Customer 1906,47,Address 1906,8161.51,2024-06-24,0,Merchant 2660,Location 2660,2022-02,Monday,1,0.2305,Low Risk,No action
+891,88.07,1533,2022-02-07 02:00:00,2586,0,11.7,0.6492,Retail,Customer 1533,48,Address 1533,8928.44,2023-06-17,0,Merchant 2586,Location 2586,2022-02,Monday,2,0.274,Low Risk,No action
+892,98.29,1691,2022-02-07 03:00:00,2845,0,13.12,0.8999,Other,Customer 1691,47,Address 1691,6089.05,2023-11-22,0,Merchant 2845,Location 2845,2022-02,Monday,3,0.4137,Medium Risk,Monitor
+893,31.22,1319,2022-02-07 04:00:00,2655,0,87.6,0.0426,Travel,Customer 1319,38,Address 1319,5564.49,2022-11-15,0,Merchant 2655,Location 2655,2022-02,Monday,4,0.0734,Low Risk,No action
+894,84.72,1544,2022-02-07 05:00:00,2633,0,74.27,0.229,Retail,Customer 1544,55,Address 1544,8546.33,2023-06-28,0,Merchant 2633,Location 2633,2022-02,Monday,5,0.1093,Low Risk,No action
+895,53.68,1952,2022-02-07 06:00:00,2149,0,90.42,0.0408,Food,Customer 1952,50,Address 1952,2869.69,2024-08-09,0,Merchant 2149,Location 2149,2022-02,Monday,6,0.103,Low Risk,No action
+896,23.03,1389,2022-02-07 07:00:00,2304,0,36.79,0.7061,Retail,Customer 1389,61,Address 1389,1815.83,2023-01-24,0,Merchant 2304,Location 2304,2022-02,Monday,7,0.3773,Medium Risk,Monitor
+897,63.5,1049,2022-02-07 08:00:00,2844,0,58.27,0.9371,Online,Customer 1049,30,Address 1049,7144.3,2022-02-18,0,Merchant 2844,Location 2844,2022-02,Monday,8,0.4124,Medium Risk,Monitor
+898,87.34,1755,2022-02-07 09:00:00,2104,0,47.64,0.2503,Travel,Customer 1755,42,Address 1755,2653.25,2024-01-25,0,Merchant 2104,Location 2104,2022-02,Monday,9,0.1844,Low Risk,No action
+899,15.9,1538,2022-02-07 10:00:00,2296,0,54.72,0.5482,Food,Customer 1538,62,Address 1538,3447.12,2023-06-22,0,Merchant 2296,Location 2296,2022-02,Monday,10,0.299,Low Risk,No action
+900,36.88,1424,2022-02-07 11:00:00,2094,0,56.47,0.0319,Retail,Customer 1424,37,Address 1424,4344.55,2023-02-28,0,Merchant 2094,Location 2094,2022-02,Monday,11,0.0832,Low Risk,No action
+901,13.85,1825,2022-02-07 12:00:00,2639,0,41.83,0.7168,Travel,Customer 1825,54,Address 1825,4886.01,2024-04-04,0,Merchant 2639,Location 2639,2022-02,Monday,12,0.3488,Medium Risk,Monitor
+902,11.66,1996,2022-02-07 13:00:00,2240,0,30.29,0.5242,Travel,Customer 1996,33,Address 1996,8523.49,2024-09-22,0,Merchant 2240,Location 2240,2022-02,Monday,13,0.2342,Low Risk,No action
+903,21.21,1991,2022-02-07 14:00:00,2902,0,89.95,0.2584,Travel,Customer 1991,61,Address 1991,3272.31,2024-09-17,0,Merchant 2902,Location 2902,2022-02,Monday,14,0.1811,Low Risk,No action
+904,45.77,1225,2022-02-07 15:00:00,2983,0,12.91,0.43,Online,Customer 1225,51,Address 1225,2351.05,2022-08-13,0,Merchant 2983,Location 2983,2022-02,Monday,15,0.2673,Low Risk,No action
+905,64.1,1322,2022-02-07 16:00:00,2239,0,98.24,0.4777,Travel,Customer 1322,29,Address 1322,9411.51,2022-11-18,0,Merchant 2239,Location 2239,2022-02,Monday,16,0.2019,Low Risk,No action
+906,90.39,1280,2022-02-07 17:00:00,2081,0,34.79,0.4036,Retail,Customer 1280,60,Address 1280,8295.28,2022-10-07,0,Merchant 2081,Location 2081,2022-02,Monday,17,0.187,Low Risk,No action
+907,61.95,1932,2022-02-07 18:00:00,2631,0,64.33,0.6775,Online,Customer 1932,22,Address 1932,3443.91,2024-07-20,0,Merchant 2631,Location 2631,2022-02,Monday,18,0.3483,Medium Risk,Monitor
+908,21.01,1992,2022-02-07 19:00:00,2850,1,21.47,0.205,Online,Customer 1992,55,Address 1992,4053.59,2024-09-18,0,Merchant 2850,Location 2850,2022-02,Monday,19,0.4541,Medium Risk,Monitor
+909,73.56,1595,2022-02-07 20:00:00,2694,0,38.69,0.4496,Travel,Customer 1595,53,Address 1595,1150.3,2023-08-18,0,Merchant 2694,Location 2694,2022-02,Monday,20,0.2856,Low Risk,No action
+910,32.23,1228,2022-02-07 21:00:00,2007,0,93.9,0.6611,Food,Customer 1228,59,Address 1228,9343.25,2022-08-16,1,Merchant 2007,Location 2007,2022-02,Monday,21,0.4742,Medium Risk,Monitor
+911,44.89,1304,2022-02-07 22:00:00,2801,0,83.79,0.756,Retail,Customer 1304,62,Address 1304,9631.52,2022-10-31,0,Merchant 2801,Location 2801,2022-02,Monday,22,0.3084,Medium Risk,Monitor
+912,38.39,1747,2022-02-07 23:00:00,2044,0,17.62,0.9919,Other,Customer 1747,44,Address 1747,1098.72,2024-01-17,0,Merchant 2044,Location 2044,2022-02,Monday,23,0.4974,Medium Risk,Monitor
+913,94.59,1199,2022-02-08 00:00:00,2895,0,20.11,0.5601,Retail,Customer 1199,45,Address 1199,5098.86,2022-07-18,0,Merchant 2895,Location 2895,2022-02,Tuesday,0,0.2824,Low Risk,No action
+914,96.52,1009,2022-02-08 01:00:00,2701,0,94.93,0.8567,Other,Customer 1009,32,Address 1009,5359.75,2022-01-09,0,Merchant 2701,Location 2701,2022-02,Tuesday,1,0.4009,Medium Risk,Monitor
+915,81.7,1227,2022-02-08 02:00:00,2957,0,27.59,0.2709,Food,Customer 1227,35,Address 1227,6764.94,2022-08-15,0,Merchant 2957,Location 2957,2022-02,Tuesday,2,0.1491,Low Risk,No action
+916,56.38,1334,2022-02-08 03:00:00,2521,0,48.32,0.4529,Other,Customer 1334,41,Address 1334,4572.65,2022-11-30,0,Merchant 2521,Location 2521,2022-02,Tuesday,3,0.2522,Low Risk,No action
+917,80.91,1655,2022-02-08 04:00:00,2687,0,97.59,0.8668,Other,Customer 1655,50,Address 1655,2152.99,2023-10-17,0,Merchant 2687,Location 2687,2022-02,Tuesday,4,0.4418,Medium Risk,Monitor
+918,23.12,1242,2022-02-08 05:00:00,2423,0,71.53,0.8719,Travel,Customer 1242,32,Address 1242,5765.64,2022-08-30,0,Merchant 2423,Location 2423,2022-02,Tuesday,5,0.4042,Medium Risk,Monitor
+919,76.7,1136,2022-02-08 06:00:00,2301,0,48.47,0.092,Retail,Customer 1136,29,Address 1136,7321.06,2022-05-16,0,Merchant 2301,Location 2301,2022-02,Tuesday,6,0.0726,Low Risk,No action
+920,67.97,1142,2022-02-08 07:00:00,2772,0,36.19,0.7573,Other,Customer 1142,57,Address 1142,3789.36,2022-05-22,0,Merchant 2772,Location 2772,2022-02,Tuesday,7,0.3784,Medium Risk,Monitor
+921,45.85,1004,2022-02-08 08:00:00,2111,0,36.53,0.6522,Other,Customer 1004,30,Address 1004,3101.51,2022-01-04,0,Merchant 2111,Location 2111,2022-02,Tuesday,8,0.3434,Medium Risk,Monitor
+922,53.52,1606,2022-02-08 09:00:00,2714,0,54.03,0.0539,Other,Customer 1606,60,Address 1606,4152.72,2023-08-29,0,Merchant 2714,Location 2714,2022-02,Tuesday,9,0.0962,Low Risk,No action
+923,52.16,1024,2022-02-08 10:00:00,2734,0,21.37,0.9494,Other,Customer 1024,40,Address 1024,1795.33,2022-01-24,0,Merchant 2734,Location 2734,2022-02,Tuesday,10,0.473,Medium Risk,Monitor
+924,12.96,1800,2022-02-08 11:00:00,2522,0,52.91,0.3106,Retail,Customer 1800,58,Address 1800,6631.37,2024-03-10,0,Merchant 2522,Location 2522,2022-02,Tuesday,11,0.1693,Low Risk,No action
+925,77.59,1060,2022-02-08 12:00:00,2841,0,11.44,0.2606,Travel,Customer 1060,38,Address 1060,9121.23,2022-03-01,0,Merchant 2841,Location 2841,2022-02,Tuesday,12,0.1144,Low Risk,No action
+926,97.58,1666,2022-02-08 13:00:00,2353,0,28.86,0.3632,Online,Customer 1666,36,Address 1666,9674.06,2023-10-28,0,Merchant 2353,Location 2353,2022-02,Tuesday,13,0.1532,Low Risk,No action
+927,93.19,1165,2022-02-08 14:00:00,2544,1,49.88,0.6179,Online,Customer 1165,48,Address 1165,4115.72,2022-06-14,0,Merchant 2544,Location 2544,2022-02,Tuesday,14,0.618,High Risk,Immediate review
+928,75.05,1132,2022-02-08 15:00:00,2517,0,19.24,0.2433,Online,Customer 1132,47,Address 1132,4552.11,2022-05-12,0,Merchant 2517,Location 2517,2022-02,Tuesday,15,0.16,Low Risk,No action
+929,26.61,1751,2022-02-08 16:00:00,2960,1,17.06,0.2352,Online,Customer 1751,35,Address 1751,3532.25,2024-01-21,0,Merchant 2960,Location 2960,2022-02,Tuesday,16,0.468,Medium Risk,Monitor
+930,19.53,1514,2022-02-08 17:00:00,2441,0,49.68,0.4296,Travel,Customer 1514,20,Address 1514,2045.06,2023-05-29,0,Merchant 2441,Location 2441,2022-02,Tuesday,17,0.2696,Low Risk,No action
+931,63.74,1785,2022-02-08 18:00:00,2772,0,77.31,0.8348,Other,Customer 1785,26,Address 1785,1549.52,2024-02-24,0,Merchant 2772,Location 2772,2022-02,Tuesday,18,0.4343,Medium Risk,Monitor
+932,84.99,1801,2022-02-08 19:00:00,2504,0,24.66,0.7804,Travel,Customer 1801,27,Address 1801,1941.73,2024-03-11,0,Merchant 2504,Location 2504,2022-02,Tuesday,19,0.4057,Medium Risk,Monitor
+933,43.31,1330,2022-02-08 20:00:00,2414,0,29.4,0.7194,Other,Customer 1330,63,Address 1330,8773.96,2022-11-26,1,Merchant 2414,Location 2414,2022-02,Tuesday,20,0.5056,Medium Risk,Monitor
+934,59.65,1088,2022-02-08 21:00:00,2315,0,37.07,0.6986,Food,Customer 1088,38,Address 1088,1511.71,2022-03-29,0,Merchant 2315,Location 2315,2022-02,Tuesday,21,0.3784,Medium Risk,Monitor
+935,67.63,1705,2022-02-08 22:00:00,2499,0,44.22,0.5437,Retail,Customer 1705,39,Address 1705,4634.37,2023-12-06,0,Merchant 2499,Location 2499,2022-02,Tuesday,22,0.2843,Low Risk,No action
+936,43.18,1658,2022-02-08 23:00:00,2383,0,59.63,0.1473,Retail,Customer 1658,44,Address 1658,6506.93,2023-10-20,0,Merchant 2383,Location 2383,2022-02,Tuesday,23,0.1042,Low Risk,No action
+937,88.21,1518,2022-02-09 00:00:00,2340,0,63.05,0.2828,Travel,Customer 1518,19,Address 1518,1512.26,2023-06-02,0,Merchant 2340,Location 2340,2022-02,Wednesday,0,0.2126,Low Risk,No action
+938,50.36,1131,2022-02-09 01:00:00,2486,0,56.53,0.6627,Travel,Customer 1131,41,Address 1131,6496.11,2022-05-11,0,Merchant 2486,Location 2486,2022-02,Wednesday,1,0.3113,Medium Risk,Monitor
+939,88.99,1482,2022-02-09 02:00:00,2871,0,81.48,0.8367,Travel,Customer 1482,26,Address 1482,2076.81,2023-04-27,0,Merchant 2871,Location 2871,2022-02,Wednesday,2,0.4292,Medium Risk,Monitor
+940,74.1,1516,2022-02-09 03:00:00,2273,0,97.64,0.9837,Online,Customer 1516,41,Address 1516,8658.74,2023-05-31,0,Merchant 2273,Location 2273,2022-02,Wednesday,3,0.4111,Medium Risk,Monitor
+941,13.84,1058,2022-02-09 04:00:00,2385,0,93.38,0.0511,Travel,Customer 1058,50,Address 1058,5923.74,2022-02-27,0,Merchant 2385,Location 2385,2022-02,Wednesday,4,0.0747,Low Risk,No action
+942,12.61,1350,2022-02-09 05:00:00,2436,0,54.02,0.7188,Other,Customer 1350,49,Address 1350,3431.94,2022-12-16,0,Merchant 2436,Location 2436,2022-02,Wednesday,5,0.367,Medium Risk,Monitor
+943,34.06,1232,2022-02-09 06:00:00,2530,0,53.35,0.9038,Retail,Customer 1232,18,Address 1232,8793.54,2022-08-20,0,Merchant 2530,Location 2530,2022-02,Wednesday,6,0.3803,Medium Risk,Monitor
+944,35.86,1154,2022-02-09 07:00:00,2736,0,39.33,0.7412,Retail,Customer 1154,48,Address 1154,5544.57,2022-06-03,0,Merchant 2736,Location 2736,2022-02,Wednesday,7,0.3532,Medium Risk,Monitor
+945,42.61,1014,2022-02-09 08:00:00,2568,0,58.05,0.6185,Retail,Customer 1014,27,Address 1014,9922.29,2022-01-14,0,Merchant 2568,Location 2568,2022-02,Wednesday,8,0.2503,Low Risk,No action
+946,48.23,1473,2022-02-09 09:00:00,2414,1,82.69,0.3023,Other,Customer 1473,26,Address 1473,3026.37,2023-04-18,0,Merchant 2414,Location 2414,2022-02,Wednesday,9,0.5062,Medium Risk,Monitor
+947,15.06,1085,2022-02-09 10:00:00,2741,0,59.25,0.8314,Online,Customer 1085,35,Address 1085,6148.87,2022-03-26,0,Merchant 2741,Location 2741,2022-02,Wednesday,10,0.3835,Medium Risk,Monitor
+948,60.22,1779,2022-02-09 11:00:00,2826,0,92.96,0.3051,Food,Customer 1779,29,Address 1779,5248.69,2024-02-18,0,Merchant 2826,Location 2826,2022-02,Wednesday,11,0.1812,Low Risk,No action
+949,71.17,1971,2022-02-09 12:00:00,2610,0,32.04,0.7591,Travel,Customer 1971,55,Address 1971,7251.7,2024-08-28,0,Merchant 2610,Location 2610,2022-02,Wednesday,12,0.3419,Medium Risk,Monitor
+950,79.37,1124,2022-02-09 13:00:00,2312,0,95.27,0.0778,Online,Customer 1124,45,Address 1124,6746.99,2022-05-04,0,Merchant 2312,Location 2312,2022-02,Wednesday,13,0.0749,Low Risk,No action
+951,68.37,1568,2022-02-09 14:00:00,2581,0,44.91,0.3715,Other,Customer 1568,31,Address 1568,3281.34,2023-07-22,0,Merchant 2581,Location 2581,2022-02,Wednesday,14,0.2313,Low Risk,No action
+952,73.97,1083,2022-02-09 15:00:00,2043,0,80.34,0.9136,Online,Customer 1083,29,Address 1083,3012.91,2022-03-24,0,Merchant 2043,Location 2043,2022-02,Wednesday,15,0.4507,Medium Risk,Monitor
+953,61.19,1138,2022-02-09 16:00:00,2626,0,75.35,0.4291,Other,Customer 1138,63,Address 1138,5038.91,2022-05-18,0,Merchant 2626,Location 2626,2022-02,Wednesday,16,0.2354,Low Risk,No action
+954,98.3,1942,2022-02-09 17:00:00,2428,0,66.39,0.4688,Other,Customer 1942,51,Address 1942,9839.15,2024-07-30,0,Merchant 2428,Location 2428,2022-02,Wednesday,17,0.1956,Low Risk,No action
+955,57.99,1814,2022-02-09 18:00:00,2460,0,27.93,0.4156,Online,Customer 1814,28,Address 1814,6484.65,2024-03-24,0,Merchant 2460,Location 2460,2022-02,Wednesday,18,0.2176,Low Risk,No action
+956,22.09,1592,2022-02-09 19:00:00,2541,1,45.14,0.1057,Other,Customer 1592,29,Address 1592,3760.16,2023-08-15,0,Merchant 2541,Location 2541,2022-02,Wednesday,19,0.4173,Medium Risk,Monitor
+957,13.13,1345,2022-02-09 20:00:00,2195,0,44.27,0.6031,Online,Customer 1345,52,Address 1345,7264.81,2022-12-11,0,Merchant 2195,Location 2195,2022-02,Wednesday,20,0.2748,Low Risk,No action
+958,82.0,1108,2022-02-09 21:00:00,2139,0,54.95,0.4109,Travel,Customer 1108,33,Address 1108,7794.95,2022-04-18,0,Merchant 2139,Location 2139,2022-02,Wednesday,21,0.1965,Low Risk,No action
+959,31.81,1037,2022-02-09 22:00:00,2946,0,42.91,0.8927,Travel,Customer 1037,61,Address 1037,9519.48,2022-02-06,0,Merchant 2946,Location 2946,2022-02,Wednesday,22,0.3661,Medium Risk,Monitor
+960,18.21,1748,2022-02-09 23:00:00,2799,0,79.82,0.7987,Other,Customer 1748,58,Address 1748,1787.74,2024-01-18,0,Merchant 2799,Location 2799,2022-02,Wednesday,23,0.416,Medium Risk,Monitor
+961,79.2,1902,2022-02-10 00:00:00,2592,0,66.71,0.7806,Other,Customer 1902,35,Address 1902,6370.26,2024-06-20,0,Merchant 2592,Location 2592,2022-02,Thursday,0,0.3603,Medium Risk,Monitor
+962,10.66,1925,2022-02-10 01:00:00,2439,0,79.43,0.1793,Food,Customer 1925,21,Address 1925,7080.22,2024-07-13,0,Merchant 2439,Location 2439,2022-02,Thursday,1,0.1075,Low Risk,No action
+963,39.42,1631,2022-02-10 02:00:00,2344,0,69.98,0.5124,Retail,Customer 1631,57,Address 1631,6453.02,2023-09-23,0,Merchant 2344,Location 2344,2022-02,Thursday,2,0.2548,Low Risk,No action
+964,14.57,1367,2022-02-10 03:00:00,2088,0,85.38,0.1848,Food,Customer 1367,19,Address 1367,6381.96,2023-01-02,0,Merchant 2088,Location 2088,2022-02,Thursday,3,0.1188,Low Risk,No action
+965,66.38,1578,2022-02-10 04:00:00,2883,0,21.07,0.4479,Travel,Customer 1578,29,Address 1578,4571.54,2023-08-01,0,Merchant 2883,Location 2883,2022-02,Thursday,4,0.249,Low Risk,No action
+966,59.03,1701,2022-02-10 05:00:00,2465,0,77.59,0.893,Online,Customer 1701,50,Address 1701,7244.5,2023-12-02,0,Merchant 2465,Location 2465,2022-02,Thursday,5,0.3974,Medium Risk,Monitor
+967,29.36,1628,2022-02-10 06:00:00,3000,0,82.85,0.0185,Other,Customer 1628,55,Address 1628,3392.43,2023-09-20,0,Merchant 3000,Location 3000,2022-02,Thursday,6,0.0862,Low Risk,No action
+968,38.68,1376,2022-02-10 07:00:00,2373,0,72.93,0.8729,Other,Customer 1376,53,Address 1376,5745.13,2023-01-11,0,Merchant 2373,Location 2373,2022-02,Thursday,7,0.4054,Medium Risk,Monitor
+969,70.84,1990,2022-02-10 08:00:00,2906,0,81.37,0.7907,Travel,Customer 1990,63,Address 1990,7417.76,2024-09-16,0,Merchant 2906,Location 2906,2022-02,Thursday,8,0.3516,Medium Risk,Monitor
+970,96.11,1951,2022-02-10 09:00:00,2229,0,98.25,0.9434,Online,Customer 1951,18,Address 1951,6303.23,2024-08-08,0,Merchant 2229,Location 2229,2022-02,Thursday,9,0.4244,Medium Risk,Monitor
+971,80.56,1511,2022-02-10 10:00:00,2369,0,33.99,0.8952,Other,Customer 1511,29,Address 1511,3104.94,2023-05-26,0,Merchant 2369,Location 2369,2022-02,Thursday,10,0.4443,Medium Risk,Monitor
+972,60.98,1044,2022-02-10 11:00:00,2248,0,48.3,0.6371,Retail,Customer 1044,22,Address 1044,5084.27,2022-02-13,0,Merchant 2248,Location 2248,2022-02,Thursday,11,0.3128,Medium Risk,Monitor
+973,40.39,1661,2022-02-10 12:00:00,2396,0,14.16,0.3994,Food,Customer 1661,34,Address 1661,4915.43,2023-10-23,0,Merchant 2396,Location 2396,2022-02,Thursday,12,0.2227,Low Risk,No action
+974,85.89,1289,2022-02-10 13:00:00,2625,0,39.95,0.9164,Online,Customer 1289,31,Address 1289,9393.91,2022-10-16,0,Merchant 2625,Location 2625,2022-02,Thursday,13,0.3766,Medium Risk,Monitor
+975,24.18,1787,2022-02-10 14:00:00,2464,0,97.16,0.1861,Food,Customer 1787,35,Address 1787,6709.76,2024-02-26,0,Merchant 2464,Location 2464,2022-02,Thursday,14,0.1155,Low Risk,No action
+976,22.63,1666,2022-02-10 15:00:00,2895,0,40.98,0.3276,Other,Customer 1666,36,Address 1666,9674.06,2023-10-28,0,Merchant 2895,Location 2895,2022-02,Thursday,15,0.1364,Low Risk,No action
+977,68.47,1153,2022-02-10 16:00:00,2661,0,15.91,0.6134,Travel,Customer 1153,26,Address 1153,7795.59,2022-06-02,0,Merchant 2661,Location 2661,2022-02,Thursday,16,0.2723,Low Risk,No action
+978,41.61,1055,2022-02-10 17:00:00,2983,0,27.02,0.5633,Online,Customer 1055,24,Address 1055,1611.54,2022-02-24,0,Merchant 2983,Location 2983,2022-02,Thursday,17,0.3224,Medium Risk,Monitor
+979,52.34,1020,2022-02-10 18:00:00,2910,0,79.72,0.0392,Other,Customer 1020,55,Address 1020,3552.86,2022-01-20,0,Merchant 2910,Location 2910,2022-02,Thursday,18,0.0934,Low Risk,No action
+980,59.31,1421,2022-02-10 19:00:00,2666,0,36.02,0.5073,Travel,Customer 1421,41,Address 1421,6341.74,2023-02-25,0,Merchant 2666,Location 2666,2022-02,Thursday,19,0.2529,Low Risk,No action
+981,50.19,1030,2022-02-10 20:00:00,2747,0,44.55,0.7225,Travel,Customer 1030,54,Address 1030,3767.56,2022-01-30,0,Merchant 2747,Location 2747,2022-02,Thursday,20,0.3648,Medium Risk,Monitor
+982,15.88,1777,2022-02-10 21:00:00,2408,0,34.06,0.9103,Food,Customer 1777,54,Address 1777,7409.5,2024-02-16,0,Merchant 2408,Location 2408,2022-02,Thursday,21,0.399,Medium Risk,Monitor
+983,93.21,1501,2022-02-10 22:00:00,2611,0,53.55,0.3496,Retail,Customer 1501,48,Address 1501,2342.87,2023-05-16,0,Merchant 2611,Location 2611,2022-02,Thursday,22,0.2327,Low Risk,No action
+984,49.45,1884,2022-02-10 23:00:00,2593,0,34.49,0.1694,Online,Customer 1884,55,Address 1884,6010.65,2024-06-02,0,Merchant 2593,Location 2593,2022-02,Thursday,23,0.1156,Low Risk,No action
+985,87.01,1796,2022-02-11 00:00:00,2010,0,99.52,0.859,Online,Customer 1796,33,Address 1796,5588.05,2024-03-06,0,Merchant 2010,Location 2010,2022-02,Friday,0,0.402,Medium Risk,Monitor
+986,29.33,1706,2022-02-11 01:00:00,2036,0,89.97,0.2856,Other,Customer 1706,45,Address 1706,1678.51,2023-12-07,0,Merchant 2036,Location 2036,2022-02,Friday,1,0.2125,Low Risk,No action
+987,90.01,1238,2022-02-11 02:00:00,2373,0,40.35,0.2811,Food,Customer 1238,38,Address 1238,8228.9,2022-08-26,0,Merchant 2373,Location 2373,2022-02,Friday,2,0.1354,Low Risk,No action
+988,86.32,1937,2022-02-11 03:00:00,2395,0,41.87,0.7347,Travel,Customer 1937,27,Address 1937,5741.22,2024-07-25,0,Merchant 2395,Location 2395,2022-02,Friday,3,0.3484,Medium Risk,Monitor
+989,20.44,1312,2022-02-11 04:00:00,2284,0,17.85,0.0295,Food,Customer 1312,26,Address 1312,6018.44,2022-11-08,0,Merchant 2284,Location 2284,2022-02,Friday,4,0.0627,Low Risk,No action
+990,64.6,1595,2022-02-11 05:00:00,2587,0,49.13,0.8801,Travel,Customer 1595,53,Address 1595,1150.3,2023-08-18,0,Merchant 2587,Location 2587,2022-02,Friday,5,0.4564,Medium Risk,Monitor
+991,37.55,1060,2022-02-11 06:00:00,2947,0,27.29,0.6457,Retail,Customer 1060,38,Address 1060,9121.23,2022-03-01,0,Merchant 2947,Location 2947,2022-02,Friday,6,0.2692,Low Risk,No action
+992,41.35,1666,2022-02-11 07:00:00,2306,0,49.41,0.5904,Travel,Customer 1666,36,Address 1666,9674.06,2023-10-28,0,Merchant 2306,Location 2306,2022-02,Friday,7,0.2404,Low Risk,No action
+993,31.15,1695,2022-02-11 08:00:00,2791,0,20.88,0.2937,Food,Customer 1695,35,Address 1695,8553.04,2023-11-26,0,Merchant 2791,Location 2791,2022-02,Friday,8,0.1387,Low Risk,No action
+994,95.96,1123,2022-02-11 09:00:00,2906,0,99.48,0.5085,Food,Customer 1123,34,Address 1123,7347.09,2022-05-03,0,Merchant 2906,Location 2906,2022-02,Friday,9,0.2398,Low Risk,No action
+995,69.01,1825,2022-02-11 10:00:00,2327,0,42.29,0.728,Online,Customer 1825,54,Address 1825,4886.01,2024-04-04,0,Merchant 2327,Location 2327,2022-02,Friday,10,0.3525,Medium Risk,Monitor
+996,19.88,1411,2022-02-11 11:00:00,2150,0,89.46,0.2668,Food,Customer 1411,19,Address 1411,1290.32,2023-02-15,0,Merchant 2150,Location 2150,2022-02,Friday,11,0.2067,Low Risk,No action
+997,96.3,1566,2022-02-11 12:00:00,2888,0,47.96,0.5125,Retail,Customer 1566,39,Address 1566,7067.83,2023-07-20,0,Merchant 2888,Location 2888,2022-02,Friday,12,0.2475,Low Risk,No action
+998,75.16,1654,2022-02-11 13:00:00,2037,0,64.21,0.3677,Food,Customer 1654,51,Address 1654,9088.74,2023-10-16,0,Merchant 2037,Location 2037,2022-02,Friday,13,0.1632,Low Risk,No action
+999,93.63,1928,2022-02-11 14:00:00,2629,0,64.68,0.9604,Travel,Customer 1928,60,Address 1928,9352.66,2024-07-16,0,Merchant 2629,Location 2629,2022-02,Friday,14,0.3942,Medium Risk,Monitor
+1000,89.92,1503,2022-02-11 15:00:00,2235,0,97.44,0.3112,Other,Customer 1503,37,Address 1503,4370.43,2023-05-18,0,Merchant 2235,Location 2235,2022-02,Friday,15,0.1947,Low Risk,No action

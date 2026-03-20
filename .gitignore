@@ -1,0 +1,52 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+
+# R
+.Rhistory
+.RData
+.Rproj.user/
+
+# Logs
+*.log
+
+# Secrets / credentials
+.env
+*.env
+secrets/
+credentials/
+*.key
+*.pem
+config-private.*
+
+# Large data files
+data/raw/
+data_private/
+datasets/full/
+*.zip
+
+# Excel temp files
+~$*.xlsx
+~$*.xlsm
+~$*.xls
+
+# Tableau / Power BI cache or temp
+*.tmp
+*.bak
+
+# IDE
+.vscode/
+.idea/
+
+# Mac / Windows junk
+Desktop.ini
