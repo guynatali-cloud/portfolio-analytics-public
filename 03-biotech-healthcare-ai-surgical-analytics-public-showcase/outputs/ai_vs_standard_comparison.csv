@@ -1,0 +1,3 @@
+dashboard_type,total_surgeries,avg_duration,avg_delay,complication_rate,readmission_rate,avg_satisfaction,avg_cost,avg_efficiency_score
+AI-Assisted,502,109.2,7.43,0.08,0.07,7.71,11995.37,0.61
+Standard,698,132.58,17.71,0.05,0.11,6.37,14451.48,0.42
