@@ -1,0 +1,4 @@
+ai_intervention,transactions,fraud_count,fraud_rate,avg_risk
+Immediate review,19,17,0.8947,0.68
+Monitor,395,28,0.0709,0.3885
+No action,586,0,0.0,0.1746
