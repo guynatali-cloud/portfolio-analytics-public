@@ -1,0 +1,4 @@
+Membership Type,customers,avg_spend,avg_items,avg_rating,avg_ltv,avg_recency,pct_satisfied
+Bronze,116,473.3888,8.4914,3.325,214.3999,31.6121,0.0
+Gold,117,1311.1444,17.6154,4.6752,1755.6715,17.9402,1.0
+Silver,117,748.4325,11.6581,4.0513,565.1187,30.2564,0.0684

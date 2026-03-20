@@ -1,0 +1,4 @@
+Service Level,shipments,avg_tpt,late_rate,on_time_rate,avg_efficiency
+CRF,854,1.2892,0.0,0.3267,0.5853
+DTD,2143,1.0882,0.0042,0.4671,0.5788
+DTP,6218,1.9936,0.0294,0.4949,0.4611
